@@ -1,0 +1,394 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-primary {
+    color: rgb(94, 122, 155)
+}
+
+.container{
+	padding: 3% 10% 5% 10%;
+}
+
+.wide-container{
+	padding: 3% 9% 5% 9%;
+}
+
+.text-vertical-center {
+	color: Azure;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:20%;
+}
+
+.text-vertical-center h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+.icon-next-section{
+	color:Azure;
+	position:absolute;
+	left:7%;
+	top:84%;
+}
+
+.icon-next-section:hover,
+.icon-next-section:focus,
+.icon-next-section:active
+{
+	text-decoration:none;
+	color:Azure;
+	opacity: 0.8;
+}
+
+/* Padding for spacing */
+.inner {
+	padding: 1em;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+	color: #fff;
+	background-color: Teal;
+/*    background-color: rgba(0,0,0,0.4); */
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+	color: #fff;
+	background-color: #008050;
+/*    background-color: rgba(0,0,0,0.7); */
+}
+
+.btn-light {
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+/* Navigation */
+
+.navbar {
+    margin-bottom: 0px;
+    padding-right: 5%;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-logo {
+    width: 7%;
+    height: 7%;
+    margin-left: 5%;
+    margin-right: 25%;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-logo > img{
+	display: none;
+}
+
+.top-nav-collapse{
+    background-color: rgb(94, 122, 155);
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 1.5em;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: Azure;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	background-color: transparent;
+	color: Azure;
+	border-bottom-color: Azure;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/* Header */
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(94, 122, 155, 1.0), rgba(94, 122, 155, 0.7)), url(../img/background/pizarra.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header h2 {
+    font-size: 4.0em;
+    font-weight: bold;
+    margin-bottom: 1.5em
+}
+
+/* About */
+#about{
+	background-color: white;
+	color: black;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.photo-about{
+	width: 100%;
+	height: 100%;
+}
+
+.text-about{
+	padding-left: 4%;
+}
+
+
+/* Portfolio */
+
+.nav-tabs{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.nav-tabs li a.active{
+	color: #fff;
+	background-color: Teal;
+}
+
+.nav-tabs li a:hover{
+	color: #fff;
+	background-color: Teal;
+}
+
+.program {
+    padding-top: 5%;
+    padding-bottom: 5%;
+	background-color: #5E7A9B;
+	color: Azure;
+}
+
+.activities-item {
+    margin-bottom: 30px;
+}
+
+.activities {
+    margin: 0 auto;
+}
+
+.activities:hover {
+    opacity: 0.6;
+}
+
+.activities-caption{
+	margin-top:1em;
+	margin-bottom:2em;
+}
+
+.selected-activity {
+	margin: 0 auto;
+	display:none;
+}
+
+#selected-item{
+	display:none;
+}
+
+.text-activities{
+	display:none;
+}
+
+
+/* Arrive */
+
+.callout {
+    display: table;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(rgba(94, 122, 155, 0.6), rgba(94, 122, 155, 0.6)), url(../img/background/venue.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#getting-there > h2 {
+    font-size: 4.5em;
+    font-weight: 700;
+    padding: 5% 0% 5% 0%;
+}
+
+/* Call to Action */
+.call-to-action {
+	background-color:white;
+	color: black;
+	padding: 50px 0;
+}
+
+.call-to-action .btn {
+	margin: 10px;
+}
+
+.client{
+	width: 15em;
+	padding-top: 5em;
+	padding-left: 1em;
+	opacity: 0.7;
+}
+
+.client:hover{
+	opacity: 1;
+}
+
+#logo-xunta{
+	width: 100%;
+	height: 100%;
+}
+
+#logo-amtega{
+	width: 100%;
+	height: 100%;
+	padding-top: 35%;
+	padding-left: 30%;
+}
+
+#logo-fic{
+	width: 50%;
+	height: 50%;
+	padding-top: 35%;
+}
+
+#logo-udc{
+	width: 100%;
+	height: 100%;
+	padding-top: 35%;
+}
+
+/* Contact */
+
+#contact{
+	background-color: #5E7A9B;
+	color: Azure;
+	padding:5%;
+}
+
+#contact a,
+#contact .fa{
+	color: Azure;
+	opacity: 0.8;
+}
+
+
+#contact a:hover,
+#contact .fa:hover{
+	color: Azure;
+	opacity: 1;
+}
+
+.logo-contact{
+	height: 40%;
+	width: 40%;
+	margin-left: 30%;
+}
+
+/* Map */
+
+.map {
+	height: 600px;
+	padding-left: 20%;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding-top:5%;
+}
+
+.travel-and-accomomodations-block {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Sponsors */
+
+.sponsor img {
+    margin: 20px;
+}
+
+/* Attendants */
+
+.nick {
+    font-family: monospace;
+	font-size: 0.9em;
+    color: rgb(100, 100, 100);
+}
+
+.attendees-list li {
+    margin-bottom: 0.5em;
+}
