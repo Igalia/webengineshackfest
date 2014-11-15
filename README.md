@@ -28,4 +28,4 @@ Please, try to keep both branches `master` and `gh-pages` synchronized.
 
 ## Sponsors
 
-![Web Engines Hackfest 2014 Sponsors](img/logos/sponsors.png "Web Engines Hackfest 2014 Sponsors")
+[![Web Engines Hackfest 2014 Sponsors](img/logos/sponsors.png "Web Engines Hackfest 2014 Sponsors")](http://www.webengineshackfest.org/#sponsors)
