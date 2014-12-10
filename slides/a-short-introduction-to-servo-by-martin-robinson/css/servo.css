@@ -1,0 +1,30 @@
+
+.reveal {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.reveal h1 {
+    margin-bottom: 0.5em;
+}
+
+.reveal h1 {
+    margin-bottom: 0.5em;
+}
+
+.reveal pre {
+    background: black;
+    padding: 1em;
+    font-size: 18px;
+    margin-top: 3em;
+}

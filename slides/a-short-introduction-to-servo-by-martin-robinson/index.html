@@ -1,0 +1,285 @@
+<!doctype html> <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Servo Introduction</title>
+
+        <meta name="description" content="A safe & parallel web engine">
+        <meta name="author" content="Martin Robinson">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+        <link rel="stylesheet" href="css/servo.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h1>A Short Introduction to Servo</h1>
+                    <h4>Web Engines Hackfest 2014</h4>
+                    <h4>Martin Robinsonn</h4>
+                    <h4><a href="http://twitter.com/abandonedwig">@abandonedwig</a></h4>
+                </section>
+
+                <section>
+                    <h2>The Modern Browser</h2>
+                    <ul>
+                        <li>Fast JavaScript engines</li>
+                        <li>Optimized layout routines</li>
+                        <li>Rapidly evolving rendering pipelines</li>
+                        <li>Ever increasing concurrency</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Not Good Enough</h1>
+                </section>
+
+                <section>
+                    <h2>Not Good Enough</h2>
+                    <ul>
+                        <li>Memory safety issues leave users exposed</li>
+                        <li>Web application complexity increases</li>
+                        <li>Low amount of parallelism, leaving idle cores</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Web Engine Parallelism</h2>
+                    <ul>
+                        <li>Web engines use fine-grained concurrency, but little parallelism</li>
+                        <li>Data structures not designed for parallelism</li>
+                        <li>Difficult to be parallel while ensuring memory safety</li>
+                        <li>Native concurrency primitives not flexible</li>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h2>What We Want</h2>
+                    <p>A safe and parallel web engine.</p>
+                </section>
+
+                <section>
+                    <h2>Rust</h2>
+                    <ul>
+                        <li>Initially Graydon Hoare's personal project, but adopted by Mozilla Research in 2009.</li>
+                        <li>Fast, concurrent, safe compiled system language</li>
+                        <li>The compiler protects you from common memory issues</li>
+                        <li>Fast approaching version 1.0</li>
+                    <ul>
+                </section>
+
+                <section>
+                    <h2>What We Want</h2>
+                    <p> A <span style="color:red">safe</span> and parallel web engine.</p>
+                </section>
+
+                <section>
+                    <h2>Compile-time Memory Safety</h2>
+
+                    <pre>
+fn main() {
+    let mut vector = vec!(1i, 2i, 3i, 4i);
+    let first_element = &amp;vector[0];
+    vector.clear();
+
+    println!("Derferenced pointer to cleared value: {}", *first_element);
+}
+                    </pre>
+
+                    <pre class="fragment"><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+error: cannot borrow `vector` as mutable because it is also borrowed as immutable
+...
+error: aborting due to previous error
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>What We Want</h2>
+                    <p> A safe and <span style="color:red;">parallel</span> web engine.</p>
+                </section>
+
+                <section>
+                    <h2>Easy Concurrency</h2>
+                    <pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+let (tx, rx) = channel();
+
+spawn(proc() {
+    tx.send("Hello from a task!".to_string());
+});
+
+let message = rx.recv();
+println!("{}", message);
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>What We Want</h2>
+                    <p> A <span style="color:red;">safe</span> and <span style="color:red;">parallel</span> web engine.</p>
+                </section>
+
+                <section>
+                    <h2>Task Data Safety</h2>
+                    <pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+let mut x = vec!(1i, 2i, 3i);
+
+spawn(proc() {
+    println!("The value of x[0] is: {}", x[0]);
+});
+
+println!("The value of x[0] is: {}", x[0]);
+                    </code></pre>
+
+                    <pre class="fragment"><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+error: use of moved value: `x`
+note: in expansion of format_args!
+&lt;std macros&gt;:2:23: 2:77 note: expansion site
+&lt;std macros&gt;:1:1: 3:2 note: in expansion of println!
+error: aborting due to previous error
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h1>Servo</h1>
+                    <h3>experimental browser engine by Mozilla Research</h3>
+                </section>
+
+                <section>
+                    <h2>Servo</h2>
+                    <ul>
+                        <li>Parallel layout design from the start</li>
+                        <li>Work-stealing algorithm for task scheduling</li>
+                        <li>Use of green threads to allow creating many tasks</li>
+                        <li>Modern rendering pipeline</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Architecture</h2>
+                    <img style="border: 0; background: none;" class="stretch" src="architecture.svg">
+                </section>
+
+                <section>
+                    <h2>Optimistically Parallel Layout</h2>
+                    <ul>
+                        <li>Parallelize layout as much as possible</li>
+                        <li>A series of bottom-up and top-down passes on a <em>flow tree</em></li>
+                        <li>Serialize when necessary, but hopefully uncommon or limited cases</li>
+                        <li>See speedup from parallelism on typical pages</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Rendering Pipeline</h2>
+                    <ul>
+                        <li>Always composited, no legacy approaches</li>
+                        <li>Works divided into tasks
+                            <ul>
+                                <li><b>Layout Task</b>: convert flow tree to display list</li>
+                                <li><b>Render Task</b>: rasterize display list to shared surfaces</li>
+                                <li><b>Compositor Task</b>: render rasterized content</li>
+                            </ul>
+                        </li>
+                        <li>Compositor layers are tiled and double-buffered</li>
+                        <li>Pinch zoom and panning support</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Status</h2>
+                    <img src="acid2.png">
+                    <img src="wikipedia.png">
+                </section>
+
+                <section>
+                    <h2>Status</h2>
+                    <ul>
+                        <li>Missing many CSS features and HTTP caching</li>
+                        <li>Form interaction only in the early stages</li>
+                        <li>Has evolving support for vertical writing modes</li>
+                        <li>Very close to dog-foodable</li>
+                        <li>CEF API for embedding</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Get Involved</h2>
+                    <ul>
+                        <li>Development happens in the open, including roadmap</li>
+                        <li>Outside contributors very welcome</li>
+                        <li>Everything available on <a href="http://github.com/servo/servo">Github</a></li>
+                        <li>Building is easy and fast compared to other engines</li>
+                        <li>Look for bugs marked E-Easy</li>
+                        <li>Discussion at #servo on irc.mozilla.org</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Demo</h1>
+                </section>
+
+                <section>
+                    <h1>Questions</h1>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'slide', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
