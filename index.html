@@ -139,6 +139,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Visit the <a href="https://github.com/Igalia/webengineshackfest/wiki">hackfest wiki page</a> with scheduling, breakout sessions and all the information related to the event.</p>
+                                    <p class="text-muted">In addition, you can <a href="#portfolio">watch the talks on this website</a> once they're avaible online.</p>
                                 </div>
                             </div>
                         </li>
@@ -163,6 +164,33 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Talks Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Talks</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#talkModalMichael" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/talks/https-achievements-and-challenges-by-michael-catanzaro.jpg" class="img-responsive" alt="Michael Catanzaro talking about HTTPS">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4><a href="#talkModalMichael" class="portfolio-link" data-toggle="modal">HTTPS Achievements and Challenges</a></h4>
+                        <p class="text-muted">by Michael Catanzaro</p>
+                    </div>
+                </div>
+			</div>
         </div>
     </section>
 
@@ -422,6 +450,40 @@
             </div>
         </div>
     </footer>
+
+    <!-- Talks Modals -->
+
+    <!-- Michael talk -->
+    <div class="portfolio-modal modal fade" id="talkModalMichael" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<h2>HTTPS Achievements and Challenges</h2>
+							<p class="item-intro text-muted">by Michael Catanzaro</p>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/CtxPEoZ-6lU?list=PL4sEzdAGvRgAMfxwUK2sAQcq5EdmDV3eW" frameborder="0" allowfullscreen></iframe>
+                            <ul class="list-inline">
+                                <li>Video: <a href="https://youtu.be/CtxPEoZ-6lU?list=PL4sEzdAGvRgAMfxwUK2sAQcq5EdmDV3eW">YouTube</a></li>
+                                <li>Slides: <a href="http://www.webengineshackfest.org/slides/https-achievements-and-challenges-by-michael-catanzaro.pdf">PDF</a></li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Date: Monday 7h December 2015</li>
+                                <li>Time: 15:00</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Talk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

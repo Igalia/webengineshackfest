@@ -573,7 +573,6 @@ section#contact ::-webkit-input-placeholder {
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -581,7 +580,6 @@ section#contact :-moz-placeholder {
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -671,6 +669,10 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+.portfolio-modal .modal-content iframe {
+  margin-bottom: 30px;
+  max-width: 100%;
+}
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -691,10 +693,8 @@ ul.social-buttons li a:active {
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
-
   -webkit-transform: rotate(45deg);
   /* Safari and Chrome */
-
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
@@ -704,10 +704,8 @@ ul.social-buttons li a:active {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
-
   -webkit-transform: rotate(90deg);
   /* Safari and Chrome */
-
   z-index: 1052;
 }
 .portfolio-modal .modal-backdrop {
