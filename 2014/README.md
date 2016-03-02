@@ -1,13 +1,13 @@
 # Web Engines Hackfest
 
-Repository containing the web page of the **Web Engines Hackfest**.
+Repository containing the web page of the **Web Engines Hackfest 2014**.
 
-* URL: http://www.webengineshackfest.org/
+* URL: http://www.webengineshackfest.org/2014/
 * Repository: https://github.com/Igalia/webengineshackfest/wiki
 
 ## Wiki
 
-* https://github.com/Igalia/webengineshackfest/wiki
+* https://github.com/Igalia/webengineshackfest/wiki/2014
 
 ## Instructions to update the website
 

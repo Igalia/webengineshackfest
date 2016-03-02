@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>MathML in Web Engines</title>
+
+    <meta name="description" content="MathML presentation for the Web Engines Hackfest 2015">
+    <meta name="author" content="Frédéric Wang">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="../css/reveal.css">
+    <link rel="stylesheet" href="../css/theme/white.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="../lib/css/zenburn.css">
+
+    <script>
+      var RTL = false;
+      function setdir()
+      {
+        document.getElementById("mathmljs").
+        setAttribute("dir", RTL ? "rtl" : "ltr");
+        RTL = !RTL;
+        window.setTimeout(setdir, 1500);
+      }
+      window.addEventListener("DOMContentLoaded", setdir, false);
+    </script>
+    <style>
+      math.arabicmath mi, math.arabicmath mn {
+        font-family: Amiri;
+      }
+      @font-face {
+        font-family: stretchy;
+        src: url(./stretchy.woff);
+      }
+      mo.customstretchyop {
+        font-family: stretchy;
+      }
+      strong {
+        color: red;
+      }
+      math.mathmlcss {
+        font-family: TeX Gyre Bonum Math;
+      }
+      math.mathmlcss mfrac > *:first-child {
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- These logos were removed when published online, to avoid
+         licensing issues.
+    <div style="float:right; width: 452px;">
+      <div style="position: fixed;">
+            <a href="http://braillenet.org/"><img src="logo-braillenet.png"/></a><a href="http://www.upmc.fr/en/index.html"><img src="logo-upmc.png"/></a><a href="http://www.eurobraille.fr/index.php?page=home-uk&title=home&lg=uk"><img src="logo-eurobraille.png"/></a>
+      </div>
+    </div> -->
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+	<section>
+	  <h1>MathML in<br/>Web Engines</h1>
+          <p>Web Engines Hackfest 2015</p>
+	  <p style="text-align: right; font-style: italic">Frédéric Wang, AcceSciTech Project</p>
+	</section>
+
+	<section>
+	  <h2>About Me</h2>
+	  <ul>
+            <li>Engineer for the AcceSciTech Project</li>
+            <li>Since 2007: Mozilla contributor <img src="logo-firefox.png" style="border: 0; vertical-align: middle;"/></li>
+            <li class="fragment">In 2014: WebKit / Gecko Crowdfunding <img src="ulule.png" style="border: 0; vertical-align: middle;"/></li>
+          </ul>
+	</section>
+
+	<section>
+	  <h2>What is MathML?</h2>
+	  <ul>
+            <li>W3C Recommendation - ISO/IEC standard
+              <math display="block" alttext="\int_{-\infty}^{+\infty}\frac{16\sin(2x+\pi)}{5(x^{2}+2x+5)^{2}}dx=\frac{\pi\sin(2)}{e^{4}}" class="ltx_Math" id="Ch0.Ex93.m1"><mrow><mrow><msubsup><mo symmetric="true" largeop="true">∫</mo><mrow><mo>−</mo><mi mathvariant="normal">∞</mi></mrow><mrow><mo>+</mo><mi mathvariant="normal">∞</mi></mrow></msubsup><mrow><mfrac><mrow><mn>16</mn><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mi>π</mi></mrow><mo>)</mo></mrow></mrow></mrow><mrow><mn>5</mn><mo>⁢</mo><msup><mrow><mo>(</mo><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>5</mn></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>⁢</mo><mi>d</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>=</mo><mfrac><mrow><mi>π</mi><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow></mrow></mrow><msup><mi>e</mi><mn>4</mn></msup></mfrac></mrow></math>
+            </li>
+            <li class="fragment">OpenDocument, EPUB, Daisy, <strong>HTML5</strong></li>
+            <li class="fragment">Web pages, Web Apps, email...</li>
+	  </ul>
+	</section>
+
+	<section>
+          <h2>MathML &amp; HTML5</h2>
+          <section>
+            <h3>Boring MathML Example</h3>
+            <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></mrow><annotation encoding="TeX">x = \frac{-b\pm\sqrt{b^2-4ac}}{2a}</annotation></semantics></math></p>
+          </section>
+
+          <section>
+            <h3>Text Layout</h3>
+            <math display="block" class="arabicmath"><semantics><mrow><mi>س</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>ب</mi><mo>±</mo><msqrt><mrow><msup><mi>ب</mi><mn>٢</mn></msup><mo>−</mo><mn>٤</mn><mi>ا</mi><mi>ج</mi></mrow></msqrt></mrow><mrow><mn>٢</mn><mi>ا</mi></mrow></mfrac></mrow><annotation encoding="TeX">س = \frac{-ب\pm\sqrt{ب^٢-٤اج}}{٢ا}</annotation></semantics></math>
+          </section>
+
+          <section>
+	    <h3>Bidi</h3>
+            <pre><code class="html">
+  &lt;math dir="rtl"&gt;...&lt/math&gt;
+
+</code></pre>
+            <math dir="rtl" display="block" class="arabicmath"><semantics><mrow><mi>س</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>ب</mi><mo>±</mo><msqrt><mrow><msup><mi>ب</mi><mn>٢</mn></msup><mo>−</mo><mn>٤</mn><mi>ا</mi><mi>ج</mi></mrow></msqrt></mrow><mrow><mn>٢</mn><mi>ا</mi></mrow></mfrac></mrow><annotation encoding="TeX">س = \frac{-ب\pm\sqrt{ب^٢-٤اج}}{٢ا}</annotation></semantics></math>
+          </section>
+
+          <section>
+	    <h3>CSS</h3>
+            <pre><code class="css">
+  math {
+    font-family: TeX Gyre Bonum Math;
+  }
+  mfrac > *:first-child {
+    color: blue;
+  }
+
+</code></pre>
+            <math class="mathmlcss" display="block" alttext="\int_{-\infty}^{+\infty}\frac{16\sin(2x+\pi)}{5(x^{2}+2x+5)^{2}}dx=\frac{\pi\sin(2)}{e^{4}}" class="ltx_Math" id="Ch0.Ex93.m1"><mrow><mrow><msubsup><mo symmetric="true" largeop="true">∫</mo><mrow><mo>−</mo><mi mathvariant="normal">∞</mi></mrow><mrow><mo>+</mo><mi mathvariant="normal">∞</mi></mrow></msubsup><mrow><mfrac><mrow><mn>16</mn><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mi>π</mi></mrow><mo>)</mo></mrow></mrow></mrow><mrow><mn>5</mn><mo>⁢</mo><msup><mrow><mo>(</mo><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>5</mn></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>⁢</mo><mi>d</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>=</mo><mfrac><mrow><mi>π</mi><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow></mrow></mrow><msup><mi>e</mi><mn>4</mn></msup></mfrac></mrow></math>
+
+          </section>
+
+          <section>
+            <h3>DOM / Javascript</h3>
+            <pre><code class="hljs">
+  math.setAttribute("rtl", ...)
+
+</code></pre>
+            <math id="mathmljs" class="arabicmath" display="block"><semantics><mrow><mi>س</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>ب</mi><mo>±</mo><msqrt><mrow><msup><mi>ب</mi><mn>٢</mn></msup><mo>−</mo><mn>٤</mn><mi>ا</mi><mi>ج</mi></mrow></msqrt></mrow><mrow><mn>٢</mn><mi>ا</mi></mrow></mfrac></mrow><annotation encoding="TeX">س = \frac{-ب\pm\sqrt{ب^٢-٤اج}}{٢ا}</annotation></semantics></math>
+          </section>
+
+          <section>
+            <h3>SVG</h3>
+            <pre><code class="hlml">
+&lt;foreignObject ... &gt;
+  &lt;math&gt; ... &lt;/math&gt
+&lt;/foreignObject&gt;
+
+</code></pre>
+            <a href="2-mathml-in-svg.svg"><img src="mathml-in-svg.svg" alt="MathML in SVG" width="400px" style="border: 0;"/></a>
+          </section>
+
+          <section data-state="webgl">
+            <h3>Canvas / WebGL</h3>
+            <iframe id="webgliframe"
+                    width="500px" height="400px" src="mathml-in-webgl.html">
+            </iframe>
+          </section>
+
+          <section>
+            <h3>Shadow Tree / Web Components</h3>
+            <pre><code class="html">
+  &lt;x-tex display="block"&gt;
+     \Gamma(t) =
+     \frac{1}{t} \prod_{n=1}^\infty
+     \frac{\left(1+\frac{1}{n}\right)^t}{1+\frac{t}{n}} =
+     \frac{e^{-\gamma t}}{t} \prod_{n=1}^\infty
+     \left(1 + \frac{t}{n}\right)^{-1} e^{\frac{t}{n}}
+  &lt;/x-tex&gt;
+
+</code></pre>
+
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>Γ</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><munderover><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>∞</mn></munderover><mfrac><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac></mrow><mo>)</mo></mrow><mi>t</mi></msup><mrow><mn>1</mn><mo>+</mo><mfrac><mi>t</mi><mi>n</mi></mfrac></mrow></mfrac><mo>=</mo><mfrac><msup><mi>e</mi><mrow><mo>−</mo><mi>γ</mi><mi>t</mi></mrow></msup><mi>t</mi></mfrac><munderover><mo>∏</mo><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><mn>∞</mn></munderover><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mfrac><mi>t</mi><mi>n</mi></mfrac></mrow><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><msup><mi>e</mi><mfrac><mi>t</mi><mi>n</mi></mfrac></msup></mrow><annotation encoding="TeX">\Gamma(t) = \lim_{n \to \infty} \frac{n! \; n^t}{t \; (t+1)\cdots(t+n)}= \frac{1}{t} \prod_{n=1}^\infty \frac{\left(1+\frac{1}{n}\right)^t}{1+\frac{t}{n}} = \frac{e^{-\gamma t}}{t} \prod_{n=1}^\infty \left(1 + \frac{t}{n}\right)^{-1} e^{\frac{t}{n}}</annotation></semantics></math>
+          </section>
+
+        </section>
+
+        <section>
+          <h2>Current Issues</h2>
+          <ul>
+            <li>Math Users: need cross-compatible solution</li>
+            <li class="fragment">Browser Vendors: math rendering is not a priority</li>
+            <li class="fragment">Math WG: not focused on web engines</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>"MathML" Association</h2>
+          <p><strong>M</strong>ondial <strong>A</strong>ssociation for <strong>T</strong>ools <strong>H</strong>andling <strong>M</strong>athML, <strong>L</strong>td</p>
+          <ul>
+            <li class="fragment">Individuals and companies</li>
+            <li class="fragment">Experts and consulting companies</li>
+            <li class="fragment">"MathML in HTML5" implementation note &amp; test suite.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>"MATH" table</h2>
+          <section>
+            <h3>Overview</h3>
+            <ul>
+              <li>ISO/IEC Open Font Format 3</li>
+              <li class="fragment">Operating systems</li>
+              <li class="fragment">Web Engines</li>
+            </ul>
+          </section>
+
+<section>
+  <h3>"MathVariants" subtable</h3>
+<svg id="F5.pic1" class="ltx_picture ltx_centering" height="415.28" overflow="visible" version="1.1" viewBox="-34.39 -418.42 764.02 415.28" width="764.02"><g transform="matrix(1 0 0 -1 0 -421.56)"><g stroke="#000000"><g fill="#000000"><g stroke-width="0.4pt" color="#000000"><g stroke="#0000FF" color="#0000FF"><g fill="#0000FF"><path d="M 21.65 -214.57 C 17.72 -212.6 15.75 -210.63 15.75 -200.79 C 15.75 -192.91 15.75 -190.94 11.81 -187.01 C 7.87 -185.04 7.87 -185.04 11.81 -183.07 C 15.75 -181.1 15.75 -179.13 15.75 -169.29 C 15.75 -159.45 17.72 -159.45 21.65 -157.48 C 29.53 -153.54 29.53 -153.54 25.59 -157.48 C 21.65 -159.45 19.69 -163.39 19.69 -169.29 C 19.69 -175.2 19.69 -181.1 17.72 -183.07 C 13.78 -185.04 13.78 -187.01 17.72 -188.98 C 19.69 -190.94 19.69 -194.88 19.69 -200.79 C 19.69 -208.66 21.65 -210.63 25.59 -212.6 C 29.53 -216.54 27.56 -216.54 21.65 -214.57" style="stroke:none"></path></g></g><g stroke="#0000FF" color="#0000FF"><g fill="#0000FF"><path d="M 19.69 -236.22" style="fill:none"></path><g transform="matrix(1 0 0 1 -27.01 -250.79)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#0000FF" height="100%" overflow="visible" width="93.4">
+<p class="ltx_p"><span class="ltx_text" style="color:#0000FF;">Base Size</span></p></foreignObject></switch></g></g></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M 338.58 -279.53 C 326.77 -271.65 324.8 -265.75 324.8 -236.22 C 324.8 -206.69 322.83 -198.82 314.96 -192.91 L 309.06 -188.98 L 314.96 -185.04 C 322.83 -177.17 324.8 -169.29 324.8 -139.76 C 324.8 -110.24 326.77 -104.33 338.58 -98.43 C 344.49 -92.52 346.46 -92.52 346.46 -96.46 C 346.46 -96.46 344.49 -98.43 342.52 -98.43 C 340.55 -100.39 336.61 -102.36 334.65 -106.3 C 332.68 -112.2 330.71 -116.14 330.71 -141.73 C 330.71 -171.26 330.71 -177.17 320.87 -185.04 L 314.96 -188.98 L 320.87 -192.91 C 330.71 -200.79 330.71 -204.72 330.71 -236.22 C 330.71 -259.84 332.68 -263.78 334.65 -269.69 C 336.61 -273.62 340.55 -277.56 342.52 -277.56 C 344.49 -279.53 346.46 -279.53 346.46 -281.5 C 346.46 -283.46 344.49 -283.46 338.58 -279.53" style="stroke:none"></path></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M 267.72 -253.94 C 265.75 -253.94 263.78 -250 259.84 -248.03 C 253.94 -242.13 253.94 -242.13 253.94 -220.47 C 253.94 -200.79 253.94 -198.82 250 -194.88 C 248.03 -192.91 244.09 -190.94 242.13 -190.94 C 242.13 -190.94 244.09 -187.01 248.03 -183.07 L 253.94 -177.17 L 253.94 -155.51 C 253.94 -137.8 255.91 -135.83 259.84 -129.92 C 261.81 -127.95 265.75 -125.98 267.72 -124.02 C 273.62 -122.05 273.62 -124.02 267.72 -127.95 L 259.84 -133.86 L 259.84 -155.51 C 259.84 -179.13 259.84 -179.13 253.94 -183.07 L 248.03 -188.98 L 253.94 -194.88 L 259.84 -202.76 L 259.84 -222.44 C 259.84 -240.16 261.81 -244.09 263.78 -248.03 C 265.75 -250 269.69 -251.97 269.69 -251.97 C 273.62 -253.94 271.65 -255.91 267.72 -253.94" style="stroke:none"></path></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M 200.79 -232.28 C 194.88 -228.35 192.91 -226.38 192.91 -210.63 C 192.91 -196.85 192.91 -196.85 188.98 -192.91 L 183.07 -188.98 L 188.98 -185.04 C 192.91 -181.1 192.91 -179.13 192.91 -165.35 C 192.91 -155.51 194.88 -149.61 196.85 -147.64 C 200.79 -145.67 206.69 -141.73 208.66 -143.7 C 208.66 -143.7 208.66 -145.67 206.69 -145.67 C 200.79 -145.67 196.85 -151.57 196.85 -167.32 C 196.85 -177.17 196.85 -181.1 192.91 -185.04 C 188.98 -188.98 188.98 -188.98 192.91 -192.91 C 196.85 -194.88 196.85 -198.82 196.85 -210.63 C 196.85 -226.38 198.82 -228.35 206.69 -232.28 C 210.63 -232.28 210.63 -234.25 206.69 -234.25 C 204.72 -234.25 202.76 -232.28 200.79 -232.28" style="stroke:none"></path></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M 246.06 -285.43" style="fill:none"></path><g transform="matrix(1 0 0 1 178.61 -300.01)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#00FF00" height="100%" overflow="visible" width="134.91">
+<p class="ltx_p"><span class="ltx_text" style="color:#00FF00;">Size Variants</span></p></foreignObject></switch></g></g></g></g><g stroke="#808080" color="#808080"><g fill="#808080"><path d="M 539.37 -391.73 C 529.53 -385.83 525.59 -377.95 525.59 -362.2 C 525.59 -350.39 527.56 -348.43 529.53 -348.43 C 531.5 -348.43 531.5 -350.39 531.5 -362.2 C 531.5 -377.95 537.4 -387.8 543.31 -389.76 C 545.28 -391.73 547.24 -391.73 547.24 -393.7 C 547.24 -395.67 545.28 -395.67 539.37 -391.73" style="stroke:none"></path></g></g><g stroke="#808080" color="#808080"><g fill="#808080"><path d="M 527.56 -297.24 C 527.56 -275.59 529.53 -271.65 531.5 -271.65 C 533.46 -271.65 533.46 -275.59 533.46 -297.24 C 533.46 -318.9 533.46 -322.83 531.5 -322.83 C 529.53 -322.83 527.56 -318.9 527.56 -297.24" style="stroke:none"></path></g></g><g stroke="#808080" color="#808080"><g fill="#808080"><path d="M 525.59 -232.28 C 525.59 -218.5 523.62 -208.66 515.75 -202.76 L 509.84 -198.82 L 515.75 -194.88 C 523.62 -188.98 525.59 -179.13 525.59 -163.39 C 525.59 -153.54 527.56 -151.57 529.53 -151.57 C 531.5 -151.57 531.5 -153.54 531.5 -165.35 C 531.5 -181.1 529.53 -187.01 521.65 -194.88 L 515.75 -198.82 L 521.65 -202.76 C 529.53 -208.66 531.5 -216.54 531.5 -232.28 C 531.5 -242.13 531.5 -246.06 529.53 -246.06 C 527.56 -246.06 525.59 -242.13 525.59 -232.28" style="stroke:none"></path></g></g><g stroke="#808080" color="#808080"><g fill="#808080"><path d="M 527.56 -102.36 C 527.56 -80.71 529.53 -76.77 531.5 -76.77 C 533.46 -76.77 533.46 -80.71 533.46 -102.36 C 533.46 -124.02 533.46 -127.95 531.5 -127.95 C 529.53 -127.95 527.56 -124.02 527.56 -102.36" style="stroke:none"></path></g></g><g stroke="#808080" color="#808080"><g fill="#808080"><path d="M 525.59 -45.28 C 525.59 -27.56 529.53 -21.65 539.37 -15.75 C 545.28 -9.84 547.24 -9.84 547.24 -13.78 C 547.24 -13.78 545.28 -15.75 543.31 -15.75 C 537.4 -17.72 531.5 -29.53 531.5 -45.28 C 531.5 -55.12 531.5 -59.06 529.53 -59.06 C 527.56 -59.06 525.59 -55.12 525.59 -45.28" style="stroke:none"></path></g></g><g stroke="#808080"><g fill="#808080"><path d="M 541.34 -177.17 L 609.6 -177.17" style="fill:none"></path><g transform="matrix(1 0 0 1 609.6 -177.17)" color="#808080"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g></g></g><g stroke="#808080"><g fill="#808080"><path d="M 541.34 -196.85 L 609.6 -196.85" style="fill:none"></path><g transform="matrix(1 0 0 1 609.6 -196.85)" color="#808080"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g></g></g><g stroke="#808080"><g fill="#808080"><path d="M 541.34 -216.54 L 609.6 -216.54" style="fill:none"></path><g transform="matrix(1 0 0 1 609.6 -216.54)" color="#808080"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g></g></g><g stroke="#FF0000" color="#FF0000"><g fill="#FF0000"><path d="M 659.45 -381.89 C 645.67 -374.02 645.67 -374.02 645.67 -291.34 C 645.67 -210.63 645.67 -208.66 635.83 -200.79 L 629.92 -196.85 L 635.83 -192.91 C 645.67 -183.07 645.67 -181.1 645.67 -100.39 C 645.67 -19.69 645.67 -19.69 659.45 -11.81 C 665.35 -5.91 667.32 -5.91 667.32 -9.84 C 667.32 -9.84 665.35 -11.81 663.39 -11.81 C 661.42 -13.78 657.48 -15.75 655.51 -19.69 C 651.57 -25.59 651.57 -29.53 651.57 -102.36 C 651.57 -183.07 651.57 -183.07 641.73 -192.91 L 635.83 -196.85 L 641.73 -200.79 C 651.57 -208.66 651.57 -208.66 651.57 -291.34 C 651.57 -364.17 651.57 -366.14 655.51 -372.05 C 657.48 -375.98 661.42 -379.92 663.39 -379.92 C 665.35 -381.89 667.32 -381.89 667.32 -383.86 C 667.32 -385.83 665.35 -385.83 659.45 -381.89 Z" style="stroke:none"></path></g></g><g stroke="#FF0000" color="#FF0000"><g fill="#FF0000"><path d="M 649.61 -393.7" style="fill:none"></path><g transform="matrix(1 0 0 1 576.96 -408.28)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#FF0000" height="100%" overflow="visible" width="145.29">
+                      <p class="ltx_p"><span class="ltx_text" style="color:#FF0000;">Glyph Assembly</span></p></foreignObject></switch></g></g></g></g></g></g></g></g></svg>
+</section>
+
+<section>
+
+  <h3>"MathVariants" subtable</h3>
+            <math display="block" style="font-size: 130%;">
+              <munder>
+                <mrow>
+                  <msqrt style="color: blue">
+                    <mspace width=".5em" height=".5em"
+                            mathbackground="blue"></mspace>
+                  </msqrt>
+                  <msqrt style="color: green">
+                    <mspace width=".5em" height="2em"
+                            mathbackground="green"></mspace>
+                  </msqrt>
+                  <msqrt style="color: red">
+                    <mspace width=".5em" height="4em"
+                            mathbackground="red"></mspace>
+                  </msqrt>
+                </mrow>
+                <mo class="customstretchyop"
+                    style="font-size: 25%">&#x219C;</mo>
+              </munder>
+            </math>
+          </section>
+
+          <section>
+            <h3>"MathConstants" subtable</h3>
+            <math display="block" style="font-size: 300%"><semantics><msup><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mfrac><mi>a</mi><mi>β</mi></mfrac></mrow><mo>)</mo></mrow><mi>t</mi></msup><annotation encoding="TeX">\left( 1 + \frac{a}{\beta} \right)^t</annotation></semantics></math>
+          </section>
+          <section>
+            <h3>"MathConstants" subtable</h3>
+            <svg style="font-size: 60%" id="F9.pic1" class="ltx_picture ltx_centering" height="389.79" overflow="visible" version="1.1" viewBox="-278.87 -121.15 774.04 399.79" width="774.04"><g transform="matrix(1 0 0 -1 0 157.49)"><g stroke="#000000"><g fill="#000000"><g stroke-width="0.4pt" color="#000000"><g stroke="#E6E6FF" color="#E6E6FF"><g fill="#E6E6FF"><path d="M 0 255.91 L 492.13 255.91 L 492.13 -98.43 L 0 -98.43 Z" style="stroke:none"></path></g></g><g stroke="#FF0000"><g fill="#FF0000"><g stroke="#FFE6E6" color="#FF0000"><g fill="#FFE6E6"><path d="M 0 255.91 L 492.13 255.91 L 492.13 137.8 L 0 137.8 Z" style="stroke:none"></path></g></g><path d="M 0 275.59 L 492.13 275.59 L 492.13 118.11 L 0 118.11 Z" style="fill:none"></path><path d="M 0 196.85 L 492.13 196.85" style="fill:none"></path></g></g><g stroke="#00FF00"><g fill="#00FF00"><g stroke="#E6FFE6" color="#00FF00"><g fill="#E6FFE6"><path d="M 147.64 19.69 L 344.49 19.69 L 344.49 -98.43 L 147.64 -98.43 Z" style="stroke:none"></path></g></g><path d="M 147.64 39.37 L 344.49 39.37 L 344.49 -118.11 L 147.64 -118.11 Z" style="fill:none"></path><path d="M 147.64 -39.37 L 344.49 -39.37" style="fill:none"></path></g></g><g stroke-dasharray="3.0pt,3.0pt" stroke-dashoffset="0.0pt"><g stroke="#0000FF" color="#0000FF"><g fill="#0000FF"><path d="M 0 275.59 L 492.13 275.59 L 492.13 -118.11 L 0 -118.11 Z M 0 0 L 492.13 0" style="fill:none"></path></g></g></g><g stroke="#CCCCCC" color="#CCCCCC"><g fill="#CCCCCC"><path d="M 0 98.43 L 492.13 98.43 L 492.13 59.06 L 0 59.06 Z" style="stroke:none"></path></g></g><g stroke="#000000" color="#000000"><g fill="#000000"><path d="M 0 98.43 L 492.13 98.43 L 492.13 59.06 L 0 59.06 Z M 0 78.74 L 492.13 78.74" style="fill:none"></path></g></g><g stroke="#0000FF" color="#0000FF"><g fill="#0000FF"><path d="M -19.69 0 L -19.69 39.37 L -19.69 78.1" style="fill:none"></path><g transform="matrix(0 1 -1 0 -19.69 78.1)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 -138.73 35.91)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#0000FF" height="100%" overflow="visible" width="114.15">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#0000FF;">Axis Height</span></p></foreignObject></switch></g></g></g></g><g stroke="#000000" color="#000000"><g fill="#000000"><path d="M -59.06 97.79 L -59.06 78.74 L -59.06 59.69" style="fill:none"></path><g transform="matrix(0 1 -1 0 -59.06 97.79)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(0 -1 1 0 -59.06 59.69)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 -271.5 75.28)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#000000" height="100%" overflow="visible" width="207.55">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#000000;">Actual Linethickness</span></p></foreignObject></switch></g></g></g></g><g stroke="#FF0000" color="#FF0000"><g fill="#FF0000"><path d="M -9.84 98.43 L -9.84 157.48 L -9.84 196.21" style="fill:none"></path><g transform="matrix(0 1 -1 0 -9.84 196.21)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 -170.4 154.02)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#FF0000" height="100%" overflow="visible" width="155.66">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#FF0000;">Numerator Shift</span></p></foreignObject></switch></g></g></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M -9.84 59.06 L -9.84 -19.69 L -9.84 -38.73" style="fill:none"></path><g transform="matrix(0 -1 1 0 -9.84 -38.73)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 -191.15 -23.14)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#00FF00" height="100%" overflow="visible" width="176.42">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#00FF00;">Denominator Shift</span></p></foreignObject></switch></g></g></g></g><g stroke="#FF0000" color="#FF0000"><g fill="#FF0000"><path d="M 196.85 98.43 L 196.85 137.16" style="fill:none"></path><g transform="matrix(0 1 -1 0 196.85 137.16)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 57.05 134.34)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#FF0000" height="100%" overflow="visible" width="134.91">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#FF0000;">Numerator Gap</span></p></foreignObject></switch></g></g></g></g><g stroke="#00FF00" color="#00FF00"><g fill="#00FF00"><path d="M 196.85 59.06 L 196.85 20.32" style="fill:none"></path><g transform="matrix(0 -1 1 0 196.85 20.32)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 36.3 16.23)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 45.69)"><switch><foreignObject color="#00FF00" height="100%" overflow="visible" width="155.66">
+                                  <p class="ltx_p"><span class="ltx_text" style="color:#00FF00;">Denominator Gap</span></p></foreignObject></switch></g></g></g></g></g></g></g></g></svg>
+          </section>
+
+
+          <section>
+            <h3>"MathGlyphInfo" subtable</h3>
+            <svg style="font-size: 60%" id="F2.pic1" class="ltx_picture ltx_centering" height="405.56" overflow="visible" version="1.1" viewBox="-16.85 -662.52 224.62 365.56" width="224.62"><g transform="matrix(1 0 0 -1 0 -889.48)"><g stroke="#000000"><g stroke="#000000" color="#000000"><g fill="#000000"><path d="M 11.81 -629.92 C 3.94 -606.3 35.43 -614.17 31.5 -622.05 C 51.18 -602.36 51.18 -570.87 59.06 -543.31 C 86.61 -440.94 110.24 -334.65 141.73 -232.28 C 145.67 -208.66 204.72 -192.91 188.98 -224.41 C 173.23 -232.28 173.23 -200.79 161.42 -224.41 C 149.61 -255.91 145.67 -287.4 133.86 -318.9 C 110.24 -413.39 90.55 -507.87 62.99 -598.43 C 55.12 -614.17 31.5 -645.67 11.81 -629.92 Z" style="stroke:none"></path></g></g><g stroke="#000000" color="#000000"><g fill="#000000"><path d="M 118.11 -196.85 L 204.72 -196.85 L 86.61 -637.8 L 0 -637.8 Z" style="fill:none"></path></g></g><g stroke="#FF0000" color="#FF0000"><g fill="#FF0000"><path d="M 86.61 -637.8 L 204.09 -637.8" style="fill:none"></path><g transform="matrix(1 0 0 1 204.09 -637.8)"><g stroke-width="0.32pt"><g stroke-dashoffset="0.0pt"><g stroke-linecap="round"><g stroke-linejoin="round"><path d="M -1.66 2.21 C -1.52 1.38 0 0.14 0.42 0 C 0 -0.14 -1.52 -1.38 -1.66 -2.21" style="fill:none"></path></g></g></g></g></g><g transform="matrix(1 0 0 1 -1.6 -652.37)" color="#000000"><g class="ltx_svg_fog" transform="matrix(1 0 0 -1 0 9.69)"><switch><foreignObject color="#FF0000" height="100%" overflow="visible" width="176.42">
+<p class="ltx_p"><span class="ltx_text" style="color:#FF0000;">Italic Correction</span></p></foreignObject></switch></g></g></g></g></g></g></g></g></svg>      </section>
+    
+          <section>
+            <h3>"MathGlyphInfo" subtable</h3>
+            <p style="font-size: 2.5em">
+              <math><msubsup><mspace mathbackground="black" width=".5em" height="1em" depth="1em"/><mspace width="1em" height=".5em" depth=".5em" mathbackground="red"/><mspace width="1em" height=".5em" depth=".5em" mathbackground="red"/></msubsup></math> VS
+              <math displaystyle="true"><msubsup><mo>∫</mo><mspace width="1em" height=".5em" depth=".5em" mathbackground="red"/><mspace width="1em" height=".5em" depth=".5em" mathbackground="red"/></msubsup></math>
+          </section>
+        </section>
+
+        <section>
+          <h2>Roadmap</h2>
+          <ul>
+            <li>Math fonts everywhere!</li>
+            <li class="fragment">"MathML in HTML5": document and tests</li>
+            <li class="fragment">WebKit: code refactoring</li>
+            <li class="fragment">Blink: import WebKit's implementation</li>
+            <li class="fragment">Gecko: clean up</li>
+            <li class="fragment">Servo: new implementation</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>¿Preguntas?</h2>
+          <p>fredw (fred@wang.free.fr)</p>
+          <p>www.mathml.us</p>
+          <math display="block" alttext="\int_{-\infty}^{+\infty}\frac{16\sin(2x+\pi)}{5(x^{2}+2x+5)^{2}}dx=\frac{\pi\sin(2)}{e^{4}}" class="ltx_Math" id="Ch0.Ex93.m1"><mrow><mrow><msubsup><mo symmetric="true" largeop="true">∫</mo><mrow><mo>−</mo><mi mathvariant="normal">∞</mi></mrow><mrow><mo>+</mo><mi mathvariant="normal">∞</mi></mrow></msubsup><mrow><mfrac><mrow><mn>16</mn><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mrow><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mi>π</mi></mrow><mo>)</mo></mrow></mrow></mrow><mrow><mn>5</mn><mo>⁢</mo><msup><mrow><mo>(</mo><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mrow><mn>2</mn><mo>⁢</mo><mi>x</mi></mrow><mo>+</mo><mn>5</mn></mrow><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>⁢</mo><mi>d</mi><mo>⁢</mo><mi>x</mi></mrow></mrow><mo>=</mo><mfrac><mrow><mi>π</mi><mo>⁢</mo><mrow><mi>sin</mi><mo>⁡</mo><mrow><mo>(</mo><mn>2</mn><mo>)</mo></mrow></mrow></mrow><msup><mi>e</mi><mn>4</mn></msup></mfrac></mrow></math>
+        </section>
+      </div>
+
+      <script src="../lib/js/head.min.js"></script>
+      <script src="../js/reveal.js"></script>
+
+      <script>
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+        { src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        // { src: '../plugin/notes/notes.js', async: true }
+        ]
+        });
+
+        Reveal.addEventListener('webgl', function() {
+          document.getElementById("webgliframe").contentDocument.
+            location.reload(true);
+        });
+      </script>
+
+  </body>
+</html>
