@@ -732,3 +732,6 @@ body {
 .sponsors img {
   margin: 20px;
 }
+div.sponsors {
+  margin-bottom: 20px;
+}
