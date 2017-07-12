@@ -15,7 +15,7 @@ Repository containing the web page of the **Web Engines Hackfest**.
   ```git clone git@github.com:Igalia/webengineshackfest.git```
 * Do some changes and commit:
   ```git commit -a -m "Commit message"```
-* Push changes into `gh-pages` branch:
-  ```git push origin gh-pages```
+* Push changes into `master` branch:
+  ```git push origin master```
 
-> NOTE: `gh-pages` is the only branch in the repository.
+> NOTE: We no longer use `gh-pages` for this website.
