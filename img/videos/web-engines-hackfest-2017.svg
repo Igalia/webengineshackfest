@@ -1,0 +1,34 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    .background {
+      fill-opacity: 1;
+      rx: 0px;
+      ry: 0px;
+      fill: #000000;
+    }
+
+    text {
+      font-size: 50px;
+      text-anchor: middle;
+      fill: #ff9900;
+      font-family: "Montserrat";
+    }
+
+    .title {
+      font-family: "Kaushan Script";
+      font-size: 150px;
+    }
+
+    .dark {
+      fill: #cc7a00;
+      font-weight: 700;
+    }
+
+  </style>
+
+  <rect class="background" x="0" y="0" width="1920" height="1080" />
+
+  <text x="960" y="400" class="title">Web Engines Hackfest</text>
+  <text x="960" y="650" class="title">2017</text>
+  <text x="960" y="1000" class="dark">webengineshackfest.org</text>
+</svg>

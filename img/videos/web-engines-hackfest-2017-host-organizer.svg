@@ -1,0 +1,33 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+  <style type="text/css">
+    .background {
+      fill-opacity: 1;
+      rx: 0px;
+      ry: 0px;
+      fill: #ffffff;
+    }
+
+    text {
+      font-size: 50px;
+      text-anchor: middle;
+      fill: #000000;
+      font-family: "Montserrat";
+      font-weight: 700;
+    }
+
+    .title {
+      font-size: 100px;
+    }
+
+    .dark {
+      fill: #cc7a00;
+    }
+
+  </style>
+
+  <rect class="background" x="0" y="0" width="1920" height="1080" />
+
+  <text x="960" y="200" class="title">HOST &amp; ORGANIZER</text>
+  <image xlink:href="logo-igalia-talk.png" x="650" y="450" height="214" width="600" />
+  <text x="960" y="1000" class="dark">webengineshackfest.org</text>
+</svg>
