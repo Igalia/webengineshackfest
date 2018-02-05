@@ -216,6 +216,9 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+  h3.longmail {
+    font-size: 16px;
+  }
 }
 header {
   background-image: url('../img/header-bg.jpg');
