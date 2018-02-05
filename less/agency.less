@@ -159,8 +159,15 @@ h1, h2, h3, h4, h5, h6 {
 	        font-size: 1.5em;
 	    }    
 	}
+}
+
+@media(max-width:768px) {
     h3.longmail {
         font-size: 16px;
+    }
+
+    h2.longtitle {
+        font-size: 33px !important;
     }
 }
 
@@ -731,6 +738,7 @@ body {
 
 .sponsors img {
     margin: 20px;
+    max-width: 100% - 40px;
 }
 div.sponsors {
     margin-bottom: 20px;
