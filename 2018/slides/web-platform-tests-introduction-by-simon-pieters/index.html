@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>web-platform-tests Introduction</title>
+    <meta charset="utf-8">
+    <style>
+    @font-face { font-family: Oswald; src: url(oswald-regular.woff2) format('woff2'); font-weight:400; font-style:normal; }
+    html { font-family: serif; }
+    p, ul, ol { font-size: 2rem; }
+    h1 { margin: 0; background-color:#FDD741; color: black; padding: 0.5em 1em; font-family: Oswald, sans-serif; text-transform: uppercase; font-weight: 400; }
+    .first h1 { margin-top: 20%; }
+    .first { text-align: center; }
+    a { color: inherit; }
+    img { max-width: 80%; display: block; margin: 0 auto; }
+    img[src="reftest.png"] { max-width: 50%; display: inline; }
+    blockquote { padding: 0 0 0 10%; color: gray; }
+    blockquote::before { content: "“"; float: left; font-size: 6em; margin: -0.2em 0 0 -0.7em; }
+    </style>
+  </head>
+  <body>
+    <xmp id="source">
+
+class: first
+
+# web-platform-tests Introduction
+
+Simon Pieters
+
+<a href=https://bocoup.com/><img srcset="https://static.bocoup.com/assets/img/bocoup-logo@2x.png 2x" src="https://static.bocoup.com/assets/img/bocoup-logo@2x.png" alt=Bocoup></a>
+
+---
+
+# Documentation
+
+  * [README.md](https://github.com/web-platform-tests/wpt/blob/master/README.md)
+  * http://web-platform-tests.org
+
+---
+
+# Local environment
+
+  * Clone the repo
+  * Set up hosts file
+  * Install `virtualenv` (missing from docs)
+    - https://github.com/web-platform-tests/wpt/issues/6565
+  * Run tests
+
+---
+
+# Running tests
+
+ * `wpt serve` + load manually
+ * `wpt run`
+ * browser-specific integration
+ * Node.js
+
+---
+
+# Running HTTPS tests
+
+ * Just use `wpt run`
+
+---
+
+# Writing tests
+
+  * testharness.js
+  * reftests
+  * visual tests
+  * wdspec tests
+  * testdriver.js
+  * manual tests
+
+---
+
+# Single page tests
+
+```html
+<!doctype html>
+<title>something</title>
+<script src="https://zcorpan.github.io/resources/testharness.js"></script>
+<script src="https://zcorpan.github.io/resources/testharnessreport.js"></script>
+<script>
+// Maybe in the future:
+// single_test();
+assert_equals(document.title, "something");
+done();
+</script>
+```
+
+---
+
+# Sync tests
+
+```html
+<!doctype html>
+<title>something</title>
+<script src="https://zcorpan.github.io/resources/testharness.js"></script>
+<script src="https://zcorpan.github.io/resources/testharnessreport.js"></script>
+<script>
+test(() => {
+  assert_equals(document.title, "something");
+}, "Test something");
+</script>
+```
+
+---
+
+# Async tests
+
+```html
+<!doctype html>
+<title>something</title>
+<script src="https://zcorpan.github.io/resources/testharness.js"></script>
+<script src="https://zcorpan.github.io/resources/testharnessreport.js"></script>
+<script>
+async_test(t => {
+  window.onmessage = t.step_func_done(e => {
+    assert_equals(e.data, "foo");
+  });
+  window.postMessage("foo", "*");
+}, "Test something");
+</script>
+```
+
+---
+
+# Promise tests
+
+```html
+<!doctype html>
+<title>something</title>
+<script src="https://zcorpan.github.io/resources/testharness.js"></script>
+<script src="https://zcorpan.github.io/resources/testharnessreport.js"></script>
+<script>
+promise_test(async t => {
+  const res = await fetch("data:,foo");
+  const text = await res.text();
+  assert_equals(text, "foo");
+}, "Test something");
+</script>
+```
+
+---
+
+# Mixing callbacks and promises
+
+```js
+// Maybe in the future:
+// single_test();
+(async () => {
+  const res = await fetch("data:,foo");
+  const text = await res.text();
+  assert_equals(text, "foo");
+  window.onmessage = e => {
+    assert_equals(e.data, "foo");
+    done();
+  };
+  window.postMessage("foo", "*");
+})();
+```
+
+---
+
+# Multi-global tests
+
+* `something.any.js`
+* `other.window.js`
+* `thing.worker.js`
+
+```js
+// META: global=window,worker
+test(() => {
+  if (GLOBAL.isWindow() {
+    ...
+  } else {
+    ...
+  }
+}, 'something');
+```
+
+---
+
+# Reftests
+
+```html
+<link rel="match" href="https://zcorpan.github.io/wpt-intro/not-apply-in-shadow-root-001-ref.html">
+...
+<p>Test passes if following box is green.</p>
+...
+```
+
+<img alt="Test with a green box. " src="reftest.png"><img alt="Reference with a green box." src="reftest.png">
+
+---
+
+# wptserve
+
+  * HTTP headers
+  * Substitution
+  * Pipes
+  * Stash
+  * .asis
+  * Python handlers
+  * WebSocket
+  * HTTP/2.0
+
+---
+
+# Substitution
+
+* `something.sub.js`
+
+```js
+const testId = "{{GET[id]}}";
+const otherOrigin = "http://{{domains[www1]}}:{{ports[http][0]}}";
+```
+
+
+---
+
+# Linting
+
+  * `wpt lint`
+  * css/ has extra requirements
+
+---
+
+# Review on GitHub
+
+  * https://github.com/web-platform-tests/wpt#test-review
+  * https://web-platform-tests.org/reviewing-tests/
+
+---
+
+# Two-way sync
+
+  * Chromium
+  * Gecko
+  * Semi-automated for WebKit
+
+<img alt="Chromium export on GitHub." src="chromium-export.png">
+
+---
+
+# Results collection
+
+  * https://github.com/web-platform-tests/results-collection
+
+> This project defines a procedure to provision and deploy systems for running [the web-platform-tests](https://github.com/web-platform-tests/wpt) in a number of configurations. It currently provides data to power [wpt.fyi](https://wpt.fyi/), a dashboard for reviewing current and historic test results.
+
+---
+
+# wpt.fyi
+
+  * https://wpt.fyi
+
+<img alt="web-platform-tests dashboard showing test results in Chrome, Edge, Firefox, and Safari." src="wpt-fyi.png">
+
+---
+
+# Live tests
+
+  * http://w3c-test.org
+  * http://web-platform-tests.live
+
+---
+
+# Project administration
+
+  * https://github.com/web-platform-tests/wpt/pull/10832
+
+<img alt="Some aspects of the infrastructure are only accessible to administrators." src="project-administration.png">
+
+---
+
+# Flaky tests
+
+  * https://bocoup.github.io/wpt-disabled-tests-report/
+
+<img alt="The number of disabled tests, slow tests, flaky tests, and timeout tests changes over time." src="flaky-graph.png">
+
+---
+
+# WPT Survey
+
+  * [WPT Survey Report](https://docs.google.com/document/d/1b3suZ9TAZ2Y0nn5X6_bgEoIAYG5j2v_ap473ZF1SeaU/edit#)
+
+<img alt="Two thirds of the responders were browser developers." src="survey.png">
+
+---
+
+# Happy hacking
+
+<!-- https://www.flickr.com/photos/aurelijus/2470740681 -->
+<img alt="Chicken on keyboard." src="chicken.jpg">
+
+    </xmp>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
