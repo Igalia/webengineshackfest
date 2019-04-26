@@ -12,3 +12,8 @@ Other sponsors:
 
     rsvg-convert -a -w 100 -h 25 logo-mozilla.svg > logo-mozilla-tmp.png
     convert -background none -resize 100x25 -gravity center -extent 100x25 logo-mozilla-tmp.png logo-mozilla.png
+
+Twitter:
+
+    rsvg-convert -a -w 500 -h 200 logo-igalia.svg > logo-igalia-tmp.png
+    convert -background white -resize 500x200 -gravity center -extent 500x200 logo-igalia-tmp.png logo-igalia-twitter.png
