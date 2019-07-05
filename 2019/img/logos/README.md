@@ -10,8 +10,8 @@ Silver sponsors:
 
 Other sponsors:
 
-    rsvg-convert -a -w 100 -h 25 logo-mozilla.svg > logo-mozilla-tmp.png
-    convert -background none -resize 100x25 -gravity center -extent 100x25 logo-mozilla-tmp.png logo-mozilla.png
+    rsvg-convert -a -w 100 -h 25 logo-igalia.svg > logo-igalia-tmp.png
+    convert -background none -resize 100x25 -gravity center -extent 100x25 logo-igalia-tmp.png logo-igalia.png
 
 Twitter:
 
