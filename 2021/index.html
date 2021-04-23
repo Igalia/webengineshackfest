@@ -620,6 +620,15 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
 
+    <script>
+      // Allow linking to specific session.
+      $(document).ready(function() {
+        if(window.location.href.indexOf(window.location.hash) != -1) {
+          $(window.location.hash).modal('show');
+        }
+      });
+    </script>
+
 </body>
 
 </html>
