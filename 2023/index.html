@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" style="filter: grayscale(100%);">
                     <a href="#talkModalWayland" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -212,6 +212,21 @@
                     <div class="portfolio-caption">
                         <h4><a href="#talkModalWayland" class="portfolio-link" data-toggle="modal">Fallback Tab Dragging for Ozone/Wayland</a></h4>
                         <p class="text-muted">by Max Ihlenfeldt</p>
+                        <h5>CANCELLED</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#talkModalJSModules" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/speakers/nic.png" style="width: 50%; margin: auto; border: 7px solid #f1f1f1;" class="img-circle img-responsive" alt="Nicolò Ribaudo">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4><a href="#talkModalJSModules" class="portfolio-link" data-toggle="modal">JavaScript Modules: Past, Present, and Future</a></h4>
+                        <p class="text-muted">by Nicolò Ribaudo</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -229,6 +244,8 @@
                         <p class="text-muted">by Zalim Bashorov</p>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#talkModalWebKit" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -243,8 +260,6 @@
                         <p class="text-muted">by Žan Doberšek</p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#talkModalServo" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -658,16 +673,47 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
+                        <div class="modal-body" style="filter: grayscale(100%);">
                           <h2>Fallback Tab Dragging for Ozone/Wayland</h2>
                           <img src="img/speakers/max.jpg" style="width: 300px; margin: auto; border: 7px solid #f1f1f1;" class="img-circle img-responsive" alt="Max Ihlenfeldt">
                           <p class="item-intro text-muted">by Max Ihlenfeldt</p>
+                          <h4>CANCELLED</h4>
                           <ul class="list-inline">
                             <li>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T1200&p1=681">Monday 5th June 2023</a></li>
                             <li>Time: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T1200&p1=681">12:00 CEST (UTC +2) </a></li>
                           </ul>
                           <p class="text-muted text-left">Dragging tabs out of and back into Chromium windows doesn’t work on Wayland as on other platforms due to protocol restrictions. There already is a protocol extension that makes regular tab dragging possible, but it requires support from the Wayland compositor. Until all major compositors implement this extension, we need some form of fallback tab dragging that always works.</p>
                           <p class="text-muted text-left">Unfortunately, to be able to run automated tests against this new tab dragging implementation, we need to fix some long-standing issues with how these tests are run on Wayland - time for another new protocol extension!</p>
+                          <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Talk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JSModules talk -->
+    <div class="portfolio-modal modal fade" id="talkModalJSModules" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                          <h2>JavaScript Modules: Past, Present, and Future</h2>
+                          <img src="img/speakers/nic.png" style="width: 300px; margin: auto; border: 7px solid #f1f1f1;" class="img-circle img-responsive" alt="Nicolò Ribaudo">
+                          <p class="item-intro text-muted">by Nicolò Ribaudo</p>
+                          <ul class="list-inline">
+                            <li>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T1500&p1=681">Monday 5th June 2023</a></li>
+                            <li>Time: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20230605T1200&p1=681">12:00 CEST (UTC +2) </a></li>
+                          </ul>
+                          <p class="text-muted text-left">For decades, JavaScript developers have relied on a multitude of module systems to organize and share code. But in 2015, ECMAScript finally introduced built-in standard semantics for modules, providing a long-awaited solution for the language. While ECMAScript modules have quickly become a popular format for writing code, most published code is still compiled to a single bundle or to a legacy module system.</p>
+                          <p class="text-muted text-left">The TC39 committee is actively exploring this design space: are there any missing functionalities compared to previous systems? Do JavaScript developers need any capabilities that the language does not currently provide? What problems do ECMAScript modules currently cause?</p>
                           <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Talk</button>
                         </div>
                     </div>
