@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta name="author" content="{{ site.author }}" />
+
+    <title>{{ site.year }} {{ site.title }}</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Noto+Emoji:wght@400;700&family=Roboto+Slab:wght@400;700&family=Droid+Serif:wght@400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">{{ site.title }}</a>
+        </li>
+        <li>
+          <a href="#hackfest">Hackfest</a>
+        </li>
+        <li>
+          <a href="#venue">Venue</a>
+        </li>
+        <li>
+          <a href="#sponsors">Sponsors</a>
+        </li>
+        <li>
+          <a href="#coc">CoC</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>{{ site.title }} {{ site.year }}</h1>
+      <h2>{{ site.dates }} | {{ site.location }}</h2>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>Except where otherwise <strong>noted</strong> this site is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution ShareAlike 4.0 Internacional license.</a></p>
+      <p>Design inspired by <a href="https://startbootstrap.com/theme/agency">Start Bootstrap Agency theme</a>.</p>
+    </footer>
+
+  </body>
+</html>

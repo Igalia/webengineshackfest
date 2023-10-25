@@ -1,0 +1,381 @@
+:root {
+  --text-color: #333;
+  --light-text-color: #cc7a00;
+  --light-background-color: #f7f7f7;
+  --dark-background-color: #333;
+  --orange: #ff9900;
+  --orange-background: #ff9900cc;
+  --darker-orange: #fff;
+  --grey: #777;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: var(--orange);
+}
+
+a:hover, a:focus, a:active, a.active {
+  color: var(--light-text-color);
+}
+
+nav {
+  background: var(--dark-background-color);
+  color: var(--light-text-color);
+  display: flow-root;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav > ul {
+  margin: 0 2rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav > ul > li {
+  margin: 1rem;
+}
+
+nav > ul > li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li a:hover,
+nav > ul > li a:focus {
+  color: var(--orange);
+}
+
+nav > ul > li a:hover,
+nav > ul > li a:focus {
+  color: var(--orange);
+}
+
+nav > ul > li:first-child {
+  flex: 1;
+  margin-inline: 2rem;
+}
+
+nav > ul > li:first-child a {
+  font-family: 'Kaushan Script', cursive;
+  text-transform: none;
+  color: var(--orange);
+  font-size: 30px;
+}
+
+header {
+  background-image: url('/img/header-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flow-root;
+}
+
+header > h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-inline: 2rem;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+header > h2 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-inline: 2rem;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+figure img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+main section:nth-child(even) {
+  background: var(--light-background-color);
+}
+
+main section div.section-wrapper {
+  margin-inline: auto;
+  padding: 1rem 2rem;
+  max-width: 100ch;
+  display: flow-root;
+}
+
+#hackfest .entry {
+  display: flow-root;
+}
+
+#hackfest img {
+  float: left;
+  margin: 2rem;
+  border-radius: 50%;
+  border: solid thick #777;
+}
+
+main section#talks div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+#talks .entry {
+  width: min(40ch, 80%);
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+  padding: 1rem;
+  margin: 1rem;
+  position:relative;
+}
+
+#talks .entry a.overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: var(--orange-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 0;
+}
+
+#talks .overlay .emoji {
+  font-size: 80px;
+  color: white;
+}
+
+#talks .entry:hover a.overlay {
+  height: 100%;
+}
+
+#talks a.overlay {
+  text-decoration: none;
+}
+
+#talks .entry h3 {
+  margin: 0.5rem;
+  color: var(--orange);
+}
+
+#talks .entry h4 {
+  margin: 0;
+}
+
+#talks .entry div.cancelled {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+#talks .entry.cancelled {
+  filter: grayscale(100%);
+}
+
+#talks img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+#talks dialog {
+  padding: 2rem;
+  max-width: 100ch;
+}
+
+#talks dialog img {
+  float: left;
+  margin: 2rem;
+  width: 15rem;
+}
+
+#talks dialog .content p,
+#talks dialog .content ul,
+#talks dialog .content ol {
+  text-align: left;
+}
+
+#talks dialog button {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+main section#venue div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+main section#travel div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+
+#travel .entry {
+  width: min(50ch, 90%);
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding-inline: 1rem;
+  font-size: 14px;
+}
+
+#travel h3 {
+  text-align: center;
+}
+
+.emoji {
+  font-family: 'Noto Emoji', sans-serif;
+  font-weight: 700;
+}
+
+#travel .emoji {
+  font-size: 50px;
+  display: block;
+  color: white;
+  background: var(--orange);
+  border-radius: 50%;
+  padding: 1rem;
+  width: min-content;
+  margin: auto;
+}
+
+main section#sponsors div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#sponsors h3 {
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+#sponsors .entry {
+  width: min(50ch, 90%);
+  display: inline-block;
+  margin: 1rem;
+}
+
+#sponsors .entry img {
+  max-width: 100%;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h3 {
+  color: var(--orange);
+}
+
+footer {
+  color: white;
+  background: var(--dark-background-color);
+  padding: 1rem;
+  text-align: center;
+  font-size: small;
+}
+
+@media (max-width: 1024px) {
+  nav > ul {
+    margin: 0;
+  }
+
+  nav > ul > li {
+    margin: 0.5rem;
+  }
+  nav > ul > li a {
+    font-size: 12px;
+  }
+
+  nav > ul > li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  nav > ul > li:first-child a {
+    font-size: 20px;
+  }
+
+  header > h1 {
+    font-size: 50px;
+  }
+
+  header > h2 {
+    font-size: 30px;
+  }
+
+  #hackfest img {
+    float: none;
+    display: block;
+    margin-inline: auto;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  #contact h3 {
+    font-size: 18px;
+  }
+
+}
