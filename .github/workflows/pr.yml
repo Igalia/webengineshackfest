@@ -1,0 +1,33 @@
+name: build-pr
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cache Node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            npm-${{ runner.os }}-
+            npm-
+      - name: Install Node modules
+        run: npm install
+      - name: Eleventy
+        run: |
+          npx eleventy --output='_site/' --pathprefix='/'
+
