@@ -54,6 +54,9 @@ layout: default
 
 <dialog id="{{ talk.data.page.fileSlug }}" onclose="history.pushState('', document.title, window.location.pathname)">
 
+<form method="dialog">
+<button autofocus class="close"><span class="emoji">❌</span></button>
+
 {% if talk.data.imgsrc %}
 
 <img src="{{ talk.data.imgsrc }}" alt="{{ talk.data.imgalt }}" />
@@ -74,7 +77,9 @@ layout: default
 
 </div>
 
-<form method="dialog"><button autofocus><span class="emoji">❌</span> Close</button></form>
+<button><span class="emoji">❌</span> Close talk</button>
+
+</form>
 
 </dialog>
 
