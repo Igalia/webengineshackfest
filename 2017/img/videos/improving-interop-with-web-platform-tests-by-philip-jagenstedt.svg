@@ -1,0 +1,53 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    .background {
+      fill-opacity: 1;
+      rx: 0px;
+      ry: 0px;
+      fill: #000000;
+    }
+
+    text {
+      font-size: 50px;
+      text-anchor: middle;
+      fill: #ff9900;
+    }
+
+    .title {
+      font-family: "Montserrat";
+      font-size: 120px;
+      font-weight: 700;
+    }
+
+    .author {
+      font-size: 90px;
+      font-family: "Kaushan Script";
+      fill: #ffffff;
+      fill: #f7f7f7;
+    }
+
+    .footer-title {
+      font-family: "Kaushan Script";
+      font-size: 70px;
+      fill: #cc7a00;
+      text-anchor: start;
+    }
+
+    .footer {
+      font-size: 50px;
+      font-family: "Montserrat";
+      font-weight: 700;
+      fill: #cc7a00;
+      text-anchor: end;
+    }
+
+  </style>
+
+  <rect class="background" x="0" y="0" width="1920" height="1080" />
+
+  <text x="960" y="300" class="title">Improving interop with</text>
+  <text x="960" y="500" class="title">web-platform-tests</text>
+  <text x="960" y="750" class="author">Philip Jägenstedt (@foolip)</text>
+  <text x="100" y="1000" class="footer-title">Web Engines Hackfest</text>
+  <text x="1820" y="1000" class="footer">A Coruña | 2nd October 2017</text>
+</svg>

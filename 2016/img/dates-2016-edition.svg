@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+        .background {
+            fill-opacity: 1;
+            rx: 0px;
+            ry: 0px;
+            fill: #000;
+        }
+
+        text {
+            font-size: 80px;
+            font-family: Kaushan Script;
+            text-anchor: middle;
+            fill: #ffc164;
+        }
+
+        .title {
+            font-size: 70px;
+            fill: #ff9900;
+            font-weight: bold;
+        }
+
+        .url {
+            font-size: 30px;
+            fill: #cc7a00;
+        }
+
+    </style>
+
+    <rect class="background" x="0" y="0" width="800" height="600" />
+
+    <text class="title" x="400" y="150">Web Engines Hackfest</text>
+    <text x="400" y="325">26-28 September</text>
+    <text x="400" y="425">2016</text>
+    <text class="url" x="400" y="550">http://www.webengineshackfest.org/</text>
+
+</svg>
