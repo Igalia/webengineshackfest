@@ -255,6 +255,13 @@ main section#talks div.section-wrapper {
   padding: 0.5rem 1rem;
 }
 
+#talks dialog button.close {
+  float: right;
+  padding: 0.5rem;
+  margin-top: -1rem;
+  margin-right: -1rem;
+}
+
 main section#venue div.section-wrapper {
   max-width: 170ch;
   text-align: center;
@@ -393,5 +400,9 @@ footer a:hover, a:focus, a:active {
     margin-top: 1rem;
     flex-basis: 100%;
     text-align: center;
+  }
+
+  #talks dialog img {
+    float: none;
   }
 }
