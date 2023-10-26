@@ -93,6 +93,7 @@ nav > ul > li:first-child a {
   font-family: 'Kaushan Script', cursive;
   text-transform: none;
   color: var(--light-orange);
+  font-weight: 400;
   font-size: 30px;
 }
 
