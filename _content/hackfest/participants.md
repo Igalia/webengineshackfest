@@ -2,7 +2,7 @@
 layout: hackfest
 title: "Participants"
 date: 2023-01-01
-imgsrc: "/img/web-engines-hackfest-2022-2.jpg"
+imgsrc: "/img/web-engines-hackfest-2022-2.webp"
 imgalt: "Web Engines Hackfest 2022 - Hacking Room"
 ---
 

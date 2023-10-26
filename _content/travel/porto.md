@@ -17,5 +17,5 @@ To get to the venue from Porto Airport:
 -   **Bus** - 5 hours\
     Fare: 50€.\
     Payment method: Buy ticket
-    [online](https://www.alsa.com/en/web/bus/our-destinations/airports/porto#).\
+    [online](https://www.alsa.com/en/web/bus/our-destinations/airports/porto#).
 

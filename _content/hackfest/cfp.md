@@ -2,7 +2,7 @@
 layout: hackfest
 title: "Call For Papers"
 date: 2023-04-01
-imgsrc: "/img/web-engines-hackfest-2019.jpg"
+imgsrc: "/img/web-engines-hackfest-2019.webp"
 imgalt: "Web Engines Hackfest 2019 - Talk"
 ---
 

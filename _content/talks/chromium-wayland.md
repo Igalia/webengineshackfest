@@ -4,7 +4,7 @@ title: "Fallback Tab Dragging for Ozone/Wayland"
 authors: "Max Ihlenfeldt"
 date: "2023-06-05T12:00:00"
 dateiso: "2023-06-05T10:00:00"
-imgsrc: "/img/talks/max.jpg"
+imgsrc: "/img/talks/max.webp"
 imgalt: "Max Ihlenfeldt"
 cancelled: true
 ---

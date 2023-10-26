@@ -4,7 +4,7 @@ title: "Ladybird: Building a new browser from scratch"
 authors: "Andreas Kling"
 date: "2023-06-05T16:30:00"
 dateiso: "2023-06-05T14:30:00"
-imgsrc: "/img/talks/andreas.jpg"
+imgsrc: "/img/talks/andreas.webp"
 imgalt: "Andreas Kling"
 video: https://youtu.be/De8N1zrQwRs?list=PL4sEzdAGvRgD5vjhecZhBFEEqUV_a_rAD
 slides: https://webengineshackfest.org/2023/slides/ladybird_building_a_new_browser_from_scratch_by_andreas_kling.pdf

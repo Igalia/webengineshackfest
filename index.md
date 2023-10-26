@@ -8,7 +8,7 @@ layout: default
 
 ## The hackfest
 
-#### The **{{ site.year }} {{ site.title }}** will take place in A Coruña, Galicia, Spain from Monday, June 3th to Wednesday, June 5th.
+**The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 3th to Wednesday, June 5th.**
 
 {% for hackfest in collections.hackfest %}
 
@@ -38,7 +38,7 @@ layout: default
 
 <div class="entry{% if talk.data.cancelled %} cancelled{% endif %}">
 
-<a onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();" class="overlay emoji">➕</a>
+<a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();" class="overlay emoji">➕</a>
 
 {% if talk.data.imgsrc %}
 
@@ -46,13 +46,13 @@ layout: default
 
 {% endif %}
 
-### <a onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();">{{ talk.data.title }}</a>
+### <a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();">{{ talk.data.title }}</a>
 
 #### by {{ talk.data.authors }}
 
 <div class="cancelled">{% if talk.data.cancelled %}Cancelled{% endif %}</div>
 
-<dialog id="{{ talk.data.page.fileSlug }}">
+<dialog id="{{ talk.data.page.fileSlug }}" onclose="history.pushState('', document.title, window.location.pathname)">
 
 {% if talk.data.imgsrc %}
 
@@ -100,7 +100,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 ## Venue
 
 <figure>
-  <img alt="Picture of Palexco building" src="/img/palexco.jpg" />
+  <img alt="Picture of Palexco building" src="/img/palexco.webp" />
   <figcaption><a href="https://www.palexco.com/">Palexco</a> (Palacio de Exposiciones y Congresos)<br>
 Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 </figure>
@@ -137,7 +137,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 ## Sponsors
 
-#### More sponsors are welcome! If you would like to contribute as a sponsor, please [contact us](mailto:hackfest@webengineshackfest.org).
+**More sponsors are welcome! If you would like to contribute as a sponsor, please [contact us](mailto:hackfest@webengineshackfest.org).**
 
 {% if collections.host %}
 
@@ -145,7 +145,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 {% for sponsor in collections.host %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-host.png" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Host & Organizer" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-host.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Host & Organizer" /></a>
 </div>
 {% endfor %}
 
@@ -157,7 +157,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 {% for sponsor in collections.gold %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-gold.png" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Gold Sponsor" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-gold.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Gold Sponsor" /></a>
 </div>
 {% endfor %}
 
@@ -169,7 +169,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 {% for sponsor in collections.silver %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-silver.png" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Silver Sponsor" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-silver.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Silver Sponsor" /></a>
 </div>
 {% endfor %}
 
@@ -181,7 +181,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 {% for sponsor in collections.bronze %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-bronze.png" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Bronze Sponsor" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-bronze.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Bronze Sponsor" /></a>
 </div>
 {% endfor %}
 
@@ -193,7 +193,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 {% for sponsor in collections.other %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-other.png" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} {{ sponsor.data.type }}" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-other.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} {{ sponsor.data.type }}" /></a>
 </div>
 {% endfor %}
 

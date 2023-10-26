@@ -2,7 +2,7 @@
 layout: hackfest
 title: "The Event"
 date: 2023-03-01
-imgsrc: "/img/web-engines-hackfest-2022-3.jpg"
+imgsrc: "/img/web-engines-hackfest-2022-3.webp"
 imgalt: "Web Engines Hackfest 2022 - Breakout session"
 ---
 

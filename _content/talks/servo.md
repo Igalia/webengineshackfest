@@ -4,7 +4,7 @@ title: "Servo 2023"
 authors: "Delan Azabani"
 date: "2023-06-05T15:45:00"
 dateiso: "2023-06-05T13:45:00"
-imgsrc: "/img/talks/delan.png"
+imgsrc: "/img/talks/delan.webp"
 imgalt: "Delan Azabani"
 video: https://youtu.be/pfk8s5OD99A?list=PL4sEzdAGvRgD5vjhecZhBFEEqUV_a_rAD
 slides: https://webengineshackfest.org/2023/slides/servo_2023_by_delan_azabani.pdf

@@ -4,7 +4,7 @@ title: "JavaScript Modules: Past, Present, and Future"
 authors: "Nicolò Ribaudo"
 date: "2023-06-05T12:00:00"
 dateiso: "2023-06-05T10:00:00"
-imgsrc: "/img/talks/nic.png"
+imgsrc: "/img/talks/nic.webp"
 imgalt: "Nicolò Ribaudo"
 video: https://youtu.be/USQ6MOEn0Go?list=PL4sEzdAGvRgD5vjhecZhBFEEqUV_a_rAD
 slides: https://webengineshackfest.org/2023/slides/javascript_modules_past_present_and_future_by_nicolo_ribaudo.pdf

@@ -4,7 +4,7 @@ title: "Status of the WPE & GTK WebKit ports"
 authors: "Žan Doberšek"
 date: "2023-06-05T15:00:00"
 dateiso: "2023-06-05T13:00:00"
-imgsrc: "/img/talks/zan.jpg"
+imgsrc: "/img/talks/zan.webp"
 imgalt: "Žan Doberšek"
 video: https://youtu.be/ZyeSwZYQeDw?list=PL4sEzdAGvRgD5vjhecZhBFEEqUV_a_rAD
 slides: https://webengineshackfest.org/2023/slides/status_of_the_wpe_gtk_webkit_ports_by_zan_dobersek.pdf

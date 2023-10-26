@@ -40,7 +40,7 @@ To get to the venue from Santiago Airport:
     or
     [thetrainline.com](https://www.thetrainline.com/)
     (Warning: On Sunday\'s afternoons/evengins or Monday\'s mornings the
-    train can be full so booking in advance is recommended).\
+    train can be full so booking in advance is recommended).
 
     Bus from Train Station to Palexco - [Line 5 (direction
     \"Durmideiras/Adormideras\")](https://www.tranviascoruna.com/en/lineas-y-horarios/?linea=5)\

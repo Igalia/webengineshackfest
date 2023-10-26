@@ -2,7 +2,7 @@
 layout: hackfest
 title: "2024 Edition"
 date: 2023-02-01
-imgsrc: "/img/web-engines-hackfest-2022-1.jpg"
+imgsrc: "/img/web-engines-hackfest-2022-1.webp"
 imgalt: "Web Engines Hackfest 2022 - Palexco Terrace"
 ---
 

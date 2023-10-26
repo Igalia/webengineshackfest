@@ -2,7 +2,7 @@
 layout: hackfest
 title: "Previous Hackfests"
 date: 2023-05-01
-imgsrc: "/img/web-engines-hackfest-2018-4.jpg"
+imgsrc: "/img/web-engines-hackfest-2018-4.webp"
 imgalt: "Web Engines Hackfest 2018 - Discussion"
 ---
 
