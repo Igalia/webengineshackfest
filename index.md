@@ -69,13 +69,19 @@ layout: default
 
 ##### Date: [{{ talk.data.date | date: "%Y/%m/%d %H:%M" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.dateiso }})
 
-[Video]({{ talk.data.video }}) | [Slides]({{ talk.data.slides }})
+{% if talk.data.video %}
+
+[Video]({{ talk.data.video }}) {% if talk.data.slides %} | [Slides]({{ talk.data.slides }}) {% endif %}
+
+{% endif %}
 
 <div class="content">
 
 {{ talk.content }}
 
 </div>
+
+<div class="cancelled">{% if talk.data.cancelled %}Cancelled{% endif %}</div>
 
 <button><span class="emoji">❌</span> Close talk</button>
 

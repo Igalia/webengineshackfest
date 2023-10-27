@@ -222,7 +222,8 @@ main section#talks div.section-wrapper {
   margin: 1rem;
 }
 
-#talks .entry.cancelled {
+#talks .entry.cancelled,
+#talks .entry.cancelled dialog {
   filter: grayscale(100%);
 }
 
