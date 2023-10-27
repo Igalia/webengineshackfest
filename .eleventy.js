@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"_assets/img/favicon.ico": "favicon.ico"});
   eleventyConfig.addPassthroughCopy({"_assets/img": "img"});
   eleventyConfig.addPassthroughCopy({"_assets/css": "css"});
-  eleventyConfig.addPassthroughCopy("previous/");
+  eleventyConfig.addPassthroughCopy({"previous/": "/"});
 
   eleventyConfig.setLibrary("md", MarkdownIt({
     html: true,
