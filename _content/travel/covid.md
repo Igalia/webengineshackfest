@@ -33,5 +33,5 @@ This will include, but is not limited to:
 -   observing good hand-washing and hygiene etiquette.
 
 More information can be found at:
-[sanidad.gob.es](https://www.sanidad.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nCov/spth.htm)
+[sanidad.gob.es](https://www.sanidad.gob.es/en/areas/alertasEmergenciasSanitarias/alertasActuales/nCov/spth.htm).
 
