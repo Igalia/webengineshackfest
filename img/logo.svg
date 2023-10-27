@@ -1,0 +1,11 @@
+<svg version="1.1"
+     width="500" height="500"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="250" cy="250" r="230" fill="#333" />
+
+  <text x="250" y="150" font-size="100" font-family="Kaushan Script" text-anchor="middle" fill="#ff9900">Web</text>
+  <text x="250" y="250" font-size="100" font-family="Kaushan Script" text-anchor="middle" fill="#ff9900">Engines</text>
+  <text x="250" y="370" font-size="100" font-family="Kaushan Script" text-anchor="middle" fill="#ff9900">Hackfest</text>
+
+</svg>
