@@ -1,7 +1,7 @@
 ---
 layout: travel
 title: "Covid rules"
-emoji: "⚕️"
+emoji: "🏥"
 date: 2023-08-01
 ---
 
