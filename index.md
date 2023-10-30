@@ -334,7 +334,7 @@ Potential consequences of unacceptable behaviour:
 
 ## Contact Us
 
-### [@webhackfest@floss.social](https://floss.social/@webhackfest)
+### <a rel="me" href="https://floss.social/@webhackfest">@webhackfest@floss.social</a>
 ### [@webhackfest](http://twitter.com/webhackfest)
 ### <span class="emoji">📧</span> <hackfest@webengineshackfest.org>
 ### <span class="emoji">📞</span> <a href="tel:+34 981 913 991">+34 981 913 991</a>
