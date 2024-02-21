@@ -1,0 +1,40 @@
+name: Breakout Session
+description: Propose a breakout session for the Web Engines Hackfest.
+title: ""
+labels: ["2024", "Breakout Session"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Breakout sessions** are informal gatherings to discuss topics related to the web platform. Breakout sessions will be hybrid, so proposals for both **onsite** and **remote** sessions are welcome. They are expected to be **between an hour and an hour and a half long**, and can include small presentations, live coding/examples, and/or some discussions. The person leading the session is in charge of preparing some content/agenda/script in advance.
+  - type: input
+    id: facilitator
+    attributes:
+      label: Facilitator(s)
+      description: Specify the people that are going to lead the session: GitHub user handle(s) (affiliation).
+      placeholder: @user (Company)
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Explain the breakout session in a couple of paragraphs.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: Let us know if you are you planning to facilitate the session onsite or remotely.
+      options:
+        - Onsite
+        - Remote
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: Other comments
+      description: Any other comments or clarifications.
+
