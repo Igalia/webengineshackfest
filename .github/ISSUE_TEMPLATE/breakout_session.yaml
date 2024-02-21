@@ -11,8 +11,8 @@ body:
     id: facilitator
     attributes:
       label: Facilitator(s)
-      description: Specify the people that are going to lead the session: GitHub user handle(s) (affiliation).
-      placeholder: @user (Company)
+      description: "Specify the people that are going to lead the session: GitHub user handle(s) (affiliation)."
+      placeholder: "@user (Company)"
     validations:
       required: true
   - type: textarea
