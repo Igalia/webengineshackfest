@@ -106,6 +106,32 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 </section>
 
+<section id="attendees">
+
+<div class="section-wrapper">
+
+## Attendees
+
+* Aapo Alasuutari
+* Andreu Botella
+* Artem Kobzar
+* Daniel Kolesa
+* Keith Cirkel
+* Leo Kettmeir
+* Luke Warlow
+* Manuel Rego
+* mayask
+* Nicolò Ribaudo
+* Pablo Saavedra
+* Sergey Rubanov
+* sideshowbarker
+* snek
+* Vadim Makeev
+
+</div>
+
+</section>
+
 <section id="venue">
 
 <div class="section-wrapper">

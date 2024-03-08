@@ -264,6 +264,10 @@ main section#talks div.section-wrapper {
   margin-right: -1rem;
 }
 
+main section#attendees div.section-wrapper ul {
+  column-count: 3;
+}
+
 main section#venue div.section-wrapper {
   max-width: 170ch;
   text-align: center;
@@ -391,6 +395,10 @@ footer a:hover, a:focus, a:active {
     font-size: 1rem;
   }
 
+  main section#attendees div.section-wrapper ul {
+    column-count: 2;
+  }
+
 }
 
 @media (max-width: 512px) {
@@ -407,4 +415,9 @@ footer a:hover, a:focus, a:active {
   #talks dialog img {
     float: none;
   }
+
+  main section#attendees div.section-wrapper ul {
+    column-count: 1;
+  }
+
 }
