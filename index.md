@@ -114,7 +114,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 * Aapo Alasuutari
 * Andreu Botella
+* Anne van Kesteren
 * Artem Kobzar
+* Carlos Bentzen
 * Daniel Kolesa
 * Keith Cirkel
 * Leo Kettmeir
