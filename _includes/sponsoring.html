@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    {% include 'head.html' %}
+    <script>document.title = "{{ site.title }} {{ site.year }} {{ title }}"</script>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">{{ site.title }} {{ site.year }}</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="sponsoring">
+        <div class="section-wrapper">
+          {{ content }}
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>
