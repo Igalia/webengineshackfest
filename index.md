@@ -123,11 +123,13 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Luke Warlow
 * Manuel Rego
 * mayask
+* Mukilan Thiyagarajan
 * Nicolò Ribaudo
 * Pablo Saavedra
 * Sergey Rubanov
 * sideshowbarker
 * snek
+* Tiaan Louw
 * Vadim Makeev
 
 </div>
