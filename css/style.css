@@ -353,6 +353,18 @@ footer a:hover, a:focus, a:active {
   color: var(--lighter-orange);
 }
 
+#sponsoring a {
+  line-break: anywhere;
+}
+
+#sponsoring .sold {
+  color: grey;
+}
+
+#sponsoring .sold a {
+  color: grey;
+}
+
 @media (max-width: 1024px) {
   nav > ul {
     margin-inline: 1rem;
