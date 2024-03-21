@@ -7,7 +7,7 @@ title: Sponsoring Packages
 
 ### Levels
 
-#### Gold Sponsor: 5,000 EUR - Igalia
+#### Gold Sponsor: 5,000 EUR
 
 * Benefits:
   * **Big size company logo** in the hackfest website and wiki:  
@@ -17,7 +17,7 @@ title: Sponsoring Packages
     <https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg>
   * **Company will be listed as sponsor** in all the hackfest communications: announcement, piece of news, posts, etc.
 
-#### Silver Sponsor: 2,500 EUR - Arm
+#### Silver Sponsor: 2,500 EUR
 
 * Benefits:
   * **Medium size company logo** in the hackfest website and wiki:  
@@ -51,7 +51,7 @@ title: Sponsoring Packages
 
 <div class="sold" >
 
-#### Coffee & Snacks Sponsor: 2,500 EUR - Arm (SOLD)
+#### Coffee & Snacks Sponsor: 2,500 EUR (SOLD)
 
 * Description: Provide coffee & snacks for people attending the hackfest.
 * Benefits:
