@@ -118,7 +118,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Artem Kobzar
 * Carlos Bentzen
 * Daniel Kolesa
+* Giorgio Maone
 * Keith Cirkel
+* Javier Fernandez Garcia-Boente
 * Leo Kettmeir
 * Luke Warlow
 * Manuel Rego
