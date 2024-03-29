@@ -113,15 +113,18 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 ## Attendees
 
 * Aapo Alasuutari
+* Andrei Svistunou
 * Andreu Botella
 * Anne van Kesteren
 * Artem Kobzar
 * Carlos Bentzen
+* Daniel Ehrenberg
 * Daniel Kolesa
-* Giorgio Maone
 * Keith Cirkel
 * Javier Fernandez Garcia-Boente
+* Jonas Kruckenberg
 * Leo Kettmeir
+* Luca Casonato
 * Luke Warlow
 * Manuel Rego
 * mayask
