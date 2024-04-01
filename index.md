@@ -120,9 +120,11 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Carlos Bentzen
 * Daniel Ehrenberg
 * Daniel Kolesa
+* Dave Vandyke
 * Keith Cirkel
 * Javier Fernandez Garcia-Boente
 * Jonas Kruckenberg
+* Jonathan Kingston
 * Leo Kettmeir
 * Luca Casonato
 * Luke Warlow
