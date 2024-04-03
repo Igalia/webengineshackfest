@@ -117,14 +117,17 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Andreu Botella
 * Anne van Kesteren
 * Artem Kobzar
+* Bernd Kaiser
 * Carlos Bentzen
 * Daniel Ehrenberg
 * Daniel Kolesa
 * Dave Vandyke
-* Keith Cirkel
+* Emilio Cobos
 * Javier Fernandez Garcia-Boente
 * Jonas Kruckenberg
 * Jonathan Kingston
+* Jon Kuperman
+* Keith Cirkel
 * Leo Kettmeir
 * Luca Casonato
 * Luke Warlow
