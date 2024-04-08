@@ -119,6 +119,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Anne van Kesteren
 * Artem Kobzar
 * Bernd Kaiser
+* Brian Kardell
 * Carlos Bentzen
 * Daniel Ehrenberg
 * Daniel Kolesa
@@ -143,6 +144,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Sergey Rubanov
 * sideshowbarker
 * snek
+* Stephanie Stimac
 * Tiaan Louw
 * Vadim Makeev
 
