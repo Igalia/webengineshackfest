@@ -113,6 +113,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 ## Attendees
 
 * Aapo Alasuutari
+* Alejandro G. Castro
 * Andrei Svistunou
 * Andreu Botella
 * Anne van Kesteren
@@ -123,6 +124,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Daniel Kolesa
 * Dave Vandyke
 * Emilio Cobos
+* Guillaume Emont
 * Javier Fernandez Garcia-Boente
 * Jonas Kruckenberg
 * Jonathan Kingston
@@ -134,7 +136,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Manuel Rego
 * mayask
 * Mukilan Thiyagarajan
+* Nico Burns
 * Nicolò Ribaudo
+* Olivier Tilloy
 * Pablo Saavedra
 * Sergey Rubanov
 * sideshowbarker
