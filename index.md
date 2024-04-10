@@ -113,40 +113,64 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 ## Attendees
 
 * Aapo Alasuutari
+* Adrian Perez
 * Alejandro G. Castro
+* Alexander Dunaev
 * Andrei Svistunou
 * Andreu Botella
 * Anne van Kesteren
+* Antonio Gomes
 * Artem Kobzar
 * Bernd Kaiser
 * Brian Kardell
 * Carlos Bentzen
+* Cathie Chen
 * Daniel Ehrenberg
 * Daniel Kolesa
 * Dave Vandyke
+* Diego Pino Garcia
 * Emilio Cobos
+* Enrique Ocaña González
+* Frédéric Wang
 * Guillaume Emont
+* Jan Horak
+* Jani Hautakangas
 * Javier Fernandez Garcia-Boente
+* Jon Kuperman
 * Jonas Kruckenberg
 * Jonathan Kingston
-* Jon Kuperman
+* José Dapena Paz
+* Joyee Cheung
+* Juan J. Sánchez
 * Keith Cirkel
+* Lauro Moura
 * Leo Kettmeir
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
+* Mario Sánchez Prada
+* Martin Stransky
 * mayask
+* Miguel Gomez
+* Mikhail R. Gadelha
 * Mukilan Thiyagarajan
 * Nico Burns
 * Nicolò Ribaudo
 * Olivier Tilloy
 * Pablo Saavedra
+* Patrick Griffis
+* Pawel Lampe
+* Przemyslaw Gorszkowski
 * Sergey Rubanov
 * sideshowbarker
 * snek
 * Stephanie Stimac
 * Tiaan Louw
+* Tiago Vignatti
+* Ujjwal Sharma
 * Vadim Makeev
+* Vitaly Dyachkov
+* Yeunjoo Choi
 
 </div>
 
