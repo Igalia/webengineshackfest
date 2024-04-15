@@ -129,6 +129,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Daniel Kolesa
 * Dave Vandyke
 * Diego Pino Garcia
+* Dietrich Ayala
 * Emilio Cobos
 * Enrique Ocaña González
 * Frédéric Wang
@@ -136,6 +137,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jan Horak
 * Jani Hautakangas
 * Javier Fernandez Garcia-Boente
+* Jesse Alama
 * Jon Kuperman
 * Jonas Kruckenberg
 * Jonathan Kingston
@@ -145,10 +147,12 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Keith Cirkel
 * Lauro Moura
 * Leo Kettmeir
+* Lorenzo Tilve
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
 * Mario Sánchez Prada
+* Martin Robinson
 * Martin Stransky
 * mayask
 * Miguel Gomez
@@ -160,7 +164,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Pablo Saavedra
 * Patrick Griffis
 * Pawel Lampe
+* Philippe Normand
 * Przemyslaw Gorszkowski
+* Roger Zanoni
 * Sergey Rubanov
 * sideshowbarker
 * snek
