@@ -24,10 +24,9 @@ This will include, but is not limited to:
     symptoms, or if you are required to be in self-isolation or
     quarantine by COVID-19 regulations in Spain or at the location you
     are travelling from;
--   complying with the prevailing mask-wearing policy communicated at
-    the event; Even if when regulations have removed the obligation to
-    wear masks, the organization establishes masks as recommended
-    indoors;
+-   complying with the mask-wearing policy communicated at the event;
+    even if when regulations have removed the obligation to wear masks,
+    the organization establishes masks as recommended indoors;
 -   following instructions on physical distancing and crowd circulation
     at the event;
 -   observing good hand-washing and hygiene etiquette.
