@@ -154,13 +154,16 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Mario Sánchez Prada
 * Martin Robinson
 * Martin Stransky
+* Max Ihlenfeldt
 * mayask
+* Michael Kolomeitsev
 * Miguel Gomez
 * Mikhail R. Gadelha
 * Mukilan Thiyagarajan
 * Nico Burns
 * Nicolò Ribaudo
 * Olivier Tilloy
+* orko
 * Pablo Saavedra
 * Patrick Griffis
 * Pawel Lampe
@@ -175,6 +178,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Tiago Vignatti
 * Ujjwal Sharma
 * Vadim Makeev
+* Valerie Young
 * Vitaly Dyachkov
 * Yeunjoo Choi
 
