@@ -133,6 +133,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Emilio Cobos
 * Enrique Ocaña González
 * Frédéric Wang
+* Georg Tamm
 * Guillaume Emont
 * Jan Horak
 * Jani Hautakangas
