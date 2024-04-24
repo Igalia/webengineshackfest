@@ -130,6 +130,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Dave Vandyke
 * Diego Pino Garcia
 * Dietrich Ayala
+* Dominic Farolino
 * Emilio Cobos
 * Enrique Ocaña González
 * Frédéric Wang
