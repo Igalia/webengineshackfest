@@ -116,6 +116,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Adrian Perez
 * Alejandro G. Castro
 * Alexander Dunaev
+* Alicia Boya García
 * Andrei Svistunou
 * Andreu Botella
 * Anne van Kesteren
@@ -165,12 +166,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Nico Burns
 * Nicolò Ribaudo
 * Olivier Tilloy
+* Oriol Brufau
 * orko
 * Pablo Saavedra
 * Patrick Griffis
 * Pawel Lampe
 * Philippe Normand
 * Przemyslaw Gorszkowski
+* Rakhi Sharma
 * Roger Zanoni
 * Sergey Rubanov
 * sideshowbarker
