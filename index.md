@@ -133,6 +133,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Dietrich Ayala
 * Dominic Farolino
 * Emilio Cobos
+* Emma Kim
 * Enrique Ocaña González
 * Frédéric Wang
 * Georg Tamm
