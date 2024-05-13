@@ -171,6 +171,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Mikhail R. Gadelha
 * Miyoung Shin
 * Mukilan Thiyagarajan
+* Nick Yamane
 * Nico Burns
 * Nicolò Ribaudo
 * Nikolas Zimmermann
