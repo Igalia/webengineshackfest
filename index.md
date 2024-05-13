@@ -34,7 +34,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks (2023 Edition)
+## Talks
 
 {% for talk in collections.talk %}
 
@@ -69,7 +69,7 @@ layout: default
 
 #### by {{ talk.data.authors }}
 
-##### Date: [{{ talk.data.date | date: "%Y/%m/%d %H:%M" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.dateiso }})
+##### Date: [{{ talk.data.date | date: "%Y/%m/%d - %H:%M CEST (UTC+2)" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.dateiso }})
 
 {% if talk.data.video %}
 

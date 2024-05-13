@@ -1,15 +1,12 @@
 ---
 layout: talk
-title: "Fallback Tab Dragging for Ozone/Wayland"
+title: "The journey towards stabilizing Chromium's Wayland support"
 authors: "Max Ihlenfeldt"
-date: "2023-06-05T12:00:00"
-dateiso: "2023-06-05T10:00:00"
+date: "2024-06-03T12:30:00"
+dateiso: "2024-06-03T10:30:00"
 imgsrc: "/img/talks/max.webp"
 imgalt: "Max Ihlenfeldt"
-cancelled: true
 ---
 
-Dragging tabs out of and back into Chromium windows doesn't work on Wayland as on other platforms due to protocol restrictions. There already is a protocol extension that makes regular tab dragging possible, but it requires support from the Wayland compositor. Until all major compositors implement this extension, we need some form of fallback tab dragging that always works.
-
-Unfortunately, to be able to run automated tests against this new tab dragging implementation, we need to fix some long-standing issues with how these tests are run on Wayland - time for another new protocol extension!
+Chromium has had experimental support for Wayland for some time, and is moving towards stabilizing it. Let's take a look at how we got to where we are now, and at what's still missing before it can be stabilized.
 
