@@ -135,12 +135,12 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Dietrich Ayala
 * Dmitry Bezhetskov
 * Dominic Farolino
-* Emilio Cobos
 * Emma Kim
 * Enrique Ocaña González
 * Frédéric Wang
 * Georg Tamm
 * Guillaume Emont
+* Hugo Dias
 * Jacobo Aragunde Pérez
 * Jan Horak
 * Jani Hautakangas
