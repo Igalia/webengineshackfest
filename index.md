@@ -67,13 +67,15 @@ layout: default
 
 {% if talk.data.imgsrc %}
 
-<img src="{{ talk.data.imgsrc }}" alt="{{ talk.data.imgalt }}" />
+<img src="{{ talk.data.imgsrc }}" alt="{{ talk.data.imgalt }}" {% if talk.data.imgsrc2 %}style="float: none;"{% endif %} />
 
 {% endif %}
 
 {% if talk.data.imgsrc2 %}
 
-<img src="{{ talk.data.imgsrc2 }}" alt="{{ talk.data.imgalt2 }}" />
+<img src="{{ talk.data.imgsrc2 }}" alt="{{ talk.data.imgalt2 }}" style="float: none;" />
+
+<div style="clear: both;"></div>
 
 {% endif %}
 
