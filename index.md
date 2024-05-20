@@ -151,6 +151,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Frédéric Wang
 * Georg Tamm
+* Georges Basile Stavracas Neto
 * Guillaume Emont
 * Hugo Dias
 * Jacobo Aragunde Pérez
@@ -163,6 +164,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jonas Kruckenberg
 * Jonathan Kingston
 * José Dapena Paz
+* José Manuel López Cobo
 * Joyee Cheung
 * Juan J. Sánchez
 * Keith Cirkel
