@@ -48,6 +48,12 @@ layout: default
 
 {% endif %}
 
+{% if talk.data.imgsrc2 %}
+
+<img src="{{ talk.data.imgsrc2 }}" alt="{{ talk.data.imgalt2 }}" />
+
+{% endif %}
+
 ### <a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();">{{ talk.data.title }}</a>
 
 #### by {{ talk.data.authors }}
@@ -62,6 +68,12 @@ layout: default
 {% if talk.data.imgsrc %}
 
 <img src="{{ talk.data.imgsrc }}" alt="{{ talk.data.imgalt }}" />
+
+{% endif %}
+
+{% if talk.data.imgsrc2 %}
+
+<img src="{{ talk.data.imgsrc2 }}" alt="{{ talk.data.imgalt2 }}" />
 
 {% endif %}
 
