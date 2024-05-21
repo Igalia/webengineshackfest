@@ -165,6 +165,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jon Kuperman
 * Jonas Kruckenberg
 * Jonathan Kingston
+* Jonathan Schwender
 * José Dapena Paz
 * José Manuel López Cobo
 * Joyee Cheung
