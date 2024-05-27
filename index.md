@@ -10,7 +10,11 @@ layout: default
 
 **The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 3th to Wednesday, June 5th.**
 
+<!--
+
 **There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form](https://forms.gle/6dv64Qs6eNBZgDq77).**
+
+-->
 
 {% for hackfest in collections.hackfest %}
 
