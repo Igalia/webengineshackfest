@@ -14,4 +14,11 @@ module.exports = function(eleventyConfig) {
     linkify: true
   }));
 
+  eleventyConfig.addCollection("breakoutAsc", (collection) =>
+    collection.getFilteredByTag("breakout").sort((a, b) => {
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    })
+  );
 }
