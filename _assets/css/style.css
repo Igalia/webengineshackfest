@@ -10,6 +10,10 @@
   --orange-background: #ff9900cc;
 }
 
+html {
+  scroll-padding-top: 5rem;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -55,6 +59,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  height: 5rem;
 }
 
 nav > ul {
