@@ -10,6 +10,10 @@
   --orange-background: #ff9900cc;
 }
 
+html {
+  scroll-padding-top: 5rem;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -55,6 +59,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
+  height: 5rem;
 }
 
 nav > ul {
@@ -366,6 +371,14 @@ footer a:hover, a:focus, a:active {
 }
 
 @media (max-width: 1024px) {
+  html {
+    scroll-padding-top: 3rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
   nav > ul {
     margin-inline: 1rem;
   }
@@ -414,6 +427,14 @@ footer a:hover, a:focus, a:active {
 }
 
 @media (max-width: 512px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
+  nav {
+    height: 5.5rem;
+  }
+
   nav > ul {
     margin-inline: 0;
   }
