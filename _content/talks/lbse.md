@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "LBSE - Status of the Layer-Based SVG Engine"
+title: "Status of the Layer-Based SVG Engine in WebKit"
 authors: "Nikolas Zimmermann"
 date: "2024-06-03T17:00:00"
 dateiso: "2024-06-03T15:00:00"
