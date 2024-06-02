@@ -10,7 +10,7 @@ date: 2023-09-01
     open for lunch at 12:00 or for dinner at 18:00, neither at 19:00;
     thus you might want to start your day a bit \"later\" than usual.
     Main reason behind this is that A Coruña is in the same timezone
-    than central Europe, and [sunrise and sunset
+    as central Europe, and [sunrise and sunset
     times](https://www.timeanddate.com/sun/spain/la-coruna)
     are somehow shifted with regard to common standards in other parts
     of the world.
