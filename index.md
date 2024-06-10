@@ -93,6 +93,10 @@ layout: default
 
 [Video]({{ talk.data.video }}) {% if talk.data.slides %} | [Slides]({{ talk.data.slides }}) {% endif %}
 
+{% elsif talk.data.slides %}
+
+[Slides]({{ talk.data.slides }})
+
 {% endif %}
 
 <div class="content">
