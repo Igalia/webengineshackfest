@@ -6,6 +6,7 @@ date: "2024-06-03T15:30:00"
 dateiso: "2024-06-03T13:30:00"
 imgsrc: "/img/talks/stephanie.webp"
 imgalt: "Stephanie Stimac"
+video: https://youtu.be/GNVdPZcpPTw?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/sustainable_futures_funding_the_web_ecosystem_by_stephanie_stimac.pdf
 ---
 

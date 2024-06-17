@@ -6,6 +6,7 @@ date: "2024-06-03T16:30:00"
 dateiso: "2024-06-03T14:30:00"
 imgsrc: "/img/talks/nico.webp"
 imgalt: "Nico Burns"
+video: https://youtu.be/QRuYyG_CmMU?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/blitz_a_truly_modular_hackable_web_renderer_by_nico_burns.pdf
 ---
 

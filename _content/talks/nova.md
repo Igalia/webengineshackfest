@@ -6,6 +6,7 @@ date: "2024-06-03T13:00:00"
 dateiso: "2024-06-03T11:00:00"
 imgsrc: "/img/talks/aapo.webp"
 imgalt: "Aapo Alasuutari"
+video: https://youtu.be/5olgPdqKZ84?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/nova_javascript_engine_exploring_a_data-oriented_engine_design_by_aapo_alasuutari.pdf
 ---
 

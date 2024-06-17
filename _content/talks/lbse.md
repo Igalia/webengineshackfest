@@ -6,6 +6,7 @@ date: "2024-06-03T17:00:00"
 dateiso: "2024-06-03T15:00:00"
 imgsrc: "/img/talks/nikolas.webp"
 imgalt: "Nikolas Zimmermann"
+video: https://youtu.be/WxqJFxiprrU?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/status_of_the_layer-based_svg_engine_in_webkit_by_nikolas_zimmermann.pdf
 ---
 

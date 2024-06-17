@@ -6,6 +6,7 @@ date: "2024-06-03T11:00:00"
 dateiso: "2024-06-03T09:00:00"
 imgsrc: "/img/talks/jonathan.webp"
 imgalt: "Jonathan Kuperman"
+video: https://youtu.be/dre3gPQlYvg?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/the_future_of_source_maps_by_jonathan_kuperman.pdf
 ---
 

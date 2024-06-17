@@ -6,6 +6,7 @@ date: "2024-06-03T16:00:00"
 dateiso: "2024-06-03T14:00:00"
 imgsrc: "/img/talks/leo.webp"
 imgalt: "Leo Kettmeir"
+video: https://youtu.be/jkKwvzRhFyY?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/history_of_webgpu_in_deno_by_leo_kettmeir.pdf
 ---
 

@@ -8,6 +8,7 @@ imgsrc: "/img/talks/antonio.webp"
 imgalt: "Antonio Gomes"
 imgsrc2: "/img/talks/max.webp"
 imgalt2: "Max Ihlenfeldt"
+video: https://youtu.be/KSxaoXOSxhs?list=PL4sEzdAGvRgBVK-g6z4-YGt8uv3Dni6ag
 slides: https://webengineshackfest.org/2024/slides/the_journey_towards_stabilizing_chromiums_wayland_support_by_antonio_gomes_and_max_ihlenfeldt.pdf
 ---
 
