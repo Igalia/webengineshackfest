@@ -1,0 +1,9 @@
+<svg version="1.1"
+     width="500" height="500"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <circle cx="250" cy="250" r="230" fill="#333" />
+
+  <text x="230" y="300" font-size="150" font-family="Kaushan Script" text-anchor="middle" fill="#ff9900">WEH</text>
+
+</svg>

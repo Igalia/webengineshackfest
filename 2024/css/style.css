@@ -1,0 +1,456 @@
+:root {
+  --text-color: #333;
+  --dark-background-color: #333;
+  --light-background-color: #f7f7f7;
+  --grey: #777;
+  --lighter-orange: #ffb343;
+  --light-orange: #ff9900;
+  --orange: #a36100;
+  --dark-orange: #804c00;
+  --orange-background: #ff9900cc;
+}
+
+html {
+  scroll-padding-top: 5rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: var(--orange);
+}
+
+a:hover, a:focus, a:active {
+  color: var(--dark-orange);
+}
+
+nav {
+  background: var(--dark-background-color);
+  display: flow-root;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 5rem;
+}
+
+nav > ul {
+  margin: 0 2rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav > ul > li {
+  margin: 1rem;
+}
+
+nav > ul > li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li a:hover,
+nav > ul > li a:focus {
+  color: var(--light-orange);
+}
+
+nav > ul > li:first-child {
+  flex: 1;
+  margin-inline: 2rem;
+}
+
+nav > ul > li:first-child a {
+  font-family: 'Kaushan Script', cursive;
+  text-transform: none;
+  color: var(--light-orange);
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+header {
+  background-image: url('/img/header-bg.webp');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flow-root;
+}
+
+header > h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-inline: 2rem;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+header > h2 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-inline: 2rem;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+
+figure img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+main section:nth-child(even) {
+  background: var(--light-background-color);
+}
+
+main section div.section-wrapper {
+  margin-inline: auto;
+  padding: 1rem 2rem;
+  max-width: 100ch;
+  display: flow-root;
+}
+
+#hackfest .entry {
+  display: flow-root;
+}
+
+#hackfest img {
+  float: left;
+  margin: 2rem;
+  border-radius: 50%;
+  border: solid thick var(--grey);
+}
+
+main section#talks div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+#talks .entry {
+  width: min(40ch, 80%);
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+  padding: 1rem;
+  margin: 1rem;
+  position:relative;
+}
+
+#talks .entry a.overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: var(--orange-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 0;
+}
+
+#talks .entry a.overlay.emoji {
+  font-size: 5rem;
+  color: white;
+}
+
+#talks .entry:hover a.overlay {
+  height: 100%;
+}
+
+#talks a.overlay {
+  text-decoration: none;
+}
+
+#talks .entry a {
+  text-decoration: none;
+}
+
+#talks .entry h3 {
+  margin: 0.5rem;
+  color: var(--orange);
+}
+
+#talks .entry h4 {
+  margin: 0;
+}
+
+#talks .entry div.cancelled {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+#talks .entry.cancelled,
+#talks .entry.cancelled dialog {
+  filter: grayscale(100%);
+}
+
+#talks img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+#talks dialog {
+  padding: 2rem;
+  max-width: 100ch;
+}
+
+#talks dialog img {
+  float: left;
+  margin: 2rem;
+  width: 15rem;
+}
+
+#talks dialog .content p,
+#talks dialog .content ul,
+#talks dialog .content ol {
+  text-align: left;
+}
+
+#talks dialog button {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+#talks dialog button.close {
+  float: right;
+  padding: 0.5rem;
+  margin-top: -1rem;
+  margin-right: -1rem;
+}
+
+main section#attendees div.section-wrapper ul {
+  column-count: 3;
+}
+
+main section#venue div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+main section#travel div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+}
+
+
+#travel .entry {
+  width: min(50ch, 90%);
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding-inline: 1rem;
+  font-size: 0.9rem;
+}
+
+#travel h3 {
+  text-align: center;
+}
+
+.emoji {
+  font-family: 'Noto Emoji', sans-serif;
+  font-weight: 700;
+}
+
+#travel .emoji {
+  font-size: 3.5rem;
+  display: block;
+  color: white;
+  background: var(--orange);
+  border-radius: 50%;
+  padding: 1rem;
+  width: min-content;
+  margin: auto;
+}
+
+main section#sponsors div.section-wrapper {
+  max-width: 170ch;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+#sponsors h3 {
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+#sponsors .entry {
+  width: min(50ch, 90%);
+  display: inline-block;
+  margin: 1rem;
+}
+
+#sponsors .entry img {
+  max-width: 100%;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h3 {
+  color: var(--orange);
+}
+
+footer {
+  color: white;
+  background: var(--dark-background-color);
+  padding: 1rem;
+  text-align: center;
+  font-size: small;
+}
+
+footer a {
+  color: var(--light-orange);
+}
+
+footer a:hover, a:focus, a:active {
+  color: var(--lighter-orange);
+}
+
+#sponsoring a {
+  line-break: anywhere;
+}
+
+#sponsoring .sold {
+  color: grey;
+}
+
+#sponsoring .sold a {
+  color: grey;
+}
+
+@media (max-width: 1024px) {
+  html {
+    scroll-padding-top: 3rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  nav > ul {
+    margin-inline: 1rem;
+  }
+
+  nav > ul > li {
+    margin: 0.5rem;
+  }
+  nav > ul > li a {
+    font-size: 0.75rem;
+  }
+
+  nav > ul > li:first-child a {
+    font-size: 1.3rem;
+  }
+
+  header > h1 {
+    font-size: 3rem;
+  }
+
+  header > h2 {
+    font-size: 2rem;
+  }
+
+  #hackfest img {
+    float: none;
+    display: block;
+    margin-inline: auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  #contact h3 {
+    font-size: 1rem;
+  }
+
+  main section#attendees div.section-wrapper ul {
+    column-count: 2;
+  }
+
+}
+
+@media (max-width: 512px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
+  nav {
+    height: 5.5rem;
+  }
+
+  nav > ul {
+    margin-inline: 0;
+  }
+
+  nav > ul > li:first-child {
+    margin-top: 1rem;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  #talks dialog img {
+    float: none;
+  }
+
+  main section#attendees div.section-wrapper ul {
+    column-count: 1;
+  }
+
+}
