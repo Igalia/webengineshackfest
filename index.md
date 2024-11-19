@@ -10,6 +10,8 @@ layout: default
 
 **The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 3th to Wednesday, June 5th.**
 
+**Registration form will open in the coming weeks.**
+
 <!--
 
 **There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form](https://forms.gle/6dv64Qs6eNBZgDq77).**
@@ -38,7 +40,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks
+## Talks (from previous edition)
 
 {% for talk in collections.talk %}
 
@@ -132,7 +134,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Breakout Sessions
+## Breakout Sessions (from previous edition)
 
 {% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}* <a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a>
 {% endfor %}
@@ -147,95 +149,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
-* Aapo Alasuutari
-* Adrian Perez
-* Alejandro G. Castro
-* Alexander Dunaev
-* Alice Boxhall
-* Alicia Boya García
-* Andrei Svistunou
-* Andreu Botella
-* Anne van Kesteren
-* Antonio Gomes
-* Artem Kobzar
-* Bernd Kaiser
-* Brian Kardell
-* Byungwoo Lee
-* Carlos Bentzen
-* Cathie Chen
-* Daniel Ehrenberg
-* Daniel Kolesa
-* Dave Vandyke
-* Diego Pino Garcia
-* Dietrich Ayala
-* Dmitry Bezhetskov
-* Dominic Farolino
-* Emma Kim
-* Enrique Ocaña González
-* Frédéric Wang
-* Georg Tamm
-* Georges Basile Stavracas Neto
-* Guillaume Emont
-* Hugo Dias
-* Jacobo Aragunde Pérez
-* Jan Horak
-* Jani Hautakangas
-* Javier Fernandez Garcia-Boente
-* Jeongeun Kim
-* Jesse Alama
-* Jon Kuperman
-* Jonas Kruckenberg
-* Jonathan Kingston
-* Jonathan Schwender
-* José Dapena Paz
-* José Manuel López Cobo
-* Joyee Cheung
-* Juan J. Sánchez
-* Keith Cirkel
-* Kristján Oddsson
-* Lauro Moura
-* Leo Kettmeir
-* Lorenzo Tilve
-* Luca Casonato
-* Luke Warlow
-* Manuel Rego
-* Mario Sánchez Prada
-* Martin Robinson
-* Martin Stransky
-* Max Ihlenfeldt
-* mayask
-* Michael Kolomeitsev
-* Miguel Gomez
-* Mikhail R. Gadelha
-* Miyoung Shin
-* Mukilan Thiyagarajan
-* Nick Yamane
-* Nico Burns
-* Nicolò Ribaudo
-* Nikolas Zimmermann
-* Olivier Tilloy
-* Oriol Brufau
-* orko
-* Pablo Saavedra
-* Patrick Griffis
-* Pawel Lampe
-* Philippe Normand
-* Piyush Deshpande
-* Przemyslaw Gorszkowski
-* Rakhi Sharma
-* Roger Zanoni
-* Sergey Rubanov
-* sideshowbarker
-* snek
-* Stephanie Stimac
-* Tiaan Louw
-* Tiago Vignatti
-* Ujjwal Sharma
-* Vadim Makeev
-* Valerie Young
-* Vitaly Dyachkov
-* Xabier Rodríguez Calvar
-* Yeunjoo Choi
+TBD
 
 </div>
 
@@ -285,6 +199,8 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 ## Sponsors
 
+**More information about how to become sponsor coming soon.**
+
 <!--
 
 **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
@@ -304,6 +220,8 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 {% endif %}
 
 {% if collections.gold %}
+
+<!--
 
 ### Gold Sponsors
 
@@ -350,6 +268,8 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 {% endfor %}
 
 {% endif %}
+
+-->
 
 </div>
 
@@ -444,12 +364,12 @@ There are several ways that you can report behavior that makes you or others fee
    * Speaking to the organizer of an Igalia hosted event
 
 Emails sent to conduct@igalia.com are received by:
-   * Andy Wingo
    * Brenna Brown
-   * Germán Poo-Caamaño
    * Ioanna Dimitriou
+   * Eric Meyer
    * Javier Moran
-   * Abhijeet Kandalkar
+   * Germán Poo-Caamaño
+   * Andy Wingo
 
 For urgent issues, you may also call <a href="tel:+34951204844">+34 951 204 844</a> and then enter the PIN
 `1818` followed by the hash sign (`#`). This will call Javier Moran, Andy Wingo
@@ -476,6 +396,7 @@ Potential consequences of unacceptable behaviour:
 ## Contact Us
 
 ### <a rel="me" href="https://floss.social/@webhackfest">@webhackfest@floss.social</a>
+### [@webengineshackfest.org](https://bsky.app/profile/webengineshackfest.org)
 ### [@webhackfest](http://twitter.com/webhackfest)
 ### <span class="emoji">📧</span> <hackfest@webengineshackfest.org>
 ### <span class="emoji">📞</span> <a href="tel:+34 981 913 991">+34 981 913 991</a>
