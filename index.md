@@ -8,7 +8,7 @@ layout: default
 
 ## The hackfest
 
-**The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 3th to Wednesday, June 5th.**
+**The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 2nd to Wednesday, June 4th.**
 
 **Registration form will open in the coming weeks.**
 
