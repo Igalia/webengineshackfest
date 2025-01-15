@@ -364,16 +364,14 @@ There are several ways that you can report behavior that makes you or others fee
    * Speaking to the organizer of an Igalia hosted event
 
 Emails sent to conduct@igalia.com are received by:
+   * Andy Wingo
    * Brenna Brown
-   * Ioanna Dimitriou
+   * Danielle Mayabb
    * Eric Meyer
    * Javier Moran
-   * Germán Poo-Caamaño
-   * Andy Wingo
 
 For urgent issues, you may also call <a href="tel:+34951204844">+34 951 204 844</a> and then enter the PIN
-`1818` followed by the hash sign (`#`). This will call Javier Moran, Andy Wingo
-and Ioanna Dimitriou.
+`1818` followed by the hash sign (`#`). This will call Andy Wingo, Brenna Brown, and Eric Meyer.
 
 People reported as violating the code of conduct will not take part in the
 process of handling that report. After the report, immediate action will be
