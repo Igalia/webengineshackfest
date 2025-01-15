@@ -7,7 +7,7 @@ title: Sponsoring Packages
 
 ### Levels
 
-#### Gold Sponsor: 6,000 EUR
+#### Gold Sponsor: 10,000 EUR
 
 * Benefits:
   * **Big size company logo** in the hackfest website and wiki:  
@@ -17,7 +17,7 @@ title: Sponsoring Packages
     <https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg>
   * **Company will be listed as sponsor** in all the hackfest communications: announcement, piece of news, posts, etc.
 
-#### Silver Sponsor: 3,000 EUR
+#### Silver Sponsor: 5,000 EUR
 
 * Benefits:
   * **Medium size company logo** in the hackfest website and wiki:  
@@ -27,7 +27,7 @@ title: Sponsoring Packages
     <https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg>
   * **Company will be listed as sponsor** in all the hackfest communications: announcement, piece of news, posts, etc.
 
-#### Bronze Sponsor: 1,500 EUR
+#### Bronze Sponsor: 2,000 EUR
 
 * Benefits:
   * **Small size company logo** in the hackfest website and wiki:  
