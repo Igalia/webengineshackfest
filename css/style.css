@@ -122,13 +122,39 @@ header > h1 {
 
 header > h2 {
   margin-top: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   margin-inline: 2rem;
   font-family: "Droid Serif", sans-serif;
   font-style: italic;
   text-transform: none;
   font-weight: 400;
   font-size: 2.8rem;
+}
+
+header > .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-inline: 4rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header > .links > a {
+  background: var(--orange);
+  flex-shrink: 0;
+  color: white;
+  padding: 1rem 2rem;
+  margin-inline: 1rem;
+  text-decoration: none;
+}
+
+header > .links > a:hover {
+  background: var(--dark-orange);
 }
 
 figure img {
@@ -396,10 +422,22 @@ footer a:hover, a:focus, a:active {
 
   header > h1 {
     font-size: 3rem;
+    margin-block: 2rem;
   }
 
   header > h2 {
     font-size: 2rem;
+    margin-top: 2rem;
+    margin-block: 2rem;
+  }
+
+  header > .links {
+    font-size: 1.2rem;
+  }
+
+  header > .links > a {
+    padding: 0.5rem 1rem;
+    margin-inline: 0;
   }
 
   #hackfest img {
