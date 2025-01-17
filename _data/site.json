@@ -5,5 +5,8 @@
   "author": "Igalia",
   "year": "2025",
   "dates": "2-4 June",
-  "location": "A Coruña, Galicia, Spain"
+  "location": "A Coruña, Galicia, Spain",
+  "registrationForm": "https://forms.gle/jNm8xFWJHn3RTTyY8",
+  "cfpTalks": "https://forms.gle/rwfr1JEnYQBJJAks7",
+  "cfpBreakoutSessions": "https://github.com/Igalia/webengineshackfest/issues/new?template=breakout_session.yaml"
 }
