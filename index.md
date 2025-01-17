@@ -395,7 +395,6 @@ Potential consequences of unacceptable behaviour:
 
 ### <a rel="me" href="https://floss.social/@webhackfest">@webhackfest@floss.social</a>
 ### [@webengineshackfest.org](https://bsky.app/profile/webengineshackfest.org)
-### [@webhackfest](http://twitter.com/webhackfest)
 ### <span class="emoji">📧</span> <hackfest@webengineshackfest.org>
 ### <span class="emoji">📞</span> <a href="tel:+34 981 913 991">+34 981 913 991</a>
 
