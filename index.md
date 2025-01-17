@@ -10,13 +10,7 @@ layout: default
 
 **The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 2nd to Wednesday, June 4th.**
 
-**Registration form will open in the coming weeks.**
-
-<!--
-
-**There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form](https://forms.gle/6dv64Qs6eNBZgDq77).**
-
--->
+**There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form](https://forms.gle/jNm8xFWJHn3RTTyY8).**
 
 {% for hackfest in collections.hackfest %}
 
@@ -199,13 +193,7 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 ## Sponsors
 
-**More information about how to become sponsor coming soon.**
-
-<!--
-
 **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
-
--->
 
 {% if collections.host %}
 
@@ -220,8 +208,6 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 {% endif %}
 
 {% if collections.gold %}
-
-<!--
 
 ### Gold Sponsors
 
@@ -268,8 +254,6 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 {% endfor %}
 
 {% endif %}
-
--->
 
 </div>
 
