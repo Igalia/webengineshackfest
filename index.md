@@ -143,7 +143,16 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
-TBD
+* Andrey Sitnik
+* Dave Vandyke
+* Jonas Kruckenberg
+* Leo Kettmeir
+* Lino Le Van
+* Luke Warlow
+* Manuel Rego
+* Maxim Yaskevich
+* Oliver Medhurst
+* Ujjwal Sharma
 
 </div>
 
