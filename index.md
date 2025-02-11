@@ -143,16 +143,25 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
+* Andreu Botella
 * Andrey Sitnik
+* Anne van Kesteren
+* Bernd Kaiser
+* Daniel Ehrenberg
 * Dave Vandyke
 * Jonas Kruckenberg
+* Joyee Cheung
 * Leo Kettmeir
 * Lino Le Van
 * Luke Warlow
 * Manuel Rego
 * Maxim Yaskevich
+* Mukilan Thiyagarajan
 * Oliver Medhurst
+* Sergey Rubanov
+* Tiago Vignatti
 * Ujjwal Sharma
+* snek
 
 </div>
 
