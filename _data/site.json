@@ -1,6 +1,6 @@
 {
   "title": "Web Engines Hackfest",
-  "description": "Web Platform community event for people working on the different engines (Chromium/Blink/V8, Safari/WebKit/JSC, Firefox/Gecko/SpiderMonkey, Servo, Ladybird), on the testing side (WPT, Test262), on web compat (webcompat.com), or on specifications (W3C, WhatWG, TC39).",
+  "description": "Web Platform community event for people working on the different engines (Chromium/Blink/V8, Safari/WebKit/JSC, Firefox/Gecko/SpiderMonkey, Servo, Ladybird), on the testing side (WPT, Test262), on specifications (W3C, WhatWG, TC39), on web compat (webcompat.com), or on documentation (MDN Web Docs, web.dev).",
   "keywords": "web hackfest, web engines hackfest, web engines, web browsers hackfest, web browsers, browsers hackfest, hackfest, conference, web conference, web engines conference, web platform, open web platform, open web hackfest, open web, chromium, blink, v8, safari, webkit, jsc, firefox, gecko, spidermonkey, servo, ladybird, wpt, test262, w3c, whatwg, tc39, mdn, web compat",
   "author": "Igalia",
   "year": "2025",
