@@ -143,25 +143,39 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
+* Alicia Boya Garcia
 * Andreu Botella
 * Andrey Sitnik
 * Anne van Kesteren
 * Bernd Kaiser
 * Daniel Ehrenberg
 * Dave Vandyke
+* Diego Pino Garcia
+* Frédéric Wang
 * Jonas Kruckenberg
+* Jonathan Schwender
+* Joyee Cheung
 * Joyee Cheung
 * Leo Kettmeir
 * Lino Le Van
+* Luca Casonato
 * Luke Warlow
 * Manuel Rego
 * Maxim Yaskevich
+* Miyoung Shin
 * Mukilan Thiyagarajan
+* Mukilan Thiyagarajan
+* Nicolò Ribaudo
 * Oliver Medhurst
+* Patrick Griffis
 * Sergey Rubanov
+* sideshowbarker
+* snek
+* Tiago Vignatti
 * Tiago Vignatti
 * Ujjwal Sharma
-* snek
+* Vitaly Dyachkov
+* Xabier Rodríguez Calvar
 
 </div>
 
