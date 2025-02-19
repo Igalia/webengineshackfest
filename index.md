@@ -155,7 +155,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jonas Kruckenberg
 * Jonathan Schwender
 * Joyee Cheung
-* Joyee Cheung
 * Leo Kettmeir
 * Lino Le Van
 * Luca Casonato
@@ -164,14 +163,12 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Maxim Yaskevich
 * Miyoung Shin
 * Mukilan Thiyagarajan
-* Mukilan Thiyagarajan
 * Nicolò Ribaudo
 * Oliver Medhurst
 * Patrick Griffis
 * Sergey Rubanov
 * sideshowbarker
 * snek
-* Tiago Vignatti
 * Tiago Vignatti
 * Ujjwal Sharma
 * Vitaly Dyachkov
