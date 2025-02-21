@@ -151,6 +151,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Daniel Ehrenberg
 * Dave Vandyke
 * Diego Pino Garcia
+* Enrique Ocaña González
 * Frédéric Wang
 * Jonas Kruckenberg
 * Jonathan Schwender
@@ -160,15 +161,20 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
+* Martin Robinson
 * Maxim Yaskevich
 * Miyoung Shin
 * Mukilan Thiyagarajan
 * Nicolò Ribaudo
 * Oliver Medhurst
 * Patrick Griffis
+* Pawel Lampe
+* Sam Weinig
 * Sergey Rubanov
 * sideshowbarker
 * snek
+* Taym Haddadi
+* Thomas Steiner
 * Tiago Vignatti
 * Ujjwal Sharma
 * Vitaly Dyachkov
