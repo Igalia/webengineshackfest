@@ -158,13 +158,16 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Joyee Cheung
 * Leo Kettmeir
 * Lino Le Van
+* Lola Odelola
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
 * Martin Robinson
 * Maxim Yaskevich
+* Michael Kolomeitsev
 * Miyoung Shin
 * Mukilan Thiyagarajan
+* Nick Pfeiffer
 * Nicolò Ribaudo
 * Oliver Medhurst
 * Patrick Griffis
