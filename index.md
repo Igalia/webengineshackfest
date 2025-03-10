@@ -143,11 +143,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
+* Aapo Alasuutari
 * Alicia Boya Garcia
 * Andreu Botella
-* Andrey Sitnik
+* Angel M Miguel
 * Anne van Kesteren
 * Bernd Kaiser
+* Carlos Bentzen
+* Claudio Saavedra
 * Daniel Ehrenberg
 * Dave Vandyke
 * Diego Pino Garcia
@@ -172,6 +175,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Oliver Medhurst
 * Patrick Griffis
 * Pawel Lampe
+* Przemyslaw Gorszkowski
+* Rafael Fernández López
+* Roger Zanoni
 * Sam Weinig
 * Sergey Rubanov
 * sideshowbarker
