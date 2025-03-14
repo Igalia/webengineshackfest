@@ -49,7 +49,9 @@ title: Sponsoring Packages
     <http://webengineshackfest.org/2023#sponsors>  
     <https://github.com/Igalia/webengineshackfest/wiki/#sponsors>
 
-#### Coffee & Snacks Sponsor: 3,000 EUR
+<div class="sold">
+
+#### Coffee & Snacks Sponsor: 3,000 EUR (SOLD)
 
 * Description: Provide coffee & snacks for people attending the hackfest.
 * Benefits:
@@ -58,6 +60,8 @@ title: Sponsoring Packages
   * **Small size company logo** in the hackfest website and wiki:  
     <http://webengineshackfest.org/2023#sponsors>  
     <https://github.com/Igalia/webengineshackfest/wiki/#sponsors>
+
+</div>
 
 </div>
 
