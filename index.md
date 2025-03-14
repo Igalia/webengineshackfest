@@ -154,6 +154,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Daniel Ehrenberg
 * Dave Vandyke
 * Diego Pino Garcia
+* Emilio Cobos Álvarez
 * Enrique Ocaña González
 * Frédéric Wang
 * Jonas Kruckenberg
@@ -162,6 +163,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Leo Kettmeir
 * Lino Le Van
 * Lola Odelola
+* Lorenzo Tilve
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
@@ -177,6 +179,8 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Pawel Lampe
 * Przemyslaw Gorszkowski
 * Rafael Fernández López
+* Raphael Kubo da Costa
+* Robert Kroeger
 * Roger Zanoni
 * Sam Weinig
 * Sergey Rubanov
