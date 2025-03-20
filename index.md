@@ -147,6 +147,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Alicia Boya Garcia
 * Andreu Botella
 * Angel M Miguel
+* Ankesh Bharti
 * Anne van Kesteren
 * Bernd Kaiser
 * Carlos Bentzen
@@ -154,10 +155,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Daniel Ehrenberg
 * Dave Vandyke
 * Diego Pino Garcia
+* Dietrich Ayala
+* Dominik Röttsches
 * Emilio Cobos Álvarez
 * Enrique Ocaña González
 * Frédéric Wang
+* Georges Basile Stavracas Neto
 * Jonas Kruckenberg
+* Jonathan Kew
 * Jonathan Schwender
 * Joyee Cheung
 * Leo Kettmeir
@@ -174,6 +179,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Mukilan Thiyagarajan
 * Nick Pfeiffer
 * Nicolò Ribaudo
+* Nikolas Zimmermann
 * Oliver Medhurst
 * Patrick Griffis
 * Pawel Lampe
@@ -181,10 +187,12 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Rafael Fernández López
 * Raphael Kubo da Costa
 * Robert Kroeger
+* Robin Berjon
 * Roger Zanoni
 * Sam Weinig
 * Sergey Rubanov
 * sideshowbarker
+* Simon Wülker
 * snek
 * Taym Haddadi
 * Thomas Steiner
