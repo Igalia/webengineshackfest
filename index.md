@@ -161,6 +161,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Frédéric Wang
 * Georges Basile Stavracas Neto
+* Jesse Alama
 * Jonas Kruckenberg
 * Jonathan Kew
 * Jonathan Schwender
@@ -172,17 +173,22 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Luca Casonato
 * Luke Warlow
 * Manuel Rego
+* Mario Sánchez-Prada
 * Martin Robinson
 * Maxim Yaskevich
 * Michael Kolomeitsev
 * Miyoung Shin
+* Ms2ger
 * Mukilan Thiyagarajan
 * Nick Pfeiffer
 * Nicolò Ribaudo
 * Nikolas Zimmermann
+* Nina Kolesa
 * Oliver Medhurst
+* Pablo Saavedra Rodiño
 * Patrick Griffis
 * Pawel Lampe
+* Philippe Normand
 * Przemyslaw Gorszkowski
 * Rafael Fernández López
 * Raphael Kubo da Costa
@@ -200,6 +206,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Ujjwal Sharma
 * Vitaly Dyachkov
 * Xabier Rodríguez Calvar
+* Youenn Fablet
 
 </div>
 
