@@ -144,28 +144,36 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 ## Attendees
 
 * Aapo Alasuutari
+* Alejandro G. Castro
 * Alicia Boya Garcia
 * Andreu Botella
 * Angel M Miguel
 * Ankesh Bharti
+* Anna Weine
 * Anne van Kesteren
 * Bernd Kaiser
+* Byungwoo Lee
 * Carlos Bentzen
 * Claudio Saavedra
 * Daniel Ehrenberg
 * Dave Vandyke
 * Diego Pino Garcia
 * Dietrich Ayala
+* Dmitry Bezhetskov
 * Dominik Röttsches
 * Emilio Cobos Álvarez
 * Enrique Ocaña González
 * Frédéric Wang
 * Georges Basile Stavracas Neto
+* Jeongeun Kim
 * Jesse Alama
+* Jon Kuperman
 * Jonas Kruckenberg
 * Jonathan Kew
 * Jonathan Schwender
+* José Dapena Paz
 * Joyee Cheung
+* Justin Michaud
 * Leo Kettmeir
 * Lino Le Van
 * Lola Odelola
@@ -175,8 +183,10 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Manuel Rego
 * Mario Sánchez-Prada
 * Martin Robinson
+* Max Ihlenfeldt
 * Maxim Yaskevich
 * Michael Kolomeitsev
+* Miguel Gomez
 * Miyoung Shin
 * Ms2ger
 * Mukilan Thiyagarajan
@@ -185,9 +195,11 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Nikolas Zimmermann
 * Nina Kolesa
 * Oliver Medhurst
+* Olivier Tilloy
 * Pablo Saavedra Rodiño
 * Patrick Griffis
 * Pawel Lampe
+* Philip Chimento
 * Philippe Normand
 * Przemyslaw Gorszkowski
 * Rafael Fernández López
@@ -195,17 +207,22 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Robert Kroeger
 * Robin Berjon
 * Roger Zanoni
+* Romulo Cintra
 * Sam Weinig
 * Sergey Rubanov
 * sideshowbarker
+* Simon Pena
 * Simon Wülker
 * snek
+* Stephen Chenney
 * Taym Haddadi
 * Thomas Steiner
 * Tiago Vignatti
 * Ujjwal Sharma
+* Valerie Young
 * Vitaly Dyachkov
 * Xabier Rodríguez Calvar
+* Yeunjoo Choi
 * Youenn Fablet
 
 </div>
