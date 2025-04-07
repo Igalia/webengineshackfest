@@ -1,6 +1,6 @@
 ---
 layout: travel
-title: "Fly to A Coruña (recommended)"
+title: "Fly to A Coruña"
 emoji: "✈︎"
 date: 2023-01-01
 ---
