@@ -171,6 +171,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Ioanna M. Dimitriou H.
 * Jeongeun Kim
 * Jesse Alama
+* Jon Butler
 * Jon Kuperman
 * Jonas Kruckenberg
 * Jonas Menken
@@ -221,6 +222,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Robin Berjon
 * Roger Zanoni
 * Romulo Cintra
+* Rui Hildt
 * Sam Weinig
 * Sergey Rubanov
 * sideshowbarker
@@ -235,6 +237,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Valerie Young
 * Vitaly Dyachkov
 * Xabier Rodríguez Calvar
+* Xiaoqian Wu
 * Yeunjoo Choi
 * Youenn Fablet
 
