@@ -156,6 +156,8 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Bernd Kaiser
 * Byungwoo Lee
 * Carlos Bentzen
+* Carmen Cañas
+* Chris Cuellar
 * Claudio Saavedra
 * Daniel Ehrenberg
 * Dave Vandyke
