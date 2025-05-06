@@ -146,6 +146,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Aapo Alasuutari
 * Abhijeet Kandalkar
 * Adrián Mora Rodríguez
+* Adrián Pérez de Castro
 * Alejandro G. Castro
 * Alexander Dunaev
 * Alicia Boya Garcia
@@ -174,6 +175,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Frédéric Wang
 * Georges Basile Stavracas Neto
+* Giorgio Maone
 * Ioanna M. Dimitriou H.
 * Jan Bajana
 * Jeongeun Kim
