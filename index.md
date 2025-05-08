@@ -189,6 +189,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jonathan Schwender
 * José Dapena Paz
 * Joyee Cheung
+* Juan J. Sanchez
 * Justin Michaud
 * Keeley Hammond
 * Keith Cirkel
@@ -201,6 +202,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Luke Warlow
 * Maksim Sisov
 * Manuel Rego
+* Marais Rossouw
 * Mario Sánchez-Prada
 * Martin Robinson
 * Max Ihlenfeldt
@@ -244,6 +246,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Simon Pena
 * Simon Wülker
 * snek
+* Stefan Reinhold
 * Stephen Chenney
 * Taym Haddadi
 * Thomas Steiner
