@@ -204,6 +204,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Manuel Rego
 * Marais Rossouw
 * Mario Sánchez-Prada
+* Martin Alvarez-Espinar
 * Martin Robinson
 * Max Ihlenfeldt
 * Maxim Yaskevich
