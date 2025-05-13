@@ -155,6 +155,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Ankesh Bharti
 * Anna Weine
 * Anne van Kesteren
+* Antonio Gomes Netto
 * Bernd Kaiser
 * Byungwoo Lee
 * Carlos Bentzen
@@ -164,6 +165,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Claudio Saavedra
 * Daniel Ehrenberg
 * Dave Vandyke
+* Delan Azabani
 * Diego González
 * Diego Pino Garcia
 * Dietrich Ayala
@@ -176,6 +178,8 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Frédéric Wang
 * Georges Basile Stavracas Neto
 * Giorgio Maone
+* Gyuyoung Kim
+* Henrique Ferreiro
 * Ioanna M. Dimitriou H.
 * Jan Bajana
 * Jeongeun Kim
@@ -199,6 +203,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Lola Odelola
 * Lorenzo Tilve
 * Luca Casonato
+* Luke Hubbard
 * Luke Warlow
 * Maksim Sisov
 * Manuel Rego
@@ -252,6 +257,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Taym Haddadi
 * Thomas Steiner
 * Tiago Vignatti
+* Tom Schuster
 * Ujjwal Sharma
 * Valerie Young
 * Vincent Hilla
