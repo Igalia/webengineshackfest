@@ -34,7 +34,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks (from previous edition)
+## Talks
 
 {% for talk in collections.talk %}
 
