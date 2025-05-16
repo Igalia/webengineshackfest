@@ -164,6 +164,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Casiano Rodriguez-Leon
 * Chengzhong Wu
 * Chris Cuellar
+* Christian Ulbrich
 * Claudio Saavedra
 * Daniel Ehrenberg
 * Dave Vandyke
@@ -185,6 +186,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Henrique Ferreiro
 * Ian Grunert
 * Ioanna M. Dimitriou H.
+* Jacob
 * Jacobo Aragunde Pérez
 * Jan Bajana
 * Javier Fernandez Garcia-Boente
