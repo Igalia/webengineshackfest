@@ -128,7 +128,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Breakout Sessions (from previous edition)
+## Breakout Sessions
 
 {% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}* <a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a>
 {% endfor %}
