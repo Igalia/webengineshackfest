@@ -254,6 +254,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Rui Hildt
 * Sam Weinig
 * Sergey Rubanov
+* Shane F Carr
 * sideshowbarker
 * Simon Pena
 * Simon Wülker
