@@ -184,6 +184,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Georges Basile Stavracas Neto
 * Giorgio Maone
 * Gyuyoung Kim
+* Haili Bai
 * Henrique Ferreiro
 * Ian Grunert
 * Ioanna M. Dimitriou H.
