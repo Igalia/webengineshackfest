@@ -185,20 +185,19 @@
 </div>
 <div class="entry">
 <p><a href="#temporal" onclick="document.getElementById('temporal').showModal();" class="overlay emoji">➕</a></p>
-<h3><a href="#temporal" onclick="document.getElementById('temporal').showModal();">Bringing Temporal via Rust: Exploring SpiderMonkey and V8</a></h3>
+<h3><a href="#temporal" onclick="document.getElementById('temporal').showModal();">Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa</a></h3>
 <h4>by Jonas Haukenes, Mikhail Barash &amp; Shane Carr</h4>
 <div class="cancelled"></div>
 <dialog id="temporal" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<h3>Bringing Temporal via Rust: Exploring SpiderMonkey and V8</h3>
+<h3>Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa</h3>
 <h4>by Jonas Haukenes, Mikhail Barash &amp; Shane Carr</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T13:00:00">2025/06/02 - 13:00 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>In this talk we’ll explain work from University of Bergen’s students to bring the Temporal Rust library used in Boa to spec compliance. V8 is now able to leverage that library to bring Temporal to users of Chrome.</p>
-<p>We will share our experience implementing a TC39 proposal in both SpiderMonkey and V8 engines, giving a newcomers’ perspective. We’ll compare the initial learning curve and available tutorials, highlighting the strengths of the quick-start resources both engines provide. We’ll also share areas where we felt additional context or up-to-date examples would have been helpful.</p>
-<p>We’ll briefly compare the internal languages each engine uses for defining new builtins: SpiderMonkey’s self-hosted JavaScript and V8’s Torque. While both aim to simplify development, we’ll discuss how SpiderMonkey’s approach could feel transitional toward C++ implementations, whereas Torque is designed as a long-term replacement for the Code Stub Assembler (CSA). We’ll also share our experience working through the engines’ internal layers, focusing on the specific components we needed to understand, the challenges we ran into, and how we managed to piece everything together.</p>
-<p>To help others get into SpiderMonkey and V8, we’ve written a detailed <a href="https://bldl.github.io/upsert-tutorial/">tutorial</a> based on our experience, which we’ll introduce during the talk.</p>
+<p>Join us for a story through our journey implementing TC39 proposals in SpiderMonkey, V8, and Boa.</p>
+<p>We will examine how easy or difficult it is for new contributors to engage with each project, highlighting the challenges of navigating engine internals, what helped us get unstuck, and how we translated that experience into a community-focused tutorial. We will demonstrate the practical impact in implementing Upsert and discuss how Rust smoothed the onramp for contributing Temporal in Boa and V8.</p>
+<p>We would like to thank Daniel Minor, Kevin Ness, and Philip Chimento for helping bring these projects to life.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
