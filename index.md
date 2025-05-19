@@ -167,6 +167,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Christian Ulbrich
 * Claudio Saavedra
 * Daniel Ehrenberg
+* Daniel Huigens
 * Dave Vandyke
 * Delan Azabani
 * Diego González
@@ -231,6 +232,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Nguyen Viet Do
 * Nick Pfeiffer
 * Nick Yamane
+* Nico Burns
 * Nicolò Ribaudo
 * Nikolas Zimmermann
 * Nina Kolesa
