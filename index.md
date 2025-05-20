@@ -210,7 +210,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Kyungsun Lee
 * Leo Kettmeir
 * Lino Le Van
-* Lola Odelola
 * Lorenzo Tilve
 * Luca Casonato
 * Luke Hubbard
