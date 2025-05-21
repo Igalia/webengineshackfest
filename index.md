@@ -83,7 +83,7 @@ layout: default
 
 #### by {{ talk.data.authors }}
 
-##### Date: [{{ talk.data.date | date: "%Y/%m/%d - %H:%M CEST (UTC+2)" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.dateiso }})
+##### Date: [{{ talk.data.date | date: "%Y/%m/%d - %H:%M CEST (UTC+2)" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.date }}&p1=681)
 
 {% if talk.data.video %}
 

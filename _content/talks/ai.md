@@ -3,7 +3,6 @@ layout: talk
 title: "Built-in AI APIs for the Web"
 authors: "Thomas Steiner"
 date: "2025-06-02T17:30:00"
-dateiso: "2025-06-02T17:30:00"
 imgsrc: "/img/talks/thomas.jpeg"
 imgalt: "Thomas Steiner"
 ---

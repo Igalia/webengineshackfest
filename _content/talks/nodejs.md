@@ -3,7 +3,6 @@ layout: talk
 title: "Bridging CommonJS and ESM in Node.js"
 authors: "Joyee Cheung"
 date: "2025-06-02T12:30:00"
-dateiso: "2025-06-02T12:30:00"
 imgsrc: "/img/talks/joyee.jpeg"
 imgalt: "Joyee Cheung"
 ---

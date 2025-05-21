@@ -3,7 +3,6 @@ layout: talk
 title: "JSR: under the hood & native support in the ecosystem"
 authors: "Leo Kettmeir"
 date: "2025-06-02T12:00:00"
-dateiso: "2025-06-02T12:00:00"
 imgsrc: "/img/talks/leo.jpg"
 imgalt: "Leo Kettmeir"
 ---
