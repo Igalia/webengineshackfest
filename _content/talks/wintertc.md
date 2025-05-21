@@ -3,7 +3,6 @@ layout: talk
 title: "WinterTC: a standard for server-side runtimes"
 authors: "Andreu Botella & Luca Casonato"
 date: "2025-06-02T11:00:00"
-dateiso: "2025-06-02T11:00:00"
 imgsrc: "/img/talks/andreu.jpg"
 imgalt: "Andreu Botella"
 imgsrc2: "/img/talks/luca.jpg"

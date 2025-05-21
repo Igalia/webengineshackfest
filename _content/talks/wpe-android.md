@@ -3,7 +3,6 @@ layout: talk
 title: "Jumping Over the Garden Wall - WPE WebKit on Android"
 authors: "Adrián Pérez de Castro"
 date: "2025-06-02T16:00:00"
-dateiso: "2025-06-02T16:00:00"
 imgsrc: "/img/talks/adrian.jpg"
 imgalt: "Adrián Pérez de Castro"
 ---
