@@ -223,6 +223,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Martin Robinson
 * Max Ihlenfeldt
 * Maxim Yaskevich
+* Maxim Yaskevich
 * Miguel Gomez
 * Mike Pennisi
 * Mikhail Barash
