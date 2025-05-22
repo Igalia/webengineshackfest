@@ -195,6 +195,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Javier Fernandez Garcia-Boente
 * Jeongeun Kim
 * Jesse Alama
+* John Xu
 * Jon Butler
 * Jon Kuperman
 * Jonas Haukenes
