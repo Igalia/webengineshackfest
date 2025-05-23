@@ -165,6 +165,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Casiano Rodriguez-Leon
 * Chengzhong Wu
 * Chris Cuellar
+* Christian Liebel
 * Christian Ulbrich
 * Claudio Saavedra
 * Daniel Ehrenberg
