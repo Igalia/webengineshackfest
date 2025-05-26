@@ -167,6 +167,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Chris Cuellar
 * Christian Liebel
 * Christian Ulbrich
+* Claire Hurst
 * Claudio Saavedra
 * Daniel Ehrenberg
 * Daniel Huigens
