@@ -182,6 +182,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Eemeli Aro
 * Emilio Cobos Álvarez
 * Enrique Ocaña González
+* Eri Pazos Pérez
 * Frédéric Wang
 * Gengming Liu
 * Georges Basile Stavracas Neto
@@ -268,7 +269,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * snek
 * Stefan Reinhold
 * Stephen Chenney
-* Taym Haddadi
 * Thomas Steiner
 * Tom Schuster
 * Ujjwal Sharma
