@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Automating Assistive Tech with Standards"
-authors: "Mike Pennisi & Chris Cuellar"
+authors: "Mike Pennisi"
 date: "2025-06-02T17:00:00"
 imgsrc: "/img/talks/bocoup.png"
 imgalt: "Bocoup logo"
