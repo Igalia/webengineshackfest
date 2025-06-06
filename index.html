@@ -109,6 +109,7 @@
 <h3>Compiling JavaScript ahead-of-time</h3>
 <h4>by Oliver Medhurst</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T10:30:00&amp;p1=681">2025/06/02 - 10:30 CEST (UTC+2)</a></h5>
+<p><a href="/slides/compiling_javascript_ahead-of-time_by_oliver_medhurst.pdf">Slides</a></p>
 <div class="content">
 <p>Essentially all JS engines today are just-in-time, but what about compiling ahead-of-time like C++ or Rust? Previously dismissed, it is having a resurgence with new open-source projects like Porffor which I’ll discuss in this talk!</p>
 </div>
@@ -133,6 +134,7 @@
 <h3>WinterTC: a standard for server-side runtimes</h3>
 <h4>by Andreu Botella &amp; Luca Casonato</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T11:00:00&amp;p1=681">2025/06/02 - 11:00 CEST (UTC+2)</a></h5>
+<p><a href="/slides/wintertc:_a_standard_for_server-side_runtimes_by_andreu_botella_&amp;_luca_casonato.pdf">Slides</a></p>
 <div class="content">
 <p>Server-side and edge JavaScript runtimes (such as Node.js, Deno, Bun, Cloudflare Workers…) have been adopting more and more web APIs over time. However, the web specifications that define these APIs are typically written with browsers in mind, without much regard for server-side runtimes, which has led to differences among those implementations.</p>
 <p>In 2022, we started working towards solving this problem in a W3C Community Group called WinterCG, which also specified a Minimum Common API for server-side and edge runtimes, so that code can be written against a standard that all such runtimes would support. However, due to its charter WinterCG could not publish standards, which is why in December 2024 we took the next step in that direction, which was to move WinterCG into an Ecma Technical Committee called WinterTC. We explore why this move was necessary, what are the goals of WinterTC, and what we are working on.</p>
@@ -177,6 +179,7 @@
 <h3>Bridging CommonJS and ESM in Node.js</h3>
 <h4>by Joyee Cheung</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T12:30:00&amp;p1=681">2025/06/02 - 12:30 CEST (UTC+2)</a></h5>
+<p><a href="/slides/bridging_commonjs_and_esm_in_node.js_by_joyee_cheung.pdf">Slides</a></p>
 <div class="content">
 <p>ESM has become stable in Node.js since 2020, but the adoption of it in the ecosystem turned out to be slower than expected and the interoperability between CommonJS and ESM has been a common source of pain for developers - interestingly, one of the important factor was the lack of support of <code>require(esm)</code> in Node.js. This gap started to be filled since 2024 and by May 2025, all supported release lines of Node.js would support require(esm). In this talk, we will take a look at history of CommonJS/ESM interoperability, how require(esm) works in Node.js under the hood, and the challenges we encountered during its rollout.</p>
 </div>
@@ -196,6 +199,7 @@
 <h3>Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa</h3>
 <h4>by Jonas Haukenes, Mikhail Barash &amp; Shane Carr</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T13:00:00&amp;p1=681">2025/06/02 - 13:00 CEST (UTC+2)</a></h5>
+<p><a href="/slides/cross-engine_contributions_at_scale:_how_newcomers_accelerated_temporal_and_upsert_in_spidermonkey,_v8,_and_boa_by_jonas_haukenes,_mikhail_barash_&amp;_shane_carr.pdf">Slides</a></p>
 <div class="content">
 <p>Join us for a story through our journey implementing TC39 proposals in SpiderMonkey, V8, and Boa.</p>
 <p>We will examine how easy or difficult it is for new contributors to engage with each project, highlighting the challenges of navigating engine internals, what helped us get unstuck, and how we translated that experience into a <a href="https://bldl.github.io/upsert-tutorial/">community-focused tutorial</a>. We will demonstrate the practical impact in implementing Upsert and discuss how Rust smoothed the onramp for contributing Temporal in Boa and V8.</p>
@@ -239,6 +243,7 @@
 <h3>Jumping Over the Garden Wall - WPE WebKit on Android</h3>
 <h4>by Adrián Pérez de Castro</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T16:00:00&amp;p1=681">2025/06/02 - 16:00 CEST (UTC+2)</a></h5>
+<p><a href="/slides/jumping_over_the_garden_wall_-_wpe_webkit_on_android_by_adrian_perez_de_castro.pdf">Slides</a></p>
 <div class="content">
 <p>Introduction and history of the WPE-Android project, and how having a flexible, embeddable Web engine allowed making it work in an unexpected platform, bringing the original Android system web engine back. But, what for?</p>
 </div>
@@ -260,6 +265,7 @@
 <h3>Automating Assistive Tech with Standards</h3>
 <h4>by Mike Pennisi</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T17:00:00&amp;p1=681">2025/06/02 - 17:00 CEST (UTC+2)</a></h5>
+<p><a href="/slides/automating_assistive_tech_with_standards_by_mike_pennisi.pdf">Slides</a></p>
 <div class="content">
 <p>AT Driver is a protocol for controlling assistive technology (AT) like screen readers. It’s being developed as a component of the ARIA-AT project but with a much wider audience in mind.</p>
 <p>In this talk, we’ll explore the unique challenges of automating ATs, share the latest implementation status, review concurrent standards work that also surfaces the experience of AT users, and discuss the future of these efforts.</p>
@@ -282,6 +288,7 @@
 <h3>Built-in AI APIs for the Web</h3>
 <h4>by Thomas Steiner</h4>
 <h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T17:30:00&amp;p1=681">2025/06/02 - 17:30 CEST (UTC+2)</a></h5>
+<p><a href="/slides/built-in_ai_apis_for_the_web_by_thomas_steiner.pdf">Slides</a></p>
 <div class="content">
 <p>There are many use cases for AI, ranging from transcribing audio, describing images, getting writing assistance, having texts proofread, to translating content, and many more, including general prompting of an AI model for all sorts of purposes. For realizing these use cases, you broadly have three options: (i), send your data to an AI model running somewhere on a powerful server in the cloud, (ii), download a possibly large model file to the client and run it locally, or, (iii), use shared models built into a device or browser, which is the topic of this talk. On the Chrome team, we’re proposing a number of APIs [1] that we and partners we’ve worked with think would be worthwhile to have as common Web platform APIs. In this talk, I’ll give an overview of these APIs and briefly demo their implementation in Chrome, and then want to open the floor for some general discussion and feedback.</p>
 <p>[1] List of API proposals</p>
