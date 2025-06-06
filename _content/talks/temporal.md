@@ -3,6 +3,7 @@ layout: talk
 title: "Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa"
 authors: "Jonas Haukenes, Mikhail Barash & Shane Carr"
 date: "2025-06-02T13:00:00"
+slides: "/slides/cross-engine_contributions_at_scale:_how_newcomers_accelerated_temporal_and_upsert_in_spidermonkey,_v8,_and_boa_by_jonas_haukenes,_mikhail_barash_&_shane_carr.pdf"
 ---
 
 Join us for a story through our journey implementing TC39 proposals in SpiderMonkey, V8, and Boa.
