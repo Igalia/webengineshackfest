@@ -6,6 +6,7 @@ date: "2025-06-02T17:00:00"
 imgsrc: "/img/talks/bocoup.png"
 imgalt: "Bocoup logo"
 slides: "/slides/automating_assistive_tech_with_standards_by_mike_pennisi.pdf"
+video: https://www.youtube.com/watch?v=2XipbOHmr3Y
 ---
 
 AT Driver is a protocol for controlling assistive technology (AT) like screen readers. It's being developed as a component of the ARIA-AT project but with a much wider audience in mind.
