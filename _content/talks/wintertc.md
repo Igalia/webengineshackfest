@@ -8,7 +8,7 @@ imgalt: "Andreu Botella"
 imgsrc2: "/img/talks/luca.jpg"
 imgalt2: "Luca Casonato"
 slides: "/slides/wintertc:_a_standard_for_server-side_runtimes_by_andreu_botella_&_luca_casonato.pdf"
-video: https://www.youtube.com/watch?v=elGNcCv57ZE
+video: https://www.youtube.com/watch?v=elGNcCv57ZE&list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY
 ---
 
 Server-side and edge JavaScript runtimes (such as Node.js, Deno, Bun, Cloudflare Workers...) have been adopting more and more web APIs over time. However, the web specifications that define these APIs are typically written with browsers in mind, without much regard for server-side runtimes, which has led to differences among those implementations.
