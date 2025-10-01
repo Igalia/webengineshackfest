@@ -10,7 +10,13 @@ layout: default
 
 **The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 2nd to Wednesday, June 4th.**
 
+**Registration form will open in the coming weeks.**
+
+<!--
+
 **There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form]({{ site.registrationForm }}).**
+
+-->
 
 {% for hackfest in collections.hackfest %}
 
@@ -34,7 +40,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks
+## Talks (from previous edition)
 
 {% for talk in collections.talk %}
 
@@ -128,7 +134,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Breakout Sessions
+## Breakout Sessions (from previous edition)
 
 {% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}* <a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a>
 {% endfor %}
@@ -141,7 +147,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Attendees
+## Attendees (from previous edition)
 
 * Aapo Alasuutari
 * Abhijeet Kandalkar
@@ -329,6 +335,8 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 <div class="section-wrapper">
 
 ## Sponsors
+
+**More information about how to become sponsor coming soon.**
 
 <!-- **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).** -->
 

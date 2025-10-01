@@ -1,9 +1,9 @@
 ---
 layout: hackfest
-title: "2025 Edition"
+title: "2026 Edition"
 date: 2023-02-01
-imgsrc: "/img/web-engines-hackfest-2022-1.webp"
-imgalt: "Web Engines Hackfest 2022 - Palexco Terrace"
+imgsrc: "/img/web-engines-hackfest-2025-2.webp"
+imgalt: "Web Engines Hackfest 2025 - Breakout Session"
 ---
 
 #### {{ site.dates }} {{ site.year }}

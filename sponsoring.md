@@ -7,7 +7,7 @@ title: Sponsoring Packages
 
 ### Levels
 
-#### Gold Sponsor: 10,000 EUR
+#### Gold Sponsor: TBD EUR
 
 * Benefits:
   * **Big size company logo** in the hackfest website and wiki:  
@@ -17,7 +17,7 @@ title: Sponsoring Packages
     <https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg>
   * **Company will be listed as sponsor** in all the hackfest communications: announcement, piece of news, posts, etc.
 
-#### Silver Sponsor: 5,000 EUR
+#### Silver Sponsor: TBD EUR
 
 * Benefits:
   * **Medium size company logo** in the hackfest website and wiki:  
@@ -27,7 +27,7 @@ title: Sponsoring Packages
     <https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg>
   * **Company will be listed as sponsor** in all the hackfest communications: announcement, piece of news, posts, etc.
 
-#### Bronze Sponsor: 2,000 EUR
+#### Bronze Sponsor: TBD EUR
 
 * Benefits:
   * **Small size company logo** in the hackfest website and wiki:  
@@ -39,7 +39,7 @@ title: Sponsoring Packages
 
 ### Other
 
-#### Lunch Sponsor: 6,000 EUR
+#### Lunch Sponsor: 10,000 EUR
 
 * Description: Provide lunch for people attending the hackfest.
 * Benefits:
@@ -49,9 +49,7 @@ title: Sponsoring Packages
     <http://webengineshackfest.org/2023#sponsors>  
     <https://github.com/Igalia/webengineshackfest/wiki/#sponsors>
 
-<div class="sold">
-
-#### Coffee & Snacks Sponsor: 3,000 EUR (SOLD)
+#### Coffee & Snacks Sponsor: 5,000 EUR
 
 * Description: Provide coffee & snacks for people attending the hackfest.
 * Benefits:
@@ -60,8 +58,6 @@ title: Sponsoring Packages
   * **Small size company logo** in the hackfest website and wiki:  
     <http://webengineshackfest.org/2023#sponsors>  
     <https://github.com/Igalia/webengineshackfest/wiki/#sponsors>
-
-</div>
 
 </div>
 
