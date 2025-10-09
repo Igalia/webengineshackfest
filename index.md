@@ -498,9 +498,10 @@ Emails sent to conduct@igalia.com are received by:
    * Danielle Mayabb
    * Eric Meyer
    * Javier Moran
+   * Stephen Chenney
 
 For urgent issues, you may also call <a href="tel:+34951204844">+34 951 204 844</a> and then enter the PIN
-`1818` followed by the hash sign (`#`). This will call Andy Wingo, Brenna Brown, and Eric Meyer.
+`1818` followed by the hash sign (`#`). This will call Andy Wingo, Danielle Mayabb, and Javier Moran.
 
 People reported as violating the code of conduct will not take part in the
 process of handling that report. After the report, immediate action will be
