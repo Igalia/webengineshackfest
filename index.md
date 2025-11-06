@@ -10,13 +10,13 @@ layout: default
 
 **The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 15th to Wednesday, June 17th.**
 
-**Registration form will open in the coming weeks.**
-
 <!--
 
-**There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form]({{ site.registrationForm }}).**
+**Registration form will open in the coming weeks.**
 
 -->
+
+**There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form]({{ site.registrationForm }}).**
 
 {% for hackfest in collections.hackfest %}
 
@@ -336,17 +336,21 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 ## Sponsors
 
+<!--
+
 **More information about how to become sponsor coming soon.**
 
-<!-- **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).** -->
+-->
 
-{% if collections.host %}
+**More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
 
-### Host & Organizer
+{% if collections.platinum %}
 
-{% for sponsor in collections.host %}
+### Platinum Sponsors
+
+{% for sponsor in collections.platinum %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-host.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Host & Organizer" /></a>
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-platinum.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Platinum Sponsor" /></a>
 </div>
 {% endfor %}
 
@@ -399,6 +403,19 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 {% endfor %}
 
 {% endif %}
+
+{% if collections.host %}
+
+### Host & Organizer
+
+{% for sponsor in collections.host %}
+<div class="entry">
+  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-host.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Host & Organizer" /></a>
+</div>
+{% endfor %}
+
+{% endif %}
+
 
 </div>
 

@@ -1,3 +1,8 @@
+Platinum sponsors:
+
+    rsvg-convert -a -w 800 -h 200 logo-igalia.svg > logo-igalia-tmp.png
+    convert -background none -resize 800x200 -gravity center -extent 800x200 logo-igalia-tmp.png logo-igalia-platinum.webp
+
 Gold sponsors:
 
     rsvg-convert -a -w 400 -h 100 logo-igalia.svg > logo-igalia-tmp.png
@@ -13,7 +18,7 @@ Bronze/Other sponsors:
     rsvg-convert -a -w 100 -h 25 logo-igalia.svg > logo-igalia-tmp.png
     convert -background none -resize 100x25 -gravity center -extent 100x25 logo-igalia-tmp.png logo-igalia-bronze/other.webp
 
-Twitter:
+Socials:
 
     rsvg-convert -a -w 500 -h 200 logo-igalia.svg > logo-igalia-tmp.png
-    convert -background white -resize 500x200 -gravity center -extent 500x200 logo-igalia-tmp.png logo-igalia-twitter.webp
+    convert -background white -resize 500x200 -gravity center -extent 500x200 logo-igalia-tmp.png logo-igalia-socials.webp
