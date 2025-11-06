@@ -351,7 +351,7 @@ main section#sponsors div.section-wrapper {
 }
 
 #sponsors .entry {
-  width: min(50ch, 90%);
+  width: min(60ch, 90%);
   display: inline-block;
   margin: 1rem;
 }
@@ -394,6 +394,12 @@ footer a:hover, a:focus, a:active {
 
 #sponsoring .sold a {
   color: grey;
+}
+
+@media print {
+  #sponsoring {
+    font-size: 90%;
+  }
 }
 
 @media (max-width: 1024px) {
