@@ -158,6 +158,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Brian Kardell
 * Cynthia Shelly
 * Dave Vandyke
+* Delan Azabani
 * Diego Pino Garcia
 * Dietrich Ayala
 * Elena Lape
@@ -165,6 +166,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Eri Pazos Pérez
 * Jacob Smith
+* Jonas Kruckenberg
 * Justin Michaud
 * Kyungsun Lee
 * Lino Le Van
@@ -182,6 +184,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Simon Wülker
 * snek
 * Stefan Reinhold
+* Thomas Steiner
 * Xabier Rodríguez Calvar
 
 </div>
