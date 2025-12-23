@@ -147,146 +147,42 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Attendees (from previous edition)
+## Attendees
 
 * Aapo Alasuutari
-* Abhijeet Kandalkar
-* Adrián Mora Rodríguez
-* Adrián Pérez de Castro
-* Alejandro G. Castro
+* Adrian Perez de Castro
 * Alexander Dunaev
-* Alice Boxhall
-* Alicia Boya Garcia
 * Andreu Botella
-* Angel M Miguel
-* Ankesh Bharti
-* Anna Weine
-* Anne van Kesteren
 * Antonio Gomes Netto
-* Bernd Kaiser
+* Behdad Esfahbod
 * Brian Kardell
-* Byungwoo Lee
-* Carlos Bentzen
-* Carmen Cañas
-* Casiano Rodriguez-Leon
-* Chengzhong Wu
-* Chris Cuellar
-* Christian Liebel
-* Christian Ulbrich
-* Claire Hurst
-* Claudio Saavedra
-* Daniel Ehrenberg
-* Daniel Huigens
+* Cynthia Shelly
 * Dave Vandyke
-* Delan Azabani
-* Diego González
 * Diego Pino Garcia
 * Dietrich Ayala
-* Dmitry Bezhetskov
-* Dominik Röttsches
-* Dongxu Liu
-* Eemeli Aro
-* Emilio Cobos Álvarez
+* Elena Lape
+* Emilio Cobos
 * Enrique Ocaña González
 * Eri Pazos Pérez
-* Frédéric Wang
-* Gengming Liu
-* Georges Basile Stavracas Neto
-* Giorgio Maone
-* Gyuyoung Kim
-* Haili Bai
-* Henrique Ferreiro
-* Ian Grunert
-* Ioanna M. Dimitriou H.
-* Jacob
-* Jacobo Aragunde Pérez
-* Jan Bajana
-* Javier Fernandez Garcia-Boente
-* Jeongeun Kim
-* Jesse Alama
-* John Xu
-* Jon Butler
-* Jon Kuperman
-* Jonas Haukenes
-* Jonas Kruckenberg
-* Jonas Menken
-* Jonathan Kew
-* Jonathan Schwender
-* José Dapena Paz
-* Joyee Cheung
-* Juan J. Sanchez
+* Jacob Smith
 * Justin Michaud
-* Keeley Hammond
-* Keith Cirkel
 * Kyungsun Lee
-* Leo Kettmeir
 * Lino Le Van
-* Lorenzo Tilve
-* Luca Casonato
-* Luke Hubbard
 * Luke Warlow
-* Maksim Sisov
 * Manuel Rego
-* Marais Rossouw
-* Mario Sánchez-Prada
-* Martin Alvarez-Espinar
 * Martin Robinson
-* Max Ihlenfeldt
 * Maxim Yaskevich
-* Miguel Gomez
-* Mike Pennisi
-* Mikhail Barash
-* Miyoung Shin
-* Ms2ger
-* Mukilan Thiyagarajan
-* Nguyen Viet Do
-* Nick Pfeiffer
-* Nick Yamane
-* Nico Burns
+* Mioyoung Shin
 * Nicolò Ribaudo
-* Nikolas Zimmermann
-* Nina Kolesa
-* Oliver Medhurst
-* Olivier Tilloy
-* Oriol Brufau
-* Pablo Saavedra Rodiño
-* Pablo Santana Gonzalez
-* Patrick Griffis
+* Niklas Merz
 * Pawel Lampe
-* Philip Chimento
-* Philippe Normand
-* Pier Angelo Vendrame
-* Przemyslaw Gorszkowski
-* Rafael Fernández López
-* Rakhi Sharma
-* Raphael Kubo da Costa
-* Rob Buis
 * Robert Kroeger
-* Robin Berjon
-* Roger Zanoni
-* Romulo Cintra
-* Rui Hildt
-* Sam Weinig
 * Sergey Rubanov
-* Shane F Carr
 * sideshowbarker
-* Simon Pena
 * Simon Wülker
 * snek
 * Stefan Reinhold
-* Stephen Chenney
-* Thomas Steiner
-* Tom Schuster
-* Ujjwal Sharma
-* Valerie Young
-* Vincent Hilla
-* Vitaly Dyachkov
-* Vlad Zahorodnii
 * Xabier Rodríguez Calvar
-* Xiaoqian Wu
-* Yeunjoo Choi
-* Youenn Fablet
-* Yutao Liu
 
 </div>
 
