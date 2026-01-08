@@ -167,6 +167,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Eri Pazos Pérez
 * Jacob Smith
 * Jonas Kruckenberg
+* Josh Bowman-Matthews
 * Justin Michaud
 * Kyungsun Lee
 * Lino Le Van
