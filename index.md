@@ -152,7 +152,9 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Aapo Alasuutari
 * Adrian Perez de Castro
 * Alexander Dunaev
+* alfakih
 * Andreu Botella
+* Anna Weine
 * Antonio Gomes Netto
 * Behdad Esfahbod
 * Brian Kardell
@@ -167,24 +169,32 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Eri Pazos Pérez
 * Jacob Smith
 * Jonas Kruckenberg
+* Jonathan Kuperman
 * Josh Bowman-Matthews
 * Justin Michaud
+* Keith Cirkel
 * Kyungsun Lee
+* Leo Kettmeir
 * Lino Le Van
 * Luke Warlow
+* Manuel Bucher
 * Manuel Rego
 * Martin Robinson
+* Matthew Gaudet
 * Maxim Yaskevich
 * Mioyoung Shin
 * Nicolò Ribaudo
 * Niklas Merz
 * Pawel Lampe
 * Robert Kroeger
+* Ruchi Rajput
+* Ryosuke Niwa
 * Sergey Rubanov
 * sideshowbarker
 * Simon Wülker
 * snek
 * Stefan Reinhold
+* Taym Haddadi
 * Thomas Steiner
 * Xabier Rodríguez Calvar
 
