@@ -168,6 +168,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Eri Pazos Pérez
 * Jacob Smith
+* Jan Johannes
 * Jonas Kruckenberg
 * Jonathan Kuperman
 * Josh Bowman-Matthews
@@ -189,6 +190,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Robert Kroeger
 * Ruchi Rajput
 * Ryosuke Niwa
+* Saidul Islam Badhon
 * Sergey Rubanov
 * sideshowbarker
 * Simon Wülker
