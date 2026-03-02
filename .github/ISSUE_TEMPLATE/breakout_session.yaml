@@ -1,6 +1,6 @@
 name: Breakout Session
 description: Propose a breakout session for the Web Engines Hackfest.
-labels: ["2025", "Breakout Session"]
+labels: ["2026", "Breakout Session"]
 body:
   - type: markdown
     attributes:
