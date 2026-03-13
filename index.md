@@ -158,47 +158,71 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Antonio Gomes Netto
 * Behdad Esfahbod
 * Brian Kardell
+* Claudio Saavedra
 * Cynthia Shelly
+* Daniel Ehrenberg
 * Dave Vandyke
 * Delan Azabani
+* Diego Pino Garcia
 * Diego Pino Garcia
 * Dietrich Ayala
 * Elena Lape
 * Emilio Cobos
 * Enrique Ocaña González
 * Eri Pazos Pérez
+* Frédéric Wang Nélar
 * Jacob Smith
 * Jan Johannes
+* Jesse Alama
 * Jonas Kruckenberg
 * Jonathan Kuperman
 * Josh Bowman-Matthews
+* Juan J. Sanchez
 * Justin Michaud
 * Keith Cirkel
+* Kyungsun Lee
 * Kyungsun Lee
 * Leo Kettmeir
 * Lino Le Van
 * Luke Warlow
 * Manuel Bucher
 * Manuel Rego
+* Mario Sánchez Prada
 * Martin Robinson
 * Matthew Gaudet
+* Max Ihlenfeldt
 * Maxim Yaskevich
+* Mikhail R. Gadelha
 * Mioyoung Shin
+* Mukilan Thiyagarajan
+* Neha
+* Nicolò Ribaudo
 * Nicolò Ribaudo
 * Niklas Merz
+* Nikolas Zimmermann
 * Pawel Lampe
+* Philippe Normand
+* Piyush Deshpande
+* Przemyslaw Gorszkowski
 * Robert Kroeger
 * Ruchi Rajput
 * Ryosuke Niwa
 * Saidul Islam Badhon
+* Seokho Song
 * Sergey Rubanov
+* Sharon Yang
 * sideshowbarker
+* Simon Pieters
 * Simon Wülker
+* Simone Onofri
+* Simón Pena
 * snek
 * Stefan Reinhold
+* Stephen Chenney
 * Taym Haddadi
 * Thomas Steiner
 * Xabier Rodríguez Calvar
+* Zoë Bijl
 
 </div>
 
