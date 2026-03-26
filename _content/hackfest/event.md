@@ -6,7 +6,7 @@ imgsrc: "/img/web-engines-hackfest-2025-3.webp"
 imgalt: "Web Engines Hackfest 2025 - Palexco Terrace"
 ---
 
-Participants should feel free to **propose any topic** which interests them. Some topics from previous years include: WebKit Ports (WebKitGTK and WPE), Chromium (Servicification and Ozone/Wayland), JavaScript (V8, JSC and SpiderMonkey), Web Predictability and Compatibility, WPT, Multimedia, Media Source, WebRTC, CSS, MathML, Graphics, WebGL, Fonts, Accessibility, Servo, WebAssembly.
+Participants should feel free to **propose any topic** which interests them. Some topics from previous years include: WebKit Ports (WebKitGTK and WPE), Chromium, JavaScript (V8, JSC and SpiderMonkey), Web Interop, WPT, Multimedia, Media Source, WebRTC, CSS, MathML, Graphics, WebGL, Fonts, Accessibility, Servo, WebAssembly.
 
 Visit the [hackfest wiki page](https://github.com/Igalia/webengineshackfest/wiki) for scheduling, breakout sessions, and other information related to the event.
 
