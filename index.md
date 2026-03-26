@@ -165,7 +165,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Dave Vandyke
 * Delan Azabani
 * Diego Pino Garcia
-* Diego Pino Garcia
 * Dietrich Ayala
 * Elena Lape
 * Emilio Cobos
