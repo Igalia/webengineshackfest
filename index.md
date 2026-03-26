@@ -185,7 +185,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Kagami Rosylight
 * Keith Cirkel
 * Kyungsun Lee
-* Kyungsun Lee
 * Leo Kettmeir
 * Lino Le Van
 * Luke Warlow
@@ -201,7 +200,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Ms2ger
 * Mukilan Thiyagarajan
 * Neha
-* Nicolò Ribaudo
 * Nicolò Ribaudo
 * Niklas Merz
 * Nikolas Zimmermann
