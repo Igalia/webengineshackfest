@@ -22,7 +22,7 @@ layout: default
 
 <div class="entry">
 
-<img src="{{ hackfest.data.imgsrc }}" alt="{{ hackfest.data.imgalt }}" />
+<img src="{{ hackfest.data.imgsrc }}" alt="{{ hackfest.data.imgalt }}" class="{{ hackfest.data.imgclass }}" />
 
 ### {{ hackfest.data.title }}
 
