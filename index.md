@@ -153,11 +153,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Adrian Perez de Castro
 * Alexander Dunaev
 * alfakih
+* Alicia Boya Garcia
 * Andreas Farre
 * Andreu Botella
 * Anna Weine
+* Anne van Kesteren
 * Antonio Gomes Netto
 * Behdad Esfahbod
+* Brian Kardell
 * Brian Kardell
 * Claudio Saavedra
 * Cynthia Shelly
@@ -172,13 +175,17 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Eri Pazos Pérez
 * Eric Meyer
 * Frédéric Wang Nélar
+* Georges Stavracas
+* Henrique Ferreiro
 * Jacob Smith
 * Jacobo Aragunde
 * Jan Johannes
+* Jan Varga
 * Jesse Alama
 * Jonas Kruckenberg
 * Jonathan Kuperman
 * Josh Bowman-Matthews
+* Joyee Cheung
 * Juan J. Sanchez
 * Justin Michaud
 * Kagami Rosylight
@@ -186,19 +193,23 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Kyungsun Lee
 * Leo Kettmeir
 * Lino Le Van
+* Lorenzo Tilve
 * Luke Warlow
 * Manuel Bucher
 * Manuel Rego
 * Mario Sánchez Prada
 * Martin Robinson
+* Matt Tutt
 * Matthew Gaudet
 * Max Ihlenfeldt
+* Max Rottenkolber
 * Maxim Yaskevich
 * Mikhail R. Gadelha
 * Mioyoung Shin
 * Ms2ger
 * Mukilan Thiyagarajan
 * Neha
+* Nenad Spuzic
 * Nicolò Ribaudo
 * Niklas Merz
 * Nikolas Zimmermann
@@ -207,6 +218,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Philippe Normand
 * Piyush Deshpande
 * Przemyslaw Gorszkowski
+* Raphael Kubo da Costa
 * Robert Kroeger
 * Roger Zanoni
 * Ruchi Rajput
@@ -217,6 +229,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Sharon Yang
 * sideshowbarker
 * Simon Pieters
+* Simon Sapin
 * Simon Wülker
 * Simone Onofri
 * Simón Pena
@@ -225,7 +238,10 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Stephen Chenney
 * Taym Haddadi
 * Thomas Steiner
+* Viet
+* Vincent Hilla
 * Xabier Rodríguez Calvar
+* Yeunjoo Choi
 * Zoë Bijl
 
 </div>
