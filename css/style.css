@@ -189,6 +189,10 @@ main section div.section-wrapper {
   border: solid thick var(--grey);
 }
 
+#hackfest img.no-border {
+  border: none;
+}
+
 main section#talks div.section-wrapper {
   max-width: 170ch;
   text-align: center;
