@@ -169,12 +169,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Delan Azabani
 * Diego Pino Garcia
 * Dietrich Ayala
+* Dominique Hazael-Massieux
 * Elena Lape
 * Emilio Cobos
 * Enrique Ocaña González
 * Eri Pazos Pérez
 * Eric Meyer
 * Frédéric Wang Nélar
+* Fujii Hironori
 * Georges Stavracas
 * Henrique Ferreiro
 * Jacob Smith
@@ -205,6 +207,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Max Rottenkolber
 * Maxim Yaskevich
 * Mikhail R. Gadelha
+* Milica Spuzic
 * Mioyoung Shin
 * Ms2ger
 * Mukilan Thiyagarajan
