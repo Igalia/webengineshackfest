@@ -203,7 +203,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Matt Tutt
 * Matthew Gaudet
 * Max Ihlenfeldt
-* Max Rottenkolber
 * Maxim Yaskevich
 * Mikhail R. Gadelha
 * Milica Spuzic
