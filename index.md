@@ -161,7 +161,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Antonio Gomes Netto
 * Behdad Esfahbod
 * Brian Kardell
-* Brian Kardell
 * Claudio Saavedra
 * Cynthia Shelly
 * Daniel Ehrenberg
