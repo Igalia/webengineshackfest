@@ -186,7 +186,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jesse Alama
 * Jon Kuperman
 * Jonas Kruckenberg
-* Jonathan Kuperman
 * Josh Bowman-Matthews
 * Joyee Cheung
 * Juan J. Sanchez
