@@ -161,6 +161,8 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Antonio Gomes Netto
 * Behdad Esfahbod
 * Brian Kardell
+* Carlos Alberto Lopez Perez
+* Chris Yuming Chang
 * Claudio Saavedra
 * Cynthia Shelly
 * Daniel Ehrenberg
@@ -169,6 +171,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Diego Pino Garcia
 * Dietrich Ayala
 * Dominique Hazael-Massieux
+* Eemeli Aro
 * Elena Lape
 * Emilio Cobos
 * Enrique Ocaña González
@@ -180,13 +183,16 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Henrique Ferreiro
 * Jacob Smith
 * Jacobo Aragunde
+* James M Snell
 * Jan Jaeschke
 * Jan Johannes
 * Jan Varga
 * Jesse Alama
 * Jon Kuperman
 * Jonas Kruckenberg
+* Jonathan Schwender
 * Josh Bowman-Matthews
+* José Dapena Paz
 * Joyee Cheung
 * Juan J. Sanchez
 * Justin Michaud
@@ -195,6 +201,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Kyungsun Lee
 * Leo Kettmeir
 * Lino Le Van
+* Lola
 * Lorenzo Tilve
 * Luke Warlow
 * Manuel Bucher
@@ -212,7 +219,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Mioyoung Shin
 * Ms2ger
 * Mukilan Thiyagarajan
-* Neha
 * Nenad Spuzic
 * Nicolò Ribaudo
 * Niklas Merz
@@ -221,12 +227,14 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Pablo Saavedra
 * Paul Adenot
 * Pawel Lampe
+* Philip Chimento
 * Philippe Normand
 * Piyush Deshpande
 * Przemyslaw Gorszkowski
 * Raphael Kubo da Costa
 * Robert Kroeger
 * Roger Zanoni
+* Romulo Cintra
 * Ruchi Rajput
 * Ryosuke Niwa
 * Saidul Islam Badhon
