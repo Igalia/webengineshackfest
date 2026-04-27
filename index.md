@@ -218,7 +218,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Milica Spuzic
 * Mioyoung Shin
 * Ms2ger
-* Mukilan Thiyagarajan
 * Nenad Spuzic
 * Nicolò Ribaudo
 * Niklas Merz
