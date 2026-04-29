@@ -159,6 +159,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Anna Weine
 * Anne van Kesteren
 * Antonio Gomes Netto
+* Arnaud Bienner
 * Behdad Esfahbod
 * Brian Kardell
 * Carlos Alberto Lopez Perez
@@ -180,6 +181,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Frédéric Wang Nélar
 * Fujii Hironori
 * Georges Stavracas
+* Henri Sivonen
 * Henrique Ferreiro
 * Jacob Smith
 * Jacobo Aragunde
