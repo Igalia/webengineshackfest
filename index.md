@@ -170,7 +170,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Dave Vandyke
 * Delan Azabani
 * Diego Pino Garcia
-* Dietrich Ayala
 * Dominique Hazael-Massieux
 * Eemeli Aro
 * Elena Lape
