@@ -149,6 +149,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
+* Abhijeet Kandalkar
 * Aditi Singh
 * Adrian Perez de Castro
 * Alexander Dunaev
@@ -163,7 +164,6 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Behdad Esfahbod
 * Brian Kardell
 * Carlos Alberto Lopez Perez
-* Chris Yuming Chang
 * Claudio Saavedra
 * Cynthia Shelly
 * Daniel Ehrenberg
@@ -185,6 +185,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Jacob Smith
 * Jacobo Aragunde
 * James M Snell
+* Jan Bajana
 * Jan Jaeschke
 * Jan Johannes
 * Jan Varga
@@ -225,6 +226,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Nikolas Zimmermann
 * Oriol Brufau
 * Pablo Saavedra
+* Patrick Griffis
 * Paul Adenot
 * Pawel Lampe
 * Philip Chimento
