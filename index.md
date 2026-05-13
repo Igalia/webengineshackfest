@@ -164,6 +164,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Behdad Esfahbod
 * Brian Kardell
 * Carlos Alberto Lopez Perez
+* Christian Biesinger
 * Claudio Saavedra
 * Cynthia Shelly
 * Daniel Ehrenberg
@@ -208,6 +209,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Luke Warlow
 * Manuel Bucher
 * Manuel Rego
+* Maria Amin
 * Marina Aísa
 * Mario Sánchez Prada
 * Markus Tavenrat
@@ -229,6 +231,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Patrick Griffis
 * Paul Adenot
 * Pawel Lampe
+* Pedro Cambra
 * Philip Chimento
 * Philippe Normand
 * Piyush Deshpande
@@ -261,6 +264,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Vincent Hilla
 * Xabier Rodríguez Calvar
 * Yeunjoo Choi
+* Yolanda Gorriz
 * Zoë Bijl
 
 </div>
