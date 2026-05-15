@@ -178,6 +178,21 @@ main section div.section-wrapper {
   display: flow-root;
 }
 
+main section#talks div.section-wrapper,
+main section#breakout-sessions div.section-wrapper,
+main section#venue div.section-wrapper,
+main section#travel div.section-wrapper,
+main section#sponsors div.section-wrapper {
+  max-width: 170ch;
+}
+
+main section#talks div.section-wrapper,
+main section#venue div.section-wrapper,
+main section#travel div.section-wrapper,
+main section#sponsors div.section-wrapper {
+  text-align: center;
+}
+
 #hackfest .entry {
   display: flow-root;
 }
@@ -193,10 +208,6 @@ main section div.section-wrapper {
   border: none;
 }
 
-main section#talks div.section-wrapper {
-  max-width: 170ch;
-  text-align: center;
-}
 
 #talks .entry {
   width: min(40ch, 80%);
@@ -299,19 +310,25 @@ main section#talks div.section-wrapper {
   margin-right: -1rem;
 }
 
+
+.wpe-track-logo {
+  max-width: 8rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+  margin-block: -3rem;
+}
+
+.breakout-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
 main section#attendees div.section-wrapper ul {
   column-count: 3;
 }
 
-main section#venue div.section-wrapper {
-  max-width: 170ch;
-  text-align: center;
-}
-
-main section#travel div.section-wrapper {
-  max-width: 170ch;
-  text-align: center;
-}
 
 
 #travel .entry {
@@ -344,8 +361,6 @@ main section#travel div.section-wrapper {
 }
 
 main section#sponsors div.section-wrapper {
-  max-width: 170ch;
-  text-align: center;
   padding-bottom: 5rem;
 }
 
@@ -407,6 +422,11 @@ footer a:hover, a:focus, a:active {
 }
 
 @media (max-width: 1024px) {
+  .breakout-columns {
+    grid-template-columns: 1fr;
+  }
+
+
   html {
     scroll-padding-top: 3rem;
   }

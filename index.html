@@ -109,23 +109,23 @@
 </section>
 <section id="talks">
 <div class="section-wrapper">
-<h2>Talks (from previous edition)</h2>
+<h2>Talks</h2>
 <div class="entry">
-<p><a href="#porffor" onclick="document.getElementById('porffor').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/oliver.jpeg" alt="Oliver Medhurst" />
-<h3><a href="#porffor" onclick="document.getElementById('porffor').showModal();">Compiling JavaScript ahead-of-time</a></h3>
-<h4>by Oliver Medhurst</h4>
+<p><a href="#wpt-accessibility" onclick="document.getElementById('wpt-accessibility').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/valerie.webp" alt="Valerie Young" />
+<h3><a href="#wpt-accessibility" onclick="document.getElementById('wpt-accessibility').showModal();">Accessible Testing in WPT: From Dream to Reality</a></h3>
+<h4>by Valerie Young</h4>
 <div class="cancelled"></div>
-<dialog id="porffor" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="wpt-accessibility" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/oliver.jpeg" alt="Oliver Medhurst"  />
-<h3>Compiling JavaScript ahead-of-time</h3>
-<h4>by Oliver Medhurst</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T10:30:00&amp;p1=681">2025/06/02 - 10:30 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=RU5N5O-O5Zw&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/compiling_javascript_ahead-of-time_by_oliver_medhurst.pdf">Slides</a></p>
+<img src="/img/talks/valerie.webp" alt="Valerie Young"  />
+<h3>Accessible Testing in WPT: From Dream to Reality</h3>
+<h4>by Valerie Young</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T10:30:00&amp;p1=681">2026/06/15 - 10:30 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>Essentially all JS engines today are just-in-time, but what about compiling ahead-of-time like C++ or Rust? Previously dismissed, it is having a resurgence with new open-source projects like Porffor which I’ll discuss in this talk!</p>
+<p>The process of evolving the web through web standards has, for a long time now, relied heavily on cross-browser test suites. When creating a new feature specification, writing tests and experimental implementations go hand in hand. A single, shared test suite helps browsers make sure new features are interoperable, and helps users of the web platform track the implementation status.</p>
+<p>But what these shared test suites could not tell you, until very recently, is whether any web feature has interoperable or complete accessibility support. Accessibility support defines how a web feature is consumed and interacted with by a user who cannot use a screen, mouse, or keyboard. This last year we have made great strides in expanding the testability of the accessibility of web features within WPT and WebDriver. In this talk I’ll discuss the tests you can now write, the challenges we had getting here, and the status of work still in progress.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -133,25 +133,83 @@
 </dialog>
 </div>
 <div class="entry">
-<p><a href="#wintertc" onclick="document.getElementById('wintertc').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/andreu.jpg" alt="Andreu Botella" />
-<img src="/img/talks/luca.jpg" alt="Luca Casonato" />
-<h3><a href="#wintertc" onclick="document.getElementById('wintertc').showModal();">WinterTC: a standard for server-side runtimes</a></h3>
-<h4>by Andreu Botella &amp; Luca Casonato</h4>
+<p><a href="#harfbuzz" onclick="document.getElementById('harfbuzz').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/behdad.webp" alt="Behdad Esfahbod" />
+<h3><a href="#harfbuzz" onclick="document.getElementById('harfbuzz').showModal();">HarfBuzz at 20!</a></h3>
+<h4>by Behdad Esfahbod</h4>
 <div class="cancelled"></div>
-<dialog id="wintertc" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="harfbuzz" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/andreu.jpg" alt="Andreu Botella" style="float: none;" />
-<img src="/img/talks/luca.jpg" alt="Luca Casonato" style="float: none;" />
+<img src="/img/talks/behdad.webp" alt="Behdad Esfahbod"  />
+<h3>HarfBuzz at 20!</h3>
+<h4>by Behdad Esfahbod</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T11:00:00&amp;p1=681">2026/06/15 - 11:00 CEST (UTC+2)</a></h5>
+<div class="content">
+<p>In this presentation celebrating 20 years of HarfBuzz, I will cover the history, current state, as well as the future of the HarfBuzz text shaping engine, with significant focus on the Rust port, HarfRust.</p>
+</div>
+<div class="cancelled"></div>
+<p><button><span class="emoji">❌</span> Close talk</button></p>
+</form>
+</dialog>
+</div>
+<div class="entry">
+<p><a href="#streams" onclick="document.getElementById('streams').showModal();" class="overlay emoji">➕</a></p>
+<h3><a href="#streams" onclick="document.getElementById('streams').showModal();">A new streams API?</a></h3>
+<h4>by James M Snell</h4>
+<div class="cancelled"></div>
+<dialog id="streams" onclose="history.pushState('', document.title, window.location.pathname)">
+<form method="dialog">
+<button autofocus class="close"><span class="emoji">❌</span></button>
+<h3>A new streams API?</h3>
+<h4>by James M Snell</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T12:00:00&amp;p1=681">2026/06/15 - 12:00 CEST (UTC+2)</a></h5>
+<div class="content">
+<p>Node.js and Cloudflare Workers have been experimenting with a new async iterator based stream API that has been demonstrated to be faster than both Node.js streams and Web streams. This talk will present this new approach to hopefully prompt a conversation about how we can move forward.</p>
+</div>
+<div class="cancelled"></div>
+<p><button><span class="emoji">❌</span> Close talk</button></p>
+</form>
+</dialog>
+</div>
+<div class="entry">
+<p><a href="#extensions" onclick="document.getElementById('extensions').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/miyoung.webp" alt="Miyoung Shin" />
+<h3><a href="#extensions" onclick="document.getElementById('extensions').showModal();">Decoupling Extensions from Chrome: The Journey to a Modular Extensions Layer</a></h3>
+<h4>by Miyoung Shin</h4>
+<div class="cancelled"></div>
+<dialog id="extensions" onclose="history.pushState('', document.title, window.location.pathname)">
+<form method="dialog">
+<button autofocus class="close"><span class="emoji">❌</span></button>
+<img src="/img/talks/miyoung.webp" alt="Miyoung Shin"  />
+<h3>Decoupling Extensions from Chrome: The Journey to a Modular Extensions Layer</h3>
+<h4>by Miyoung Shin</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T12:30:00&amp;p1=681">2026/06/15 - 12:30 CEST (UTC+2)</a></h5>
+<div class="content">
+<p>This talk presents the ongoing effort to decouple Chromium Extensions from the Chrome layer, enabling a more modular and embeddable architecture. We’ll cover the motivation, migration strategy, lessons learned, and current progress, along with a live demo.</p>
+</div>
+<div class="cancelled"></div>
+<p><button><span class="emoji">❌</span> Close talk</button></p>
+</form>
+</dialog>
+</div>
+<div class="entry">
+<p><a href="#cra" onclick="document.getElementById('cra').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/aki.webp" alt="Aki Rose Braun" />
+<img src="/img/talks/dan.webp" alt="Daniel Ari Ehrenberg Goldberg" />
+<h3><a href="#cra" onclick="document.getElementById('cra').showModal();">The EU Cyber Resilience Act: what is it, and how does it affect web browsers?</a></h3>
+<h4>by Aki Rose Braun &amp; Daniel Ari Ehrenberg Goldberg</h4>
+<div class="cancelled"></div>
+<dialog id="cra" onclose="history.pushState('', document.title, window.location.pathname)">
+<form method="dialog">
+<button autofocus class="close"><span class="emoji">❌</span></button>
+<img src="/img/talks/aki.webp" alt="Aki Rose Braun" style="float: none;" />
+<img src="/img/talks/dan.webp" alt="Daniel Ari Ehrenberg Goldberg" style="float: none;" />
 <div style="clear: both;"></div>
-<h3>WinterTC: a standard for server-side runtimes</h3>
-<h4>by Andreu Botella &amp; Luca Casonato</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T11:00:00&amp;p1=681">2025/06/02 - 11:00 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=elGNcCv57ZE&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/wintertc:_a_standard_for_server-side_runtimes_by_andreu_botella_&amp;_luca_casonato.pdf">Slides</a></p>
+<h3>The EU Cyber Resilience Act: what is it, and how does it affect web browsers?</h3>
+<h4>by Aki Rose Braun &amp; Daniel Ari Ehrenberg Goldberg</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T13:00:00&amp;p1=681">2026/06/15 - 13:00 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>Server-side and edge JavaScript runtimes (such as Node.js, Deno, Bun, Cloudflare Workers…) have been adopting more and more web APIs over time. However, the web specifications that define these APIs are typically written with browsers in mind, without much regard for server-side runtimes, which has led to differences among those implementations.</p>
-<p>In 2022, we started working towards solving this problem in a W3C Community Group called WinterCG, which also specified a Minimum Common API for server-side and edge runtimes, so that code can be written against a standard that all such runtimes would support. However, due to its charter WinterCG could not publish standards, which is why in December 2024 we took the next step in that direction, which was to move WinterCG into an Ecma Technical Committee called WinterTC. We explore why this move was necessary, what are the goals of WinterTC, and what we are working on.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -159,22 +217,19 @@
 </dialog>
 </div>
 <div class="entry">
-<p><a href="#jsr" onclick="document.getElementById('jsr').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/leo.jpg" alt="Leo Kettmeir" />
-<h3><a href="#jsr" onclick="document.getElementById('jsr').showModal();">JSR: under the hood &amp; native support in the ecosystem</a></h3>
-<h4>by Leo Kettmeir</h4>
+<p><a href="#rustnn" onclick="document.getElementById('rustnn').showModal();" class="overlay emoji">➕</a></p>
+<h3><a href="#rustnn" onclick="document.getElementById('rustnn').showModal();">Introduction to the RustNN ecosystem</a></h3>
+<h4>by Markus Tavenrath</h4>
 <div class="cancelled"></div>
-<dialog id="jsr" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="rustnn" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/leo.jpg" alt="Leo Kettmeir"  />
-<h3>JSR: under the hood &amp; native support in the ecosystem</h3>
-<h4>by Leo Kettmeir</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T12:00:00&amp;p1=681">2025/06/02 - 12:00 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=Lc15pLhzGao&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/jsr:_under_the_hood_&amp;_native_support_in_the_ecosystem_by_leo_kettmeir.pdf">Slides</a></p>
+<h3>Introduction to the RustNN ecosystem</h3>
+<h4>by Markus Tavenrath</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T15:30:00&amp;p1=681">2026/06/15 - 15:30 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>The JavaScript Registry (JSR) is a modern alternative to npm—natively supported in pnpm, Yarn and Deno—yet still unsupported in npm and Node.js, leaving a gap in the module ecosystem and making it awkward for module authors.</p>
-<p>This talk will go into how various aspects of JSR are architected, its capabilities and feature, how current tooling supports it, and how more can add support natively.</p>
+<p>This talk provides an overview of the RustNN ecosystem, a high-performance WebNN implementation. We explore the core framework and its accompanying suite of projects, including model exporters for PyTorch and ONNX, as well as bindings for Python, JavaScript, and the browser.</p>
+<p>The choice of Rust is central to the project, providing a memory-safe and thread-efficient foundation that is uniquely suited for cross-compiling to WebAssembly. This allows the ecosystem to catch AI developers in their natural environments while ensuring maximum portability. By unifying the desktop and the browser, RustNN enables seamless, hardware-accelerated edge deployment across the entire modern computing landscape.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -182,21 +237,21 @@
 </dialog>
 </div>
 <div class="entry">
-<p><a href="#nodejs" onclick="document.getElementById('nodejs').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/joyee.jpeg" alt="Joyee Cheung" />
-<h3><a href="#nodejs" onclick="document.getElementById('nodejs').showModal();">Bridging CommonJS and ESM in Node.js</a></h3>
-<h4>by Joyee Cheung</h4>
+<p><a href="#dom-localization" onclick="document.getElementById('dom-localization').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/eemeli.webp" alt="Eemeli Aro" />
+<h3><a href="#dom-localization" onclick="document.getElementById('dom-localization').showModal();">DOM Localization</a></h3>
+<h4>by Eemeli Aro</h4>
 <div class="cancelled"></div>
-<dialog id="nodejs" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="dom-localization" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/joyee.jpeg" alt="Joyee Cheung"  />
-<h3>Bridging CommonJS and ESM in Node.js</h3>
-<h4>by Joyee Cheung</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T12:30:00&amp;p1=681">2025/06/02 - 12:30 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=YRueCer2kig&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/bridging_commonjs_and_esm_in_node.js_by_joyee_cheung.pdf">Slides</a></p>
+<img src="/img/talks/eemeli.webp" alt="Eemeli Aro"  />
+<h3>DOM Localization</h3>
+<h4>by Eemeli Aro</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T16:00:00&amp;p1=681">2026/06/15 - 16:00 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>ESM has become stable in Node.js since 2020, but the adoption of it in the ecosystem turned out to be slower than expected and the interoperability between CommonJS and ESM has been a common source of pain for developers - interestingly, one of the important factor was the lack of support of <code>require(esm)</code> in Node.js. This gap started to be filled since 2024 and by May 2025, all supported release lines of Node.js would support require(esm). In this talk, we will take a look at history of CommonJS/ESM interoperability, how require(esm) works in Node.js under the hood, and the challenges we encountered during its rollout.</p>
+<p>Users of the web are best served by being able to experience it in their native languages. Currently, localization of web content is achieved with a multitude of custom solutions, most of which are unable to express the full depth and breadth of human expressions in all languages. Introducing an easy-to-use but powerful standard localization solution would improve the experience of all users, in particular the vast majority who do not speak English natively.</p>
+<p>We propose to introduce a set of (potentially namespaced) core attributes to HTML that would allow developers to declaratively or programmatically bind DOM elements and fragments to localized <em>messages</em>, which would be provided by a <em>localization resource</em>, a file that contains messages that are defined using Unicode MessageFormat. An explainer for the proposal is available: <a href="https://github.com/mozilla/explainers/blob/main/dom-localization.md">https://github.com/mozilla/explainers/blob/main/dom-localization.md</a></p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -204,21 +259,23 @@
 </dialog>
 </div>
 <div class="entry">
-<p><a href="#temporal" onclick="document.getElementById('temporal').showModal();" class="overlay emoji">➕</a></p>
-<h3><a href="#temporal" onclick="document.getElementById('temporal').showModal();">Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa</a></h3>
-<h4>by Jonas Haukenes, Mikhail Barash &amp; Shane Carr</h4>
+<p><a href="#registry" onclick="document.getElementById('registry').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/aki.webp" alt="Aki Rose Braun" />
+<img src="/img/talks/ethan.webp" alt="Ethan Arrowood" />
+<h3><a href="#registry" onclick="document.getElementById('registry').showModal();">How to ship a registry when nobody wants to run one</a></h3>
+<h4>by Aki Rose Braun &amp; Ethan Arrowood</h4>
 <div class="cancelled"></div>
-<dialog id="temporal" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="registry" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<h3>Cross-Engine Contributions at Scale: How newcomers accelerated Temporal and Upsert in SpiderMonkey, V8, and Boa</h3>
-<h4>by Jonas Haukenes, Mikhail Barash &amp; Shane Carr</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T13:00:00&amp;p1=681">2025/06/02 - 13:00 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=WieD_9BswAE&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/cross-engine_contributions_at_scale:_how_newcomers_accelerated_temporal_and_upsert_in_spidermonkey,_v8,_and_boa_by_jonas_haukenes,_mikhail_barash_&amp;_shane_carr.pdf">Slides</a></p>
+<img src="/img/talks/aki.webp" alt="Aki Rose Braun" style="float: none;" />
+<img src="/img/talks/ethan.webp" alt="Ethan Arrowood" style="float: none;" />
+<div style="clear: both;"></div>
+<h3>How to ship a registry when nobody wants to run one</h3>
+<h4>by Aki Rose Braun &amp; Ethan Arrowood</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T17:00:00&amp;p1=681">2026/06/15 - 17:00 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>Join us for a story through our journey implementing TC39 proposals in SpiderMonkey, V8, and Boa.</p>
-<p>We will examine how easy or difficult it is for new contributors to engage with each project, highlighting the challenges of navigating engine internals, what helped us get unstuck, and how we translated that experience into a <a href="https://bldl.github.io/upsert-tutorial/">community-focused tutorial</a>. We will demonstrate the practical impact in implementing Upsert and discuss how Rust smoothed the onramp for contributing Temporal in Boa and V8.</p>
-<p>We would like to thank Daniel Minor, Kevin Ness, and Philip Chimento for helping bring these projects to life.</p>
+<p>WinterCG (now TC55 in Ecma) needed a runtime keys registry, but nobody wanted to operate registry infrastructure. This talk explains how TC55 solved that problem by publishing the registry as an Ecma Technical Report instead — avoiding the operational burden while still delivering a usable, standards-backed resource.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -226,93 +283,20 @@
 </dialog>
 </div>
 <div class="entry">
-<p><a href="#web-components" onclick="document.getElementById('web-components').showModal();" class="overlay emoji">➕</a></p>
-<h3><a href="#web-components" onclick="document.getElementById('web-components').showModal();">Versioned Web Components</a></h3>
-<h4>by Christian Ulbrich</h4>
+<p><a href="#npmx" onclick="document.getElementById('npmx').showModal();" class="overlay emoji">➕</a></p>
+<img src="/img/talks/patak.webp" alt="Matias Leandro Capeletto" />
+<h3><a href="#npmx" onclick="document.getElementById('npmx').showModal();">npmx: a fast, modern browser for the npm registry</a></h3>
+<h4>by Matias Leandro Capeletto</h4>
 <div class="cancelled"></div>
-<dialog id="web-components" onclose="history.pushState('', document.title, window.location.pathname)">
+<dialog id="npmx" onclose="history.pushState('', document.title, window.location.pathname)">
 <form method="dialog">
 <button autofocus class="close"><span class="emoji">❌</span></button>
-<h3>Versioned Web Components</h3>
-<h4>by Christian Ulbrich</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T15:30:00&amp;p1=681">2025/06/02 - 15:30 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=eJmCueSCXB4&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/versioned_web_components_by_christian_ulbrich.pdf">Slides</a></p>
+<img src="/img/talks/patak.webp" alt="Matias Leandro Capeletto"  />
+<h3>npmx: a fast, modern browser for the npm registry</h3>
+<h4>by Matias Leandro Capeletto</h4>
+<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2026-06-15T17:30:00&amp;p1=681">2026/06/15 - 17:30 CEST (UTC+2)</a></h5>
 <div class="content">
-<p>While Web Components are far from new, they are seeing more and more adaption for a multitude of use cases, both as containers for micro-frontends as well as a way of building framework agnostic UI libraries. One of the biggest challenges is, that there is no way of overriding existing web components, or more precisely custom elements can only be defined once for a certain tag name. While there is a proposal for alleviating this, called scoped custom element registries, it never came really to fruition and has several problems.</p>
-<p>I want to show a proposal of how Web Components can be versioned, i.e. how a custom element with the same tag can be updated in the life cycle of a web application as well ““versioned””. I have extensively worked on web components in the past and I have a very rough prototype, that can show case this technique and I am looking for feedback + input, so that we will find a way in the future to address this issue and make web components more powerful.</p>
-</div>
-<div class="cancelled"></div>
-<p><button><span class="emoji">❌</span> Close talk</button></p>
-</form>
-</dialog>
-</div>
-<div class="entry">
-<p><a href="#wpe-android" onclick="document.getElementById('wpe-android').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/adrian.jpg" alt="Adrián Pérez de Castro" />
-<h3><a href="#wpe-android" onclick="document.getElementById('wpe-android').showModal();">Jumping Over the Garden Wall - WPE WebKit on Android</a></h3>
-<h4>by Adrián Pérez de Castro</h4>
-<div class="cancelled"></div>
-<dialog id="wpe-android" onclose="history.pushState('', document.title, window.location.pathname)">
-<form method="dialog">
-<button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/adrian.jpg" alt="Adrián Pérez de Castro"  />
-<h3>Jumping Over the Garden Wall - WPE WebKit on Android</h3>
-<h4>by Adrián Pérez de Castro</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T16:00:00&amp;p1=681">2025/06/02 - 16:00 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=tjtvjmr-Zyw&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/jumping_over_the_garden_wall_-_wpe_webkit_on_android_by_adrian_perez_de_castro.pdf">Slides</a></p>
-<div class="content">
-<p>Introduction and history of the WPE-Android project, and how having a flexible, embeddable Web engine allowed making it work in an unexpected platform, bringing the original Android system web engine back. But, what for?</p>
-</div>
-<div class="cancelled"></div>
-<p><button><span class="emoji">❌</span> Close talk</button></p>
-</form>
-</dialog>
-</div>
-<div class="entry">
-<p><a href="#assistive" onclick="document.getElementById('assistive').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/bocoup.png" alt="Bocoup logo" />
-<h3><a href="#assistive" onclick="document.getElementById('assistive').showModal();">Automating Assistive Tech with Standards</a></h3>
-<h4>by Mike Pennisi</h4>
-<div class="cancelled"></div>
-<dialog id="assistive" onclose="history.pushState('', document.title, window.location.pathname)">
-<form method="dialog">
-<button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/bocoup.png" alt="Bocoup logo"  />
-<h3>Automating Assistive Tech with Standards</h3>
-<h4>by Mike Pennisi</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T17:00:00&amp;p1=681">2025/06/02 - 17:00 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=2XipbOHmr3Y&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/automating_assistive_tech_with_standards_by_mike_pennisi.pdf">Slides</a></p>
-<div class="content">
-<p>AT Driver is a protocol for controlling assistive technology (AT) like screen readers. It’s being developed as a component of the ARIA-AT project but with a much wider audience in mind.</p>
-<p>In this talk, we’ll explore the unique challenges of automating ATs, share the latest implementation status, review concurrent standards work that also surfaces the experience of AT users, and discuss the future of these efforts.</p>
-</div>
-<div class="cancelled"></div>
-<p><button><span class="emoji">❌</span> Close talk</button></p>
-</form>
-</dialog>
-</div>
-<div class="entry">
-<p><a href="#ai" onclick="document.getElementById('ai').showModal();" class="overlay emoji">➕</a></p>
-<img src="/img/talks/thomas.jpeg" alt="Thomas Steiner" />
-<h3><a href="#ai" onclick="document.getElementById('ai').showModal();">Built-in AI APIs for the Web</a></h3>
-<h4>by Thomas Steiner</h4>
-<div class="cancelled"></div>
-<dialog id="ai" onclose="history.pushState('', document.title, window.location.pathname)">
-<form method="dialog">
-<button autofocus class="close"><span class="emoji">❌</span></button>
-<img src="/img/talks/thomas.jpeg" alt="Thomas Steiner"  />
-<h3>Built-in AI APIs for the Web</h3>
-<h4>by Thomas Steiner</h4>
-<h5>Date: <a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=2025-06-02T17:30:00&amp;p1=681">2025/06/02 - 17:30 CEST (UTC+2)</a></h5>
-<p><a href="https://www.youtube.com/watch?v=FNcDjQr_iqQ&amp;list=PL4sEzdAGvRgDkGm0XYou_lJ5wdmIi7FJY">Video</a>  | <a href="/slides/built-in_ai_apis_for_the_web_by_thomas_steiner.pdf">Slides</a></p>
-<div class="content">
-<p>There are many use cases for AI, ranging from transcribing audio, describing images, getting writing assistance, having texts proofread, to translating content, and many more, including general prompting of an AI model for all sorts of purposes. For realizing these use cases, you broadly have three options: (i), send your data to an AI model running somewhere on a powerful server in the cloud, (ii), download a possibly large model file to the client and run it locally, or, (iii), use shared models built into a device or browser, which is the topic of this talk. On the Chrome team, we’re proposing a number of APIs [1] that we and partners we’ve worked with think would be worthwhile to have as common Web platform APIs. In this talk, I’ll give an overview of these APIs and briefly demo their implementation in Chrome, and then want to open the floor for some general discussion and feedback.</p>
-<p>[1] List of API proposals</p>
-<ul>
-<li>webmachinelearning/prompt-api</li>
-<li>webmachinelearning/writing-assistance-apis</li>
-<li>webmachinelearning/translation-api</li>
-</ul>
+<p>npmx is a community-built alternative npm registry browser offering features for choosing modern packages, promoting JS standards adoption, and collaborating with communities like e18e and atproto.</p>
 </div>
 <div class="cancelled"></div>
 <p><button><span class="emoji">❌</span> Close talk</button></p>
@@ -329,34 +313,35 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 </section>
 <section id="breakout-sessions">
 <div class="section-wrapper">
-<h2>Breakout Sessions (from previous edition)</h2>
-<ul>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/49">Adding a new Chrome DevTools feature</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/64">AsyncContext: trimming down the web integration</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/51">Browser Fingerprinting Protections in Tor+Mullvad Browser</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/55">Browser Funding After Search Deals</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/61">Chromium Embedding: Experiences and challenges</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/68">Cross-Origin Storage (COS)</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/54">Cross-shadow root ARIA</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/62">Data-oriented memory savings in JavaScript engines</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/71">Designing a New Web Engine — What Would You Do Differently?</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/66">Gosub &amp; Yavashark: A New Browser &amp; JS/TS Engine</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/56">HTML-in-Canvas: Proposal and Progress</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/46">Hackathon: Browser integration of Fontations Rust font stack</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/47">Involving students and researchers in web engine implementation</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/48">JavaScript subsets for custom embedding use-cases</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/58">Multimedia in WebKit</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/50">Privacy Preserving HTML and SVG in Canvas</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/59">Revisiting in-band text tracks in MediaSource Extensions</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/43">Running WPT under CI: Problems and challenges, tips and tricks, and lessons learned</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/57">Servo</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/63">Signals</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/65">TC39 proposals and integration with the web platform</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/67">Trusted Types</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/52">W3C Web Apps WG F2F</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/53">Web Platform: What are we working on?</a></li>
-<li><a href="https://github.com/Igalia/webengineshackfest/issues/60">tvOS as a new platform for Chromium</a></li>
-</ul>
+<div class="breakout-columns">
+  <div id="wpe-track">
+    <h2><img src="/img/wpe-logo.svg" alt="WPE WebKit" class="wpe-track-logo">WPE Track</h2>
+    <p>A <a href="https://github.com/Igalia/webengineshackfest/issues/81">dedicated track</a> for <a href="https://wpewebkit.org/">WPE WebKit</a> will be hosted on Tuesday 16th June from 10:00 CEST. Remote participation is welcome.</p>
+    <ul>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Techniques for reducing GPU usage in WPE</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">WPEPlatform API for Android</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">From libwpe to WPEPlatform: Building an Embedded Browser on Raspberry Pi with the New WPE API</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">No QA, No WPE: How We Try Hard To Catch Regressions Before You Do</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Refactoring composition in WPE with Skia</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Speeding up WPEWebKit and WebKitGTK with Profile-Guided Optimization</a></li>
+    </ul>
+  </div>
+  <div>
+    <h2>Breakout Sessions</h2>
+    <ul>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/82">AI ate web food! Putting a browser on a (memory) diet</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/78">AsyncContext: where are we now?</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/77">Beyond testing and type checking JavaScript: Can we be bothered?</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/84">Building Servo DevTools</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/85">Cross-Origin Storage (COS)</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/75">Extended Canvas Text Metrics - moving it forward</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/76">HTML-in-Canvas for WebKit</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/73">Hacking WebView features for Servo</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/79">MathML Core</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/80">WHATNOT: Meeting for the WHATWG</a></li>
+<p></ul></p>
+  </div>
+</div>
 </div>
 </section>
 <section id="attendees">
