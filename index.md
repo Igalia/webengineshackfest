@@ -169,6 +169,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Abhijeet Kandalkar
 * Aditi Singh
 * Adrian Perez de Castro
+* Alejandro G. Castro
 * Alexander Dunaev
 * alfakih
 * Alicia Boya Garcia
@@ -181,6 +182,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Behdad Esfahbod
 * Brian Kardell
 * Carlos Alberto Lopez Perez
+* Cathie Chen
 * Christian Biesinger
 * Claudio Saavedra
 * Cynthia Shelly
@@ -195,6 +197,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 * Enrique Ocaña González
 * Eri Pazos Pérez
 * Eric Meyer
+* Euclid Ye
 * Frédéric Wang Nélar
 * Fujii Hironori
 * Georges Stavracas
