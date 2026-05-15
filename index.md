@@ -40,7 +40,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks (from previous edition)
+## Talks
 
 {% for talk in collections.talk %}
 
@@ -89,7 +89,7 @@ layout: default
 
 #### by {{ talk.data.authors }}
 
-##### Date: [{{ talk.data.date | date: "%Y/%m/%d - %H:%M CEST (UTC+2)" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.date }}&p1=681)
+{% if talk.data.date %}##### Date: [{{ talk.data.date | date: "%Y/%m/%d - %H:%M CEST (UTC+2)" }}](https://www.timeanddate.com/worldclock/fixedtime.html?iso={{ talk.data.date }}&p1=681){% endif %}
 
 {% if talk.data.video %}
 
@@ -134,10 +134,27 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Breakout Sessions (from previous edition)
-
-{% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}* <a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a>
-{% endfor %}
+<div class="breakout-columns">
+  <div id="wpe-track">
+    <h2><img src="/img/wpe-logo.svg" alt="WPE WebKit" class="wpe-track-logo">WPE Track</h2>
+    <p>A <a href="https://github.com/Igalia/webengineshackfest/issues/81">dedicated track</a> for <a href="https://wpewebkit.org/">WPE WebKit</a> will be hosted on Tuesday 16th June from 10:00 CEST. Remote participation is welcome.</p>
+    <ul>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Techniques for reducing GPU usage in WPE</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">WPEPlatform API for Android</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">From libwpe to WPEPlatform: Building an Embedded Browser on Raspberry Pi with the New WPE API</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">No QA, No WPE: How We Try Hard To Catch Regressions Before You Do</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Refactoring composition in WPE with Skia</a></li>
+      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Speeding up WPEWebKit and WebKitGTK with Profile-Guided Optimization</a></li>
+    </ul>
+  </div>
+  <div>
+    <h2>Breakout Sessions</h2>
+    <ul>
+      {% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}<li><a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
 </div>
 
