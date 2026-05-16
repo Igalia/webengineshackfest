@@ -353,10 +353,9 @@ main section#sponsors div.section-wrapper {
 
 
 .wpe-track-logo {
-  max-width: 8rem;
+  width: 5rem;
   vertical-align: middle;
   margin-right: 1rem;
-  margin-block: -3rem;
 }
 
 .breakout-columns {
