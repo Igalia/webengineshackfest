@@ -1,0 +1,12 @@
+[
+  { "title": "AI ate web food! Putting a browser on a (memory) diet", "issue": 82 },
+  { "title": "AsyncContext: where are we now?", "issue": 78 },
+  { "title": "Beyond testing and type checking JavaScript: Can we be bothered?", "issue": 77 },
+  { "title": "Building Servo DevTools", "issue": 84 },
+  { "title": "Cross-Origin Storage (COS)", "issue": 85 },
+  { "title": "Extended Canvas Text Metrics - moving it forward", "issue": 75 },
+  { "title": "Hacking WebView features for Servo", "issue": 73 },
+  { "title": "HTML-in-Canvas for WebKit", "issue": 76 },
+  { "title": "MathML Core", "issue": 79 },
+  { "title": "WHATNOT: Meeting for the WHATWG", "issue": 80 }
+]

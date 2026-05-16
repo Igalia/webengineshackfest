@@ -150,7 +150,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
   <div>
     <h2>Breakout Sessions</h2>
     <ul>
-      {% for breakout in collections.breakoutAsc | sort(attribute="data.title") %}<li><a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.data.issue }}">{{ breakout.data.title }}</a></li>
+      {% for breakout in breakoutSessions %}<li><a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.issue }}">{{ breakout.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
@@ -166,126 +166,10 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 ## Attendees
 
-* Abhijeet Kandalkar
-* Aditi Singh
-* Adrian Perez de Castro
-* Alejandro G. Castro
-* Alexander Dunaev
-* alfakih
-* Alicia Boya Garcia
-* Andreas Farre
-* Andreu Botella
-* Anna Weine
-* Anne van Kesteren
-* Antonio Gomes Netto
-* Arnaud Bienner
-* Behdad Esfahbod
-* Brian Kardell
-* Carlos Alberto Lopez Perez
-* Cathie Chen
-* Christian Biesinger
-* Claudio Saavedra
-* Cynthia Shelly
-* Daniel Ehrenberg
-* Dave Vandyke
-* Delan Azabani
-* Diego Pino Garcia
-* Dominique Hazael-Massieux
-* Eemeli Aro
-* Elena Lape
-* Emilio Cobos
-* Enrique Ocaña González
-* Eri Pazos Pérez
-* Eric Meyer
-* Euclid Ye
-* Frédéric Wang Nélar
-* Fujii Hironori
-* Georges Stavracas
-* Henri Sivonen
-* Henrique Ferreiro
-* Jacob Smith
-* Jacobo Aragunde
-* James M Snell
-* Jan Bajana
-* Jan Jaeschke
-* Jan Johannes
-* Jan Varga
-* Jesse Alama
-* Jon Kuperman
-* Jonas Kruckenberg
-* Jonathan Schwender
-* Josh Bowman-Matthews
-* José Dapena Paz
-* Joyee Cheung
-* Juan J. Sanchez
-* Justin Michaud
-* Kagami Rosylight
-* Keith Cirkel
-* Kyungsun Lee
-* Leo Kettmeir
-* Lino Le Van
-* Lola
-* Lorenzo Tilve
-* Luke Warlow
-* Manuel Bucher
-* Manuel Rego
-* Maria Amin
-* Marina Aísa
-* Mario Sánchez Prada
-* Markus Tavenrat
-* Martin Robinson
-* Matt Tutt
-* Matthew Gaudet
-* Max Ihlenfeldt
-* Maxim Yaskevich
-* Mikhail R. Gadelha
-* Milica Spuzic
-* Mioyoung Shin
-* Ms2ger
-* Nenad Spuzic
-* Nicolò Ribaudo
-* Niklas Merz
-* Nikolas Zimmermann
-* Oriol Brufau
-* Pablo Saavedra
-* Patrick Griffis
-* Paul Adenot
-* Pawel Lampe
-* Pedro Cambra
-* Philip Chimento
-* Philippe Normand
-* Piyush Deshpande
-* Przemyslaw Gorszkowski
-* Raphael Kubo da Costa
-* Robert Kroeger
-* Roger Zanoni
-* Romulo Cintra
-* Ruchi Rajput
-* Ryosuke Niwa
-* Saidul Islam Badhon
-* Seike
-* Seokho Song
-* Sergey Rubanov
-* Sharon Yang
-* sideshowbarker
-* Simon Pieters
-* Simon Sapin
-* Simon Wülker
-* Simone Onofri
-* Simón Pena
-* snek
-* Stefan Reinhold
-* Stephen Chenney
-* Taym Haddadi
-* Thomas Steiner
-* Tom Schuster
-* Valerie Young
-* Viet
-* Vincent Hilla
-* Xabier Rodríguez Calvar
-* Yeunjoo Choi
-* Yolanda Gorriz
-* Zoë Bijl
+<ul>
+  {% for attendee in attendees %}<li>{{ attendee }}</li>
+  {% endfor %}
+</ul>
 
 </div>
 
