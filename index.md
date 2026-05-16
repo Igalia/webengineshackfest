@@ -66,6 +66,8 @@ layout: default
 
 <div class="cancelled">{% if talk.data.cancelled %}Cancelled{% endif %}</div>
 
+<a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();" class="read-more">Read more →</a>
+
 <dialog id="{{ talk.data.page.fileSlug }}" onclose="history.pushState('', document.title, window.location.pathname)">
 
 <form method="dialog">
