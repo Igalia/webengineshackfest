@@ -12,6 +12,7 @@
 
 html {
   scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -47,10 +48,16 @@ p {
 
 a {
   color: var(--orange);
+  transition: color 0.2s;
 }
 
 a:hover, a:focus, a:active {
   color: var(--dark-orange);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
 }
 
 nav {
@@ -85,6 +92,10 @@ nav > ul > li a {
   text-decoration: none;
 }
 
+nav > ul > li a {
+  transition: color 0.2s;
+}
+
 nav > ul > li a:hover,
 nav > ul > li a:focus {
   color: var(--light-orange);
@@ -110,6 +121,7 @@ header {
   text-align: center;
   color: white;
   display: flow-root;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 header > h1 {
@@ -151,6 +163,7 @@ header > .links > a {
   padding: 1rem 2rem;
   margin-inline: 1rem;
   text-decoration: none;
+  transition: background 0.2s;
 }
 
 header > .links > a:hover {
@@ -233,6 +246,7 @@ main section#sponsors div.section-wrapper {
   flex-direction: column;
   justify-content: center;
   height: 0;
+  transition: height 0.2s;
 }
 
 #talks .entry a.overlay.emoji {
@@ -255,6 +269,23 @@ main section#sponsors div.section-wrapper {
 #talks .entry h3 {
   margin: 0.5rem;
   color: var(--orange);
+}
+
+#talks .entry a.read-more {
+  display: none;
+}
+
+@media (hover: none) {
+  #talks .entry a.read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--orange);
+  }
 }
 
 #talks .entry h4 {
@@ -283,6 +314,10 @@ main section#sponsors div.section-wrapper {
   max-width: 100ch;
 }
 
+#talks dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
 #talks dialog img {
   float: left;
   margin: 2rem;
@@ -301,6 +336,12 @@ main section#sponsors div.section-wrapper {
   font-weight: 700;
   margin: 1rem;
   padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#talks dialog button:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
 }
 
 #talks dialog button.close {
@@ -312,10 +353,9 @@ main section#sponsors div.section-wrapper {
 
 
 .wpe-track-logo {
-  max-width: 8rem;
+  width: 5rem;
   vertical-align: middle;
   margin-right: 1rem;
-  margin-block: -3rem;
 }
 
 .breakout-columns {
@@ -399,7 +439,7 @@ footer a {
   color: var(--light-orange);
 }
 
-footer a:hover, a:focus, a:active {
+footer a:hover, footer a:focus, footer a:active {
   color: var(--lighter-orange);
 }
 
