@@ -46,7 +46,7 @@ layout: default
 
 <div class="entry{% if talk.data.cancelled %} cancelled{% endif %}">
 
-<a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();" class="overlay emoji">➕</a>
+<a href="#{{ talk.data.page.fileSlug }}" onclick="document.getElementById('{{ talk.data.page.fileSlug }}').showModal();" class="overlay emoji" aria-label="Open talk: {{ talk.data.title }}">➕</a>
 
 {% if talk.data.imgsrc %}
 
@@ -69,7 +69,7 @@ layout: default
 <dialog id="{{ talk.data.page.fileSlug }}" onclose="history.pushState('', document.title, window.location.pathname)">
 
 <form method="dialog">
-<button autofocus class="close"><span class="emoji">❌</span></button>
+<button autofocus class="close" aria-label="Close"><span class="emoji">❌</span></button>
 
 {% if talk.data.imgsrc %}
 
@@ -109,7 +109,7 @@ layout: default
 
 <div class="cancelled">{% if talk.data.cancelled %}Cancelled{% endif %}</div>
 
-<button><span class="emoji">❌</span> Close talk</button>
+<button aria-label="Close"><span class="emoji">❌</span> Close talk</button>
 
 </form>
 
