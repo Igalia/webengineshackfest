@@ -8,5 +8,9 @@
   { "title": "Hacking WebView features for Servo", "issue": 73 },
   { "title": "HTML-in-Canvas for WebKit", "issue": 76 },
   { "title": "MathML Core", "issue": 79 },
-  { "title": "WHATNOT: Meeting for the WHATWG", "issue": 80 }
+  { "title": "Memory Safety in WebKit", "issue": 90 },
+  { "title": "Web Components Next Steps", "issue": 89 },
+  { "title": "Web Cryptography API", "issue": 87 },
+  { "title": "WHATNOT: Meeting for the WHATWG", "issue": 80 },
+  { "title": "WinterTC", "issue": 88 }
 ]
