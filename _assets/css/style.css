@@ -291,7 +291,8 @@ main section#sponsors div.section-wrapper {
   color: white;
 }
 
-#talks .entry:hover a.overlay {
+#talks .entry:hover a.overlay,
+#talks .entry a.overlay:focus-visible {
   height: 100%;
 }
 
