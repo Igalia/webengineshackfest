@@ -15,4 +15,8 @@ module.exports = function(eleventyConfig) {
     linkify: true
   }));
 
+  eleventyConfig.addFilter("sponsorsByTier", (sponsors, tier) =>
+    sponsors.filter(s => s.tiers.includes(tier))
+  );
+
 }

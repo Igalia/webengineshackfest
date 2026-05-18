@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Arm",
+    "url": "https://www.arm.com/",
+    "tiers": ["silver", "other"],
+    "type": "Coffee & Snacks Sponsor"
+  },
+  {
+    "title": "Huawei",
+    "url": "https://www.huawei.com/",
+    "tiers": ["silver"]
+  },
+  {
+    "title": "Igalia",
+    "url": "https://igalia.com",
+    "tiers": ["host", "platinum"]
+  },
+  {
+    "title": "Mullvad Browser",
+    "url": "https://mullvad.net/browser",
+    "tiers": ["gold"]
+  }
+]

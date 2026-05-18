@@ -229,73 +229,79 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
 
-{% if collections.platinum %}
+{% assign platinumSponsors = sponsors | sponsorsByTier: "platinum" %}
+{% if platinumSponsors.size > 0 %}
 
 ### Platinum Sponsors
 
-{% for sponsor in collections.platinum %}
+{% for sponsor in platinumSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-platinum.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Platinum Sponsor" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-platinum.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} Platinum Sponsor" /></a>
 </div>
 {% endfor %}
 
 {% endif %}
 
-{% if collections.gold %}
+{% assign goldSponsors = sponsors | sponsorsByTier: "gold" %}
+{% if goldSponsors.size > 0 %}
 
 ### Gold Sponsors
 
-{% for sponsor in collections.gold %}
+{% for sponsor in goldSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-gold.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Gold Sponsor" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-gold.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} Gold Sponsor" /></a>
 </div>
 {% endfor %}
 
 {% endif %}
 
-{% if collections.silver %}
+{% assign silverSponsors = sponsors | sponsorsByTier: "silver" %}
+{% if silverSponsors.size > 0 %}
 
 ### Silver Sponsors
 
-{% for sponsor in collections.silver %}
+{% for sponsor in silverSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-silver.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Silver Sponsor" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-silver.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} Silver Sponsor" /></a>
 </div>
 {% endfor %}
 
 {% endif %}
 
-{% if collections.bronze %}
+{% assign bronzeSponsors = sponsors | sponsorsByTier: "bronze" %}
+{% if bronzeSponsors.size > 0 %}
 
 ### Bronze Sponsors
 
-{% for sponsor in collections.bronze %}
+{% for sponsor in bronzeSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-bronze.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Bronze Sponsor" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-bronze.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} Bronze Sponsor" /></a>
 </div>
 {% endfor %}
 
 {% endif %}
 
-{% if collections.other %}
+{% assign otherSponsors = sponsors | sponsorsByTier: "other" %}
+{% if otherSponsors.size > 0 %}
 
 ### Other Sponsors
 
-{% for sponsor in collections.other %}
+{% for sponsor in otherSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-other.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} {{ sponsor.data.type }}" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-other.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} {{ sponsor.type }}" /></a>
 </div>
 {% endfor %}
 
 {% endif %}
 
-{% if collections.host %}
+{% assign hostSponsors = sponsors | sponsorsByTier: "host" %}
+{% if hostSponsors.size > 0 %}
 
 ### Host & Organizer
 
-{% for sponsor in collections.host %}
+{% for sponsor in hostSponsors %}
 <div class="entry">
-  <a href="{{ sponsor.data.url }}"><img src="/img/sponsors/logo-{{ sponsor.data.title | slugify }}-host.webp" alt="{{ sponsor.data.title }} logo" title="{{ sponsor.data.title }} Host & Organizer" /></a>
+  <a href="{{ sponsor.url }}"><img src="/img/sponsors/logo-{{ sponsor.title | slugify }}-host.webp" alt="{{ sponsor.title }} logo" title="{{ sponsor.title }} Host & Organizer" /></a>
 </div>
 {% endfor %}
 
