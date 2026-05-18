@@ -6,8 +6,45 @@
   --lighter-orange: #ffb343;
   --light-orange: #ff9900;
   --orange: #a36100;
+  --fixed-orange: #a36100;
   --dark-orange: #804c00;
   --orange-background: #ff9900cc;
+  --card-background: white;
+  --dialog-background: white;
+  --dialog-border: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e0e0e0;
+    --dark-background-color: #111;
+    --light-background-color: #242424;
+    --grey: #999;
+    --orange: #ff9900;
+    --dark-orange: #ffb343;
+    --orange-background: #ff990099;
+    --card-background: #2a2a2a;
+    --dialog-background: #1e1e1e;
+  }
+
+  body {
+    background: #1a1a1a;
+  }
+
+  .wpe-track-logo {
+    background: white;
+    padding: 0.3rem;
+    border-radius: 4px;
+  }
+
+  #sponsors .entry img {
+    background: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+  }
 }
 
 html {
@@ -157,7 +194,7 @@ header > .links {
 }
 
 header > .links > a {
-  background: var(--orange);
+  background: var(--fixed-orange);
   flex-shrink: 0;
   color: white;
   padding: 1rem 2rem;
@@ -227,7 +264,7 @@ main section#sponsors div.section-wrapper {
   max-width: 100%;
   display: inline-block;
   vertical-align: top;
-  background: white;
+  background: var(--card-background);
   padding: 1rem;
   margin: 1rem;
   position:relative;
@@ -312,6 +349,9 @@ main section#sponsors div.section-wrapper {
 #talks dialog {
   padding: 2rem;
   max-width: 100ch;
+  color: inherit;
+  background: var(--dialog-background);
+  border-color: var(--dialog-border);
 }
 
 #talks dialog::backdrop {
@@ -393,7 +433,7 @@ main section#attendees div.section-wrapper ul {
   font-size: 3.5rem;
   display: block;
   color: white;
-  background: var(--orange);
+  background: var(--fixed-orange);
   border-radius: 50%;
   padding: 1rem;
   width: min-content;
