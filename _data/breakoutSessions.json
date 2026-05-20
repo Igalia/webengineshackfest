@@ -5,6 +5,7 @@
   { "title": "Building Servo DevTools", "issue": 84 },
   { "title": "Cross-Origin Storage (COS)", "issue": 85 },
   { "title": "Extended Canvas Text Metrics - moving it forward", "issue": 75 },
+  { "title": "FedCM: AI agent and federated signin (or another FedCM topic, if attendees prefer)", "issue": 92 },
   { "title": "Hacking WebView features for Servo", "issue": 73 },
   { "title": "HTML-in-Canvas for WebKit", "issue": 76 },
   { "title": "JS-less localized absolute time formatting", "issue": 91 },
