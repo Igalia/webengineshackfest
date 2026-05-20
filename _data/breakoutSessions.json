@@ -7,6 +7,7 @@
   { "title": "Extended Canvas Text Metrics - moving it forward", "issue": 75 },
   { "title": "Hacking WebView features for Servo", "issue": 73 },
   { "title": "HTML-in-Canvas for WebKit", "issue": 76 },
+  { "title": "JS-less localized absolute time formatting", "issue": 91 },
   { "title": "MathML Core", "issue": 79 },
   { "title": "Memory Safety in WebKit", "issue": 90 },
   { "title": "Web Components Next Steps", "issue": 89 },
