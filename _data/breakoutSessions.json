@@ -7,6 +7,7 @@
   { "title": "Extended Canvas Text Metrics - moving it forward", "issue": 75 },
   { "title": "FedCM: AI agent and federated signin (or another FedCM topic, if attendees prefer)", "issue": 92 },
   { "title": "Hacking WebView features for Servo", "issue": 73 },
+  { "title": "How can browsers help meet WCAG?", "issue": 93 },
   { "title": "HTML-in-Canvas for WebKit", "issue": 76 },
   { "title": "JS-less localized absolute time formatting", "issue": 91 },
   { "title": "MathML Core", "issue": 79 },
