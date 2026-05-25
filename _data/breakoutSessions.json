@@ -14,6 +14,7 @@
   { "title": "Memory Safety in WebKit", "issue": 90 },
   { "title": "Web Components Next Steps", "issue": 89 },
   { "title": "Web Cryptography API", "issue": 87 },
+  { "title": "Web Security Model: mapping collaboratively  the security baseline of the Web Platform", "issue": 94 },
   { "title": "WHATNOT: Meeting for the WHATWG", "issue": 80 },
   { "title": "WinterTC", "issue": 88 }
 ]
