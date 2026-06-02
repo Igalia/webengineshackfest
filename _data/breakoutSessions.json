@@ -13,6 +13,7 @@
   { "title": "JS-less localized absolute time formatting", "issue": 91 },
   { "title": "MathML Core", "issue": 79 },
   { "title": "Memory Safety in WebKit", "issue": 90 },
+  { "title": "Navigation 101", "issue": 99 },
   { "title": "Servo", "issue": 96 },
   { "title": "Web Components Next Steps", "issue": 89 },
   { "title": "Web Cryptography API", "issue": 87 },
