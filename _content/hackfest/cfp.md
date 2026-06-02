@@ -12,5 +12,5 @@ The Web Engines Hackfest will accept proposals for presentations and breakout se
 
 <!-- To submit your talk proposal, please [complete this form]({{ site.cfpTalks }}) **by April 30th, 2026**. For lightning talks [fill this form]({{ site.cfpLightningTalks }}). -->
 
-To submit a breakout session proposal, please [fill a new issue on GitHub]({{ site.cfpBreakoutSessions }}).
+<!-- To submit a breakout session proposal, please [fill a new issue on GitHub]({{ site.cfpBreakoutSessions }}). -->
 
