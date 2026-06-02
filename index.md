@@ -225,9 +225,9 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 **More information about how to become sponsor coming soon.**
 
--->
-
 **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
+
+-->
 
 {% assign platinumSponsors = sponsors | sponsorsByTier: "platinum" %}
 {% if platinumSponsors.size > 0 %}
