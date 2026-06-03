@@ -14,9 +14,9 @@ layout: default
 
 **Registration form will open in the coming weeks.**
 
--->
-
 **There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form]({{ site.registrationForm }}).**
+
+-->
 
 {% for hackfest in collections.hackfest %}
 
