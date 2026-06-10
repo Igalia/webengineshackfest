@@ -6,7 +6,7 @@ date: "2026-06-15T17:30:00"
 imgsrc: "/img/talks/daniel-roe.webp"
 imgalt: "Daniel Roe"
 imgsrc2: "/img/talks/patak.webp"
-imgalt2: "Matias Leandro Capeletto"
+imgalt2: "Matias Leandro Capeletto (patak)"
 ---
 
 npmx is a community-built alternative npm registry browser offering features for choosing modern packages, promoting JS standards adoption, and collaborating with communities like e18e and atproto.
