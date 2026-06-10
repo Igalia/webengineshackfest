@@ -42,6 +42,8 @@ layout: default
 
 ## Talks
 
+Talks will be live streamed in our [YouTube channel](https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg).
+
 {% for talk in collections.talk %}
 
 <div class="entry{% if talk.data.cancelled %} cancelled{% endif %}">
