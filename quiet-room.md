@@ -5,7 +5,7 @@ title: Quiet Room
 
 ## Quiet Room
 
-The Quiet Room is a calm, sensory-friendly space where you can step away from the noise and crowds whenever you need a break. This year's room will be located on the ground floor in the [Palexo's Bitacora room](https://www.palexco.com/espacio/sala-bitacora/) (you can ask the event organizers or the person in the reception desk for directions).
+The Quiet Room is a calm, sensory-friendly space where you can step away from the noise and crowds whenever you need a break. This year's room will be located on the ground floor in the [Palexco's Bitacora room](https://www.palexco.com/espacio/sala-bitacora/) (you can ask the event organizers or the person in the reception desk for directions).
 
 The room will have two zones:
 * **🌿 Decompression Zone**: This is meant to be a calmer space with couches. Here you will find some plushies, soft fidgets, ear protectors, and eye masks.
