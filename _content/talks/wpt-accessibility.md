@@ -5,6 +5,7 @@ authors: "Valerie Young"
 date: "2026-06-15T10:30:00"
 imgsrc: "/img/talks/valerie.webp"
 imgalt: "Valerie Young"
+slides: "/slides/accessible_testing_in_wpt_from_dream_to_reality_by_valerie_young.pdf"
 ---
 
 The process of evolving the web through web standards has, for a long time now, relied heavily on cross-browser test suites. When creating a new feature specification, writing tests and experimental implementations go hand in hand. A single, shared test suite helps browsers make sure new features are interoperable, and helps users of the web platform track the implementation status.

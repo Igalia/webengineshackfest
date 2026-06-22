@@ -4,6 +4,7 @@ title: "Introduction to the RustNN ecosystem"
 authors: "Markus Tavenrath"
 date: "2026-06-15T15:30:00"
 imgsrc: "/img/talks/markus.webp"
+slides: "/slides/introduction_to_the_rustnn_ecosystem_by_markus_tavenrath.pdf"
 ---
 
 This talk provides an overview of the RustNN ecosystem, a high-performance WebNN implementation. We explore the core framework and its accompanying suite of projects, including model exporters for PyTorch and ONNX, as well as bindings for Python, JavaScript, and the browser.

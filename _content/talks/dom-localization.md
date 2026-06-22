@@ -5,6 +5,7 @@ authors: "Eemeli Aro"
 date: "2026-06-15T16:00:00"
 imgsrc: "/img/talks/eemeli.webp"
 imgalt: "Eemeli Aro"
+slides: "/slides/dom_localization_by_eemeli_aro.pdf"
 ---
 
 Users of the web are best served by being able to experience it in their native languages. Currently, localization of web content is achieved with a multitude of custom solutions, most of which are unable to express the full depth and breadth of human expressions in all languages. Introducing an easy-to-use but powerful standard localization solution would improve the experience of all users, in particular the vast majority who do not speak English natively.
