@@ -6,6 +6,7 @@ date: "2026-06-15T12:30:00"
 imgsrc: "/img/talks/miyoung.webp"
 imgalt: "Miyoung Shin"
 slides: "/slides/decoupling_extensions_from_chrome_the_journey_to_a_modular_extensions_layer_by_miyoung_shin.pdf"
+video: https://www.youtube.com/watch?v=p9vteDt9P2s&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo
 ---
 
 This talk presents the ongoing effort to decouple Chromium Extensions from the Chrome layer, enabling a more modular and embeddable architecture. We'll cover the motivation, migration strategy, lessons learned, and current progress, along with a live demo.
