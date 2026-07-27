@@ -143,12 +143,12 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
     <h2><img src="/img/wpe-logo.svg" alt="WPE WebKit" class="wpe-track-logo">WPE Track</h2>
     <p>A <a href="https://github.com/Igalia/webengineshackfest/issues/81">dedicated track</a> for <a href="https://wpewebkit.org/">WPE WebKit</a> will be hosted on Tuesday 16th June from 10:00 CEST to 13:30 CEST. Remote participation is welcome.</p>
     <ul>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">From libwpe to WPEPlatform: Building an Embedded Browser on Raspberry Pi with the New WPE API</a></li>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Refactoring composition in WPE with Skia</a></li>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Techniques for reducing GPU usage in WPE</a></li>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">Speeding up WPEWebKit and WebKitGTK with Profile-Guided Optimization</a></li>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">No QA, No WPE: How We Try Hard To Catch Regressions Before You Do</a></li>
-      <li><a href="https://github.com/Igalia/webengineshackfest/issues/81">WPEPlatform API for Android</a></li>
+      <li><a href="https://www.youtube.com/watch?v=-68_9Sg2VWk&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">From libwpe to WPEPlatform: Building an Embedded Browser on Raspberry Pi with the New WPE API</a></li>
+      <li><a href="https://www.youtube.com/watch?v=qVc0I1Z1ZKU&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">Refactoring composition in WPE with Skia</a></li>
+      <li><a href="https://www.youtube.com/watch?v=W2pfbFeV1Pk&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">Techniques for reducing GPU usage in WPE</a></li>
+      <li><a href="https://www.youtube.com/watch?v=rX6y219m3OU&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">Speeding up WPEWebKit and WebKitGTK with Profile-Guided Optimization</a></li>
+      <li><a href="https://www.youtube.com/watch?v=dnZ4jNKZzcY&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">No QA, No WPE: How We Try Hard To Catch Regressions Before You Do</a></li>
+      <li><a href="https://www.youtube.com/watch?v=f6fM0B0kcPk&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">WPEPlatform API for Android</a></li>
     </ul>
   </div>
   <div>
