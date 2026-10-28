@@ -1,0 +1,605 @@
+:root {
+  --text-color: #333;
+  --dark-background-color: #333;
+  --light-background-color: #f7f7f7;
+  --grey: #777;
+  --lighter-orange: #ffb343;
+  --light-orange: #ff9900;
+  --orange: #a36100;
+  --fixed-orange: #a36100;
+  --dark-orange: #804c00;
+  --orange-background: #ff9900cc;
+  --card-background: white;
+  --dialog-background: white;
+  --dialog-border: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e0e0e0;
+    --dark-background-color: #111;
+    --light-background-color: #242424;
+    --grey: #999;
+    --orange: #ff9900;
+    --dark-orange: #ffb343;
+    --orange-background: #ff990099;
+    --card-background: #2a2a2a;
+    --dialog-background: #1e1e1e;
+  }
+
+  body {
+    background: #1a1a1a;
+  }
+
+  .wpe-track-logo {
+    background: white;
+    padding: 0.3rem;
+    border-radius: 4px;
+  }
+
+  #sponsors .entry img {
+    background: white;
+    padding: 2rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+  }
+}
+
+html {
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: var(--orange);
+  transition: color 0.2s;
+}
+
+a:hover, a:focus, a:active {
+  color: var(--dark-orange);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+
+nav {
+  background: var(--dark-background-color);
+  display: flow-root;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 5rem;
+}
+
+nav > ul {
+  margin: 0 2rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav > ul > li {
+  margin: 1rem;
+}
+
+nav > ul > li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li a {
+  transition: color 0.2s;
+}
+
+nav > ul > li a:hover,
+nav > ul > li a:focus {
+  color: var(--light-orange);
+}
+
+nav > ul > li:first-child {
+  flex: 1;
+  margin-inline: 2rem;
+}
+
+nav > ul > li:first-child a {
+  font-family: 'Kaushan Script', cursive;
+  text-transform: none;
+  color: var(--light-orange);
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+header {
+  background-image: url('/2026/img/header-bg.webp');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flow-root;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+header > h1 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-inline: 2rem;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+header > h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-inline: 2rem;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+
+header > .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-inline: 4rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header > .links > a {
+  background: var(--fixed-orange);
+  flex-shrink: 0;
+  color: white;
+  padding: 1rem 2rem;
+  margin-inline: 1rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+header > .links > a:hover {
+  background: var(--dark-orange);
+}
+
+figure img {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+figure figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+main section:nth-child(even) {
+  background: var(--light-background-color);
+}
+
+main section div.section-wrapper {
+  margin-inline: auto;
+  padding: 1rem 2rem;
+  max-width: 100ch;
+  display: flow-root;
+}
+
+main section#talks div.section-wrapper,
+main section#breakout-sessions div.section-wrapper,
+main section#venue div.section-wrapper,
+main section#travel div.section-wrapper,
+main section#sponsors div.section-wrapper {
+  max-width: 170ch;
+}
+
+main section#talks div.section-wrapper,
+main section#venue div.section-wrapper,
+main section#travel div.section-wrapper,
+main section#sponsors div.section-wrapper {
+  text-align: center;
+}
+
+#hackfest .entry {
+  display: flow-root;
+}
+
+#hackfest img {
+  float: left;
+  margin: 2rem;
+  border-radius: 50%;
+  border: solid thick var(--grey);
+}
+
+#hackfest img.no-border {
+  border: none;
+}
+
+
+#talks .entry {
+  width: min(40ch, 80%);
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background: var(--card-background);
+  padding: 1rem;
+  margin: 1rem;
+  position:relative;
+}
+
+#talks .entry a.overlay {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: var(--orange-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 0;
+  transition: height 0.2s;
+}
+
+#talks .entry a.overlay.emoji {
+  font-size: 5rem;
+  color: white;
+}
+
+#talks .entry:hover a.overlay,
+#talks .entry a.overlay:focus-visible {
+  height: 100%;
+}
+
+#talks a.overlay {
+  text-decoration: none;
+}
+
+#talks .entry a {
+  text-decoration: none;
+}
+
+#talks .entry h3 {
+  margin: 0.5rem;
+  color: var(--orange);
+}
+
+#talks .entry a.read-more {
+  display: none;
+}
+
+@media (hover: none) {
+  #talks .entry a.read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--orange);
+  }
+}
+
+#talks .entry h4 {
+  margin: 0;
+}
+
+#talks .entry div.cancelled {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+#talks .entry.cancelled,
+#talks .entry.cancelled dialog {
+  filter: grayscale(100%);
+}
+
+#talks img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+#talks dialog {
+  padding: 2rem;
+  max-width: 100ch;
+  color: inherit;
+  background: var(--dialog-background);
+  border-color: var(--dialog-border);
+}
+
+#talks dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#talks dialog img {
+  float: left;
+  margin: 2rem;
+  width: 15rem;
+}
+
+#talks dialog .content p,
+#talks dialog .content ul,
+#talks dialog .content ol {
+  text-align: left;
+}
+
+#talks dialog button {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#talks dialog button:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 2px;
+}
+
+#talks dialog button.close {
+  float: right;
+  padding: 0.5rem;
+  margin-top: -1rem;
+  margin-right: -1rem;
+}
+
+
+.wpe-track-logo {
+  width: 5rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.breakout-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+main section#attendees div.section-wrapper ul {
+  column-count: 3;
+}
+
+
+
+#travel .entry {
+  width: min(50ch, 90%);
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding-inline: 1rem;
+  font-size: 0.9rem;
+}
+
+#travel h3 {
+  text-align: center;
+}
+
+.emoji {
+  font-family: 'Noto Emoji', sans-serif;
+  font-weight: 700;
+}
+
+#travel .emoji {
+  font-size: 3.5rem;
+  display: block;
+  color: white;
+  background: var(--fixed-orange);
+  border-radius: 50%;
+  padding: 1rem;
+  width: min-content;
+  margin: auto;
+}
+
+main section#sponsors div.section-wrapper {
+  padding-bottom: 5rem;
+}
+
+#sponsors h3 {
+  text-transform: uppercase;
+  color: var(--grey);
+}
+
+#sponsors .entry {
+  width: min(60ch, 90%);
+  display: inline-block;
+  margin: 1rem;
+}
+
+#sponsors .entry img {
+  max-width: 100%;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h3 {
+  color: var(--orange);
+}
+
+footer {
+  color: white;
+  background: var(--dark-background-color);
+  padding: 1rem;
+  text-align: center;
+  font-size: small;
+}
+
+footer a {
+  color: var(--light-orange);
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  color: var(--lighter-orange);
+}
+
+#sponsoring a {
+  line-break: anywhere;
+}
+
+#sponsoring .sold {
+  color: grey;
+}
+
+#sponsoring .sold a {
+  color: grey;
+}
+
+@media print {
+  #sponsoring {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .breakout-columns {
+    grid-template-columns: 1fr;
+  }
+
+
+  html {
+    scroll-padding-top: 3rem;
+  }
+
+  nav {
+    height: 3rem;
+  }
+
+  nav > ul {
+    margin-inline: 1rem;
+  }
+
+  nav > ul > li {
+    margin: 0.5rem;
+  }
+  nav > ul > li a {
+    font-size: 0.75rem;
+  }
+
+  nav > ul > li:first-child a {
+    font-size: 1.3rem;
+  }
+
+  header > h1 {
+    font-size: 3rem;
+    margin-block: 2rem;
+  }
+
+  header > h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-block: 2rem;
+  }
+
+  header > .links {
+    font-size: 1.2rem;
+  }
+
+  header > .links > a {
+    padding: 0.5rem 1rem;
+    margin-inline: 0;
+  }
+
+  #hackfest img {
+    float: none;
+    display: block;
+    margin-inline: auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  #contact h3 {
+    font-size: 1rem;
+  }
+
+  main section#attendees div.section-wrapper ul {
+    column-count: 2;
+  }
+
+}
+
+@media (max-width: 512px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
+  nav {
+    height: 5.5rem;
+  }
+
+  nav > ul {
+    margin-inline: 0;
+  }
+
+  nav > ul > li:first-child {
+    margin-top: 1rem;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  #talks dialog img {
+    float: none;
+  }
+
+  main section#attendees div.section-wrapper ul {
+    column-count: 1;
+  }
+
+}
