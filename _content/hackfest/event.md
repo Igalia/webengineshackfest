@@ -2,8 +2,8 @@
 layout: hackfest
 title: "The Event"
 date: 2023-03-01
-imgsrc: "/img/web-engines-hackfest-2025-3.webp"
-imgalt: "Web Engines Hackfest 2025 - Palexco Terrace"
+imgsrc: "/img/web-engines-hackfest-2026-3.webp"
+imgalt: "Web Engines Hackfest 2026 - Palexco Terrace"
 ---
 
 Participants should feel free to **propose any topic** which interests them. Some topics from previous years include: WebKit Ports (WebKitGTK and WPE), Chromium, JavaScript (V8, JSC and SpiderMonkey), Web Interop, WPT, Multimedia, Media Source, WebRTC, CSS, MathML, Graphics, WebGL, Fonts, Accessibility, Servo, WebAssembly.

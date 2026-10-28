@@ -1,9 +1,9 @@
 ---
 layout: hackfest
-title: "2026 Edition"
+title: "2027 Edition"
 date: 2023-02-01
-imgsrc: "/img/web-engines-hackfest-2025-2.webp"
-imgalt: "Web Engines Hackfest 2025 - Breakout Session"
+imgsrc: "/img/web-engines-hackfest-2026-2.webp"
+imgalt: "Web Engines Hackfest 2026 - Breakout Session"
 ---
 
 #### {{ site.dates }} {{ site.year }}

@@ -8,11 +8,11 @@ layout: default
 
 ## The hackfest
 
-**The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 15th to Wednesday, June 17th.**
-
-<!--
+**The *{{ site.year }} {{ site.title }}* will take place in A Coruña, Galicia, Spain from Monday, June 7th to Wednesday, June 9th.**
 
 **Registration form will open in the coming weeks.**
+
+<!--
 
 **There is no fee to participate either remotely or onsite. But if you are planning to participate onsite, please [fill out the registration form]({{ site.registrationForm }}).**
 
@@ -40,7 +40,7 @@ layout: default
 
 <div class="section-wrapper">
 
-## Talks
+## Talks (from previous edition)
 
 Talks will be live streamed in our [YouTube channel](https://www.youtube.com/channel/UCPQ8NaRSfsGei1j1meO4pNg).
 
@@ -140,8 +140,8 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="breakout-columns">
   <div id="wpe-track">
-    <h2><img src="/img/wpe-logo.svg" alt="WPE WebKit" class="wpe-track-logo">WPE Track</h2>
-    <p>A <a href="https://github.com/Igalia/webengineshackfest/issues/81">dedicated track</a> for <a href="https://wpewebkit.org/">WPE WebKit</a> will be hosted on Tuesday 16th June from 10:00 CEST to 13:30 CEST. Remote participation is welcome.</p>
+    <h2><img src="/img/wpe-logo.svg" alt="WPE WebKit" class="wpe-track-logo">WPE Track (from previous edition)</h2>
+    <p>A <a href="https://github.com/Igalia/webengineshackfest/issues/81">dedicated track</a> for <a href="https://wpewebkit.org/">WPE WebKit</a> was hosted on Tuesday 16th June 2026.</p>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=-68_9Sg2VWk&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">From libwpe to WPEPlatform: Building an Embedded Browser on Raspberry Pi with the New WPE API</a></li>
       <li><a href="https://www.youtube.com/watch?v=qVc0I1Z1ZKU&list=PL4sEzdAGvRgDkOXbVAbnOWCaIOV_evSfo">Refactoring composition in WPE with Skia</a></li>
@@ -152,7 +152,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
     </ul>
   </div>
   <div>
-    <h2>Breakout Sessions</h2>
+    <h2>Breakout Sessions (from previous edition)</h2>
     <ul>
       {% for breakout in breakoutSessions %}<li><a href="https://github.com/Igalia/webengineshackfest/issues/{{ breakout.issue }}">{{ breakout.title }}</a></li>
       {% endfor %}
@@ -168,7 +168,7 @@ if ((dialog != null) && (dialog.tagName == "DIALOG")) {
 
 <div class="section-wrapper">
 
-## Attendees
+## Attendees (from previous edition)
 
 <ul>
   {% for attendee in attendees %}<li>{{ attendee }}</li>
@@ -223,9 +223,9 @@ Muelle de Transatlánticos s/n, 15003, A Coruña, Galicia (Spain)</figcaption>
 
 ## Sponsors
 
-<!--
-
 **More information about how to become sponsor coming soon.**
+
+<!--
 
 **More sponsors are welcome! If you would like to contribute as a sponsor, please check the list of [sponsoring packages](/sponsoring/) and [contact us](mailto:hackfest@webengineshackfest.org).**
 
